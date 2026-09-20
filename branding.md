@@ -447,7 +447,7 @@ In Astra zet je het basis-kopfont op de bold-variant en alleen H1 apart op de di
 
 ### Groottes
 
-H1 36, H2 30, H3 24, alle drie gewicht 900. Body Roboto 16 gewicht 400.
+H1 36, H2 30, H3 24, alle drie gewicht 900. Body Roboto 16 gewicht 400, vet 700, en cursief in beide gewichten.
 
 ### Hoofdlettergebruik
 
@@ -496,8 +496,13 @@ De bestanden staan in `fonts/`. Op de sites komen ze van Google Fonts, lokaal ge
 | `RubikMonoOne-Regular.ttf` | Rubik Mono One | 400 | H1 van DGA, DST, SLB, SwS en FL |
 | `Rubik-Black.ttf` | Rubik Black | 900 | H2 tot H6 van DGA, DST, SLB, SwS en FL |
 | `Roboto-Regular.ttf` | Roboto | 400 | Body van alle acht |
+| `Roboto-Bold.ttf` | Roboto | 700 | Vetgedrukte body van alle acht |
+| `Roboto-Italic.ttf` | Roboto | 400 cursief | Cursieve body van alle acht |
+| `Roboto-BoldItalic.ttf` | Roboto | 700 cursief | Vetgedrukte cursieve body van alle acht |
 
-Google Fonts noemt een instantie op gewicht 900 intern "Black", ook als de norm hem Archivo 900 of Rubik 900 noemt. De familienaam in het bestand zegt dus niets, het gewicht wel. Bestanden op gewicht 700 horen hier niet: de norm sluit 700 uit.
+Google Fonts noemt een instantie op gewicht 900 intern "Black", ook als de norm hem Archivo 900 of Rubik 900 noemt. De familienaam in het bestand zegt dus niets, het gewicht wel.
+
+Voor de kopfonts sluit de norm gewicht 700 uit: Archivo, Nunito en Rubik staan hier alleen op 400 en 900. Voor Roboto geldt dat niet. Body heeft vet en cursief nodig, dus Roboto staat er compleet in: 400, 700, 400 cursief en 700 cursief. Zonder die drie kan een document dat op deze bron bouwt geen vetgedrukte of cursieve bodytekst zetten.
 
 ## Logo-systeem
 
