@@ -2,24 +2,64 @@
 
 De enige bron van waarheid voor de merkidentiteit van acht merken: kleuren, typografie, logo's en de regels die voor het hele netwerk gelden.
 
-Bijgewerkt: 2026-09-19.
+Bijgewerkt: 2026-09-20.
 
-Wijzig je iets aan de merkidentiteit, dan wijzig je het hier en nergens anders. Google Drive en Canva zijn spiegels, in één richting. Leg elke wijziging vast in het besluitregister onderaan dit bestand.
+Wijzig je iets aan de merkidentiteit, dan wijzig je het hier en nergens anders. Google Drive en Canva zijn spiegels, in één richting.
+
+Dit bestand beschrijft wat geldt, niet hoe het zo gekomen is. Een regel staat er met de reden erbij waar die reden je helpt hem goed toe te passen. Overwegingen, afgevallen varianten en de volgorde waarin dingen zijn besloten horen hier niet.
 
 Verwijs hiernaar vanuit een AI met dit adres:
 
 `https://raw.githubusercontent.com/stephan-sfp/sfp-brand-source/main/branding.md`
 
+## Sneltoetsen
+
+Noemt Stephan een merkcode, dan is dat de opdracht om alles van dat merk aan te houden: het merkblok hieronder, de netwerknormen die erbij horen, en de schrijfstijl in de taal van dat merk. Er hoeft niets bij gezegd te worden.
+
+| Toets | Merk | Betekent |
+|---|---|---|
+| `SFP` | School for Professionals | merkblok SFP plus netwerknormen plus schrijfstijl Nederlands en Engels |
+| `DPS` | De Presenteerschool | merkblok DPS plus netwerknormen plus schrijfstijl Nederlands |
+| `DGA` | De Gespreksacademie | merkblok DGA plus netwerknormen plus schrijfstijl Nederlands |
+| `CVD` | Centrum voor Didactiek | merkblok CVD plus netwerknormen plus schrijfstijl Nederlands |
+| `DST` | De Schrijftrainers | merkblok DST plus netwerknormen plus schrijfstijl Nederlands |
+| `SLB` | Stephan Borggreve | merkblok SLB plus netwerknormen plus schrijfstijl Nederlands en Engels |
+| `SwS` | SpeakwithSteve | merkblok SwS plus netwerknormen plus schrijfstijl Engels |
+| `FL` | Fala Liberada | merkblok FL plus netwerknormen plus schrijfstijl Braziliaans Portugees |
+
+Hoofdletters of kleine letters maken niet uit: `dst` en `DST` zijn hetzelfde. Noemt hij twee codes, dan geldt elk merk voor zijn eigen deel en worden ze nooit vermengd. Noemt hij geen code, dan vraag je welk merk het is. Ga nooit uit van SFP als standaard.
+
+De netwerknormen gelden altijd, ook zonder merkcode. Een merkblok overschrijft ze nooit; waar een merk afwijkt, staat dat in zijn eigen blok benoemd.
+
+### Terugkoppelen en controleren
+
+Wie op een sneltoets werkt, doet twee dingen.
+
+**Bij de start.** Benoem in één regel welk merk je aanhoudt, met code en merknaam: "Ik houd DST, De Schrijftrainers, aan." Zo is meteen te zien of de sneltoets is aangekomen en niet stilzwijgend een ander merk is gepakt.
+
+**Na de uitvoer.** Loop je eigen werk expliciet langs deze bron en meld wat je hebt nagekeken en wat niet klopte:
+
+| Controle | Waaraan |
+|---|---|
+| Kleuren | de tien rollen van het merkblok, niets buiten het palet |
+| Typografie | H1-font, H2 tot H6, groottes en de woordafstand als het merk Rubik Mono One voert |
+| Hoofdletters | alles in hoofdletters behalve de body |
+| Logo | de juiste versie bij de achtergrond, en de juiste naam van type D bij dit merk |
+| Schrijfstijl | de taal van het merk, de juiste aanspreekvorm, actieve vorm, geen naamwoordstijl |
+| Knoppen | knopkleur uit rol 4, radius volgens de norm, primair en secundair even groot |
+
+Meld een afwijking, ook als die klein is, en verzin nooit een waarde die hier niet staat. Staat iets niet in deze bron, dan is dat een vraag aan Stephan en geen eigen keuze.
+
 ## De acht merken
 
-| Code | Merk | Rol | Domein | Taal |
+| Code | Merk | Rol | Domein | Schrijftaal |
 |---|---|---|---|---|
-| SFP | School for Professionals | Moedermerk, koepel | schoolforprofessionals.com | nl |
+| SFP | School for Professionals | Moedermerk, koepel | schoolforprofessionals.com | nl, en |
 | DPS | De Presenteerschool | Presenteren | depresenteerschool.nl | nl |
 | DGA | De Gespreksacademie | Gespreksvoering | degespreksacademie.nl | nl |
 | CVD | Centrum voor Didactiek | Didactiek | centrumvoordidactiek.nl | nl |
 | DST | De Schrijftrainers | Schrijven | deschrijftrainers.nl | nl |
-| SLB | Stephan Borggreve | Persoonlijk merk Stephan | stephanborggreve.com | nl |
+| SLB | Stephan Borggreve | Persoonlijk merk Stephan | stephanborggreve.com | nl, en |
 | SwS | SpeakwithSteve | Internationaal, Engelstalig | speakwithsteve.com | en |
 | FL | Fala Liberada | Braziliaans merk | falaliberada.com.br | pt-BR |
 
@@ -48,11 +88,11 @@ Tagline: **Skills to shape your future**
 
 H1 in Archivo Black gewicht 400. H2 tot H6 in Archivo gewicht 900. Alle koppen in hoofdletters. Body Roboto 16 px gewicht 400 in `#000000`. Geen woordafstandcorrectie.
 
+Schrijftaal: Nederlands en Engels. De schrijfstijl staat bij de netwerknormen.
+
 ## Logo
 
 Bestanden komen in `logos/sfp/`. Type D heet bij dit merk **logoslogan**.
-
-De set is op 19 september 2026 akkoord bevonden en staat in `logos/sfp/`. SFP is daarmee het vierde merk in de repo.
 
 De drie gronden zijn `#FFFFFF`, `#3A2B58` en `#947BD3`. De tegels EA en EB staan op paars en lichtpaars.
 
@@ -84,11 +124,11 @@ Geen tertiair.
 
 H1 in Nunito gewicht 900. H2 tot H6 in Nunito gewicht 900. Alle koppen in hoofdletters. Body Roboto 16 px gewicht 400 in `#575757`. Geen woordafstandcorrectie.
 
+Schrijftaal: Nederlands. De schrijfstijl staat bij de netwerknormen.
+
 ## Logo
 
 Bestanden komen in `logos/dps/`. Type D heet bij dit merk **partnerlogo**.
-
-De set is op 20 september 2026 akkoord bevonden en staat in `logos/dps/`.
 
 De drie gronden zijn `#FFFFFF`, `#2E2864` en `#00B0E3`. De tegels EA en EB staan op donkerblauw en blauw.
 
@@ -120,11 +160,11 @@ Geen tertiair. Tint 1 komt uit paars, want het geel is te licht voor de band.
 
 H1 in Rubik Mono One gewicht 400. H2 tot H6 in Rubik gewicht 900. Alle koppen in hoofdletters. Body Roboto 16 px gewicht 400 in `#575757`. Woordafstand op H1: `-0.43em`.
 
+Schrijftaal: Nederlands. De schrijfstijl staat bij de netwerknormen.
+
 ## Logo
 
 Bestanden komen in `logos/dga/`. Type D heet bij dit merk **partnerlogo**.
-
-De set is op 20 september 2026 akkoord bevonden en staat in `logos/dga/`.
 
 De drie gronden zijn `#FFFFFF`, `#552583` en `#FDB927`. De tegels EA en EB staan op paars en geel.
 
@@ -155,11 +195,11 @@ Tint 1 en 2 komen uit het blauw, want het geel is te licht voor de band.
 
 H1 in Nunito gewicht 900. H2 tot H6 in Nunito gewicht 900. Alle koppen in hoofdletters. Body Roboto 16 px gewicht 400 in `#575757`. Geen woordafstandcorrectie.
 
+Schrijftaal: Nederlands. De schrijfstijl staat bij de netwerknormen.
+
 ## Logo
 
 Bestanden komen in `logos/cvd/`. Type D heet bij dit merk **partnerlogo**.
-
-De set is op 20 september 2026 akkoord bevonden en staat in `logos/cvd/`.
 
 De drie gronden zijn `#FFFFFF`, `#0D124D` en `#FFCD00`. De tegels EA en EB staan op donkerblauw en geel.
 
@@ -189,11 +229,11 @@ Geen tertiair.
 
 H1 in Rubik Mono One gewicht 400. H2 tot H6 in Rubik gewicht 900. Alle koppen in hoofdletters. Body Roboto 16 px gewicht 400 in `#575757`. Woordafstand op H1: `-0.43em`.
 
+Schrijftaal: Nederlands. De schrijfstijl staat bij de netwerknormen.
+
 ## Logo
 
 Bestanden komen in `logos/dst/`. Type D heet bij dit merk **partnerlogo**.
-
-De set is op 20 september 2026 akkoord bevonden en staat in `logos/dst/`.
 
 De drie gronden zijn `#FFFFFF`, `#0B2A19` en `#25B33E`. De tegels EA en EB staan op donkergroen en groen.
 
@@ -225,6 +265,8 @@ Wit draagt de basis en is daarmee een volwaardige hoofdkleur. De drie tinten kom
 ## Typografie
 
 H1 in Rubik Mono One gewicht 400. H2 tot H6 in Rubik gewicht 900. Alle koppen in hoofdletters. Body Roboto 16 px gewicht 400 in `#575757`. Woordafstand op H1: `-0.43em`.
+
+Schrijftaal: Nederlands en Engels. De schrijfstijl staat bij de netwerknormen.
 
 ## Logo
 
@@ -260,6 +302,8 @@ Geen tertiair. Dit merk voert geen geel.
 
 H1 in Rubik Mono One gewicht 400. H2 tot H6 in Rubik gewicht 900. Alle koppen in hoofdletters. Body Roboto 16 px gewicht 400 in `#575757`. Woordafstand op H1: `-0.43em`.
 
+Schrijftaal: Engels. De schrijfstijl staat bij de netwerknormen.
+
 ## Logo
 
 Bestanden in `logos/sws/`. Type D heet bij dit merk **partnerlogo**.
@@ -270,7 +314,7 @@ De drie gronden zijn `#FFFFFF`, `#3A2B58` en `#00BF63`. De tegels EA en EB staan
 
 # FL, Fala Liberada
 
-Tagline: **Parceiro do School for Professionals**
+Tagline: **BY SCHOOL FOR PROFESSIONALS**
 
 ## Kleuren
 
@@ -293,17 +337,23 @@ Geen tint 1: het geel ligt op L\*88.3, boven de band van 80 tot 86. Wit vult hie
 
 H1 in Rubik Mono One gewicht 400. H2 tot H6 in Rubik gewicht 900. Alle koppen in hoofdletters. Body Roboto 16 px gewicht 400 in `#000000`. Woordafstand op H1: `-0.43em`.
 
+Schrijftaal: Braziliaans Portugees. De schrijfstijl staat bij de netwerknormen.
+
 ## Logo
 
 Bestanden in `logos/fl/`. Type D heet bij dit merk **partnerlogo**.
 
 De drie gronden zijn `#FFFFFF`, `#000000` en `#FEDD03`. Alternatief 1 voert gele inkt en staat dus op zwart, alternatief 2 voert zwarte inkt en staat op geel. De tegels EA en EB staan op zwart en geel.
 
-De regel onder het logo luidt bij dit merk **BY SCHOOL FOR PROFESSIONALS**, in het Engels. Dat wijkt af van de sitetagline, die Portugees is.
+De regel onder het logo luidt **BY SCHOOL FOR PROFESSIONALS**, in het Engels. Dat is ook de tagline van het merk: FL voert geen Portugese partnerregel.
 
 ---
 
 # Netwerknormen
+
+Deze normen gelden identiek voor alle acht merken en alle acht sites. Gelijk betekent hier: dezelfde regel, dezelfde onderdelen, dezelfde uitvoering. Wat per merk verschilt zijn alleen de waarden uit het merkblok: de hexcodes, het kopfont, de logobestanden en de taal.
+
+Een verschil tussen twee sites dat niet uit hun merkblokken volgt, is drift. Meld het en hef het op; laat het niet staan omdat het toevallig zo gegroeid is.
 
 ## Kleuranatomie
 
@@ -345,9 +395,42 @@ Radius 3 px op FL, SLB en SwS. Radius 0 px op de vijf netwerksites. Primaire en 
 
 Astra bewaart de global colors op twee plekken: `astra-settings[global-color-palette]` rendert de front-end, `astra-color-palettes[currentPalette]` vult de paletkiezer. Zet je er programmatisch maar een, dan kan Astra bij een volgende save je goede palet overschrijven met het oude. Zet ze altijd samen.
 
+## Schrijfstijl
+
+Deze stijl geldt voor alle acht merken, in elke taal en op elke plek: sitecontent, e-mail, advertenties, social, presentatiemateriaal en AI-gegenereerde tekst.
+
+- Stijl: bondig en zakelijk.
+- Toon: informatief en overtuigend.
+- Actieve vorm. Geen passieve constructies waar een actieve kan.
+- Geen naamwoordstijl. "We beoordelen je pitch" in plaats van "de beoordeling van je pitch vindt plaats".
+- Schrap overbodige details.
+- Spreek de lezer direct aan.
+
+### Nederlands
+
+De je-vorm, nooit de u-vorm: `je`, `jij`, `jou` en `jouw`. Geldt voor SFP, DPS, DGA, CVD, DST en het Nederlandse deel van SLB.
+
+> [Merk] schrijft altijd in het Nederlands. Onze stijl is bondig en zakelijk, onze toon informatief en overtuigend. We schrijven in de actieve vorm, vermijden de naamwoordstijl en schrappen overbodige details. Bovendien spreken we de lezer direct aan met 'je', 'jij', 'jou' en 'jouw'.
+
+Bij SFP luidt de eerste regel: "School for Professionals schrijft soms in het Nederlands en soms in het Engels. Voor beide talen geldt: onze stijl is bondig en zakelijk en onze toon informatief en overtuigend."
+
+### Engels
+
+`you` en `your`. Geldt voor SwS, voor het Engelse deel van SFP en voor het Engelse deel van SLB. Brits professioneel Engels, geen Amerikaanse spelling.
+
+> At [brand], we write in English. Our style is concise and professional, and our tone is informative and persuasive. We use the active voice, avoid nominalizations, and omit unnecessary details. Additionally, we address the reader directly using 'you' and 'your'.
+
+Bij SFP luidt de eerste regel: "At School for Professionals, we write in both Dutch and English."
+
+### Braziliaans Portugees
+
+`você` en `seu` of `sua`, altijd. Nooit `tu`, ook niet waar regionaal Braziliaans gebruik dat toelaat. Geldt voor FL.
+
+> A Fala Liberada escreve sempre em português do Brasil. Nosso estilo é conciso e profissional, e nosso tom é informativo e persuasivo. Escrevemos na voz ativa, evitamos nominalizações e cortamos detalhes desnecessários. Além disso, falamos diretamente com o leitor usando 'você' e 'seu'.
+
 ## Typografie
 
-Netwerkbesluit van 20 juli 2026: H1 en de titel staan in de zwaarste displayfont, H2 tot en met H6 en ondertitels in de bold-variant, altijd in hoofdletters. Body blijft Roboto.
+H1 en de titel staan in de zwaarste displayfont, H2 tot en met H6 en ondertitels in de bold-variant. Body blijft Roboto.
 
 In Astra zet je het basis-kopfont op de bold-variant en alleen H1 apart op de displayfont.
 
@@ -364,7 +447,34 @@ In Astra zet je het basis-kopfont op de bold-variant en alleen H1 apart op de di
 
 ### Groottes
 
-H1 36, H2 30, H3 24, alle drie gewicht 900 en in hoofdletters. Body Roboto 16 gewicht 400 in gewone letters.
+H1 36, H2 30, H3 24, alle drie gewicht 900. Body Roboto 16 gewicht 400.
+
+### Hoofdlettergebruik
+
+Uppercase is voor tekst die iets benoemt: een kop, een titel, een knop, een menu-item, een badge. Gewone letters zijn voor tekst die je leest als taal, en voor alles wat de bezoeker zelf invult of moet overnemen.
+
+De lijst hieronder is uitputtend en geldt op alle acht sites gelijk. Staat een onderdeel in de ene lijst, dan staat het op geen enkele site in de andere. Een site die een van deze onderdelen anders zet, is drift.
+
+In hoofdletters:
+
+- Alle koppen, H1 tot en met H6, en ondertitels.
+- Pagina-, kaart-, archief- en berichttitels, en de titel in een call-to-action-blok.
+- Knoplabels, van elke soort: themaknoppen, blokknoppen, verzendknoppen en de zoekknop.
+- Menu-items, in de hoofdnavigatie, het mobiele menu en de footer.
+- Paginering.
+- Badges en korte opschriften die een status of categorie aanduiden, zoals `NIEUW`, `VOL` of een leesduuraanduiding.
+- De partner-, eigenaars- of sloganregel onder het logo.
+
+In gewone letters:
+
+- Body: alinea's, opsommingen en tabelcellen.
+- Het kruimelpad.
+- Alles in een formulier: het opschrift van een veld, de helptekst, de tijdelijke tekst in het veld, de foutmelding en de invoer van de bezoeker.
+- Adresgegevens, juridische teksten en alles wat een eigennaam, domein of e-mailadres letterlijk moet weergeven.
+
+Zet hoofdletters altijd met `text-transform: uppercase`, nooit door de tekst zelf in kapitalen te typen. Dan blijft de bron leesbaar, ziet de zoekmachine de gewone spelling en is de regel terug te draaien zonder de content aan te raken.
+
+Een knoplabel of menu-item wordt in hoofdletters merkbaar breder. Controleer op mobiel of niets omvalt of afbreekt voordat je een site aftekent.
 
 ### Woordafstand bij Rubik Mono One
 
@@ -401,9 +511,7 @@ Google Fonts noemt een instantie op gewicht 900 intern "Black", ook als de norm 
 | D | partnerlogo, eigenaarslogo of logoslogan, afhankelijk van het merk |
 | E | tegel: vierkante social-avatar |
 
-De regel onder de wordmark bij type D staat **altijd in hoofdletters**. Per merk luidt hij anders: "Partner van School for Professionals" bij de vier NL-labels, "By School for Professionals" bij FL, "Partner of School for Professionals" bij SwS, "Eigenaar van School for Professionals" bij SLB. SFP voert zijn eigen slogan.
-
-FL voert bewust de Engelse regel in het logo, terwijl de sitetagline van dat merk Portugees is. Besluit van 20 september 2026.
+De regel onder de wordmark bij type D staat **altijd in hoofdletters**. Per merk luidt hij anders: "Partner van School for Professionals" bij de vier NL-labels, "BY SCHOOL FOR PROFESSIONALS" bij FL, "Partner of School for Professionals" bij SwS, "Eigenaar van School for Professionals" bij SLB. SFP voert zijn eigen slogan.
 
 ### Versies
 
@@ -424,7 +532,7 @@ Tegels zijn van nature dekkend en staan alleen in de transparante mappen.
 
 ### Formaten
 
-SVG en PNG. WEBP is per 19 september 2026 vervallen: Imagify converteert op de sites zelf, dus een PNG volstaat als upload.
+SVG en PNG. Geen WEBP: Imagify converteert op de sites zelf, dus een PNG volstaat als upload.
 
 ### Naamgeving
 
@@ -437,88 +545,3 @@ De SVG's bevatten echte vectorpaden. Geen ingebedde bitmaps, geen maskerlagen, g
 ### Omvang van de set
 
 Per merk 52 bestanden: 12 kunstwerken plus 2 tegels is 14 transparant, 12 op kleur, maal twee formaten. Voor acht merken 416 in totaal.
-
-Stand per 20 september 2026: alle acht merken staan in `logos/`, elk 52 bestanden, samen 416.
-
----
-
-# Besluitregister
-
-Elk besluit met datum. Wijzigt er iets aan de merkidentiteit, dan komt het hier te staan.
-
-## 2026-09-19
-
-- Dit bestand is de enige bron van waarheid voor de merkidentiteit. Eén Markdown-bestand, geen genereerstap en geen afgeleide die uit de pas kan lopen. `brand.json` en de acht pagina's in `merken/` zijn hiermee vervallen en staan in `archief/`.
-- Deze repo is de bron. Google Drive is een spiegel, in één richting: nooit terug van Drive naar de repo.
-- Bestandsnamen zijn kleine letters met koppeltekens, overal, ook in de merkmap. Dit vervangt het eerdere besluit van vandaag om de leesbare namen met spaties en haakjes aan te houden. Reden: een raw-URL moet dan coderen, en git, macOS en Linux gaan verschillend om met hoofdletters.
-- WEBP vervalt als formaat. Imagify converteert op de sites zelf, dus PNG volstaat.
-- De merkmappen in `Documents/School for Professionals` gaan `Branding` heten, in plaats van Huisstijl, Identidade en Brand door elkaar.
-- Het stappenplan `stappenplan-branding-2026-09-19.md` is leidend. Waar een besluit in deze repo het tegenspreekt, wint het stappenplan.
-- Niets gaat naar `logos/` zonder akkoord per merk. De gebouwde sets van SFP, DPS, DGA, CVD en DST zijn daarom uit de repo gehaald en staan in `logo-sets-wachten-op-akkoord/`, tot de contactbladronde is gelopen.
-- Alleen liggende lockups. De staande varianten F en G van SLB zijn vervallen en staan in `archief/2026-09-19-slb-staande-varianten/`, en in de merkmap in `08. SLB/00. Archief/`. Daarmee is elk merk identiek opgebouwd: 52 bestanden per merk.
-- `fonts/` voert alleen wat de norm noemt. Roboto 400 en Rubik 900 zijn toegevoegd, gesneden uit de variabele bronbestanden van Google Fonts. De drie bestanden op gewicht 700 staan in `archief/2026-09-19-fonts-gewicht-700/`.
-- De merkidentiteitsmap heet bij alle acht merken `01. Branding`. Dat was Huisstijl, Identidade en Brand door elkaar.
-- De 146 WEBP-bestanden in die mappen staan in `00. Archief/2026-09-19 WEBP uit de branding/` per merk. WEBP elders in de merkmap, zoals website- en archiefbeeld, valt buiten dit besluit en blijft staan.
-- De merkmap is voor FL, SwS en SLB een spiegel van de repo geworden: dezelfde vier mappen en dezelfde bestandsnamen. De oude indeling staat per merk in `00. Archief/2026-09-19 oude brandingindeling/`. De vijf NL-merken volgen per merk zodra hun set akkoord is.
-- De lettertypebestanden staan alleen in de repo. De fontmap die SFP als enige in zijn merkmap had, met Rubik terwijl SFP Archivo voert, staat in `01. SFP/00. Archief/`.
-- De merkmap nummert nu `08. SLB` en `09. NL`. NL is een negende site die nog gebouwd moet worden en nog geen merkblok in dit bestand heeft.
-- **20 september.** SLB voert in type C een eigen faviconversie van het monogram, met streekbreedte 18 in plaats van 6,767. Reden: het monogram is lijnwerk, en dunne lijnen verdwijnen op 16 pixels. De andere types van SLB houden de oorspronkelijke streek. SwS houdt in type C het beeldmerk zoals het is: de drie strepen naast elkaar. Een loodrecht gestapelde variant is gemaakt en afgewezen.
-- **20 september.** De overdracht van bestanden vanuit een cloudsessie naar de Mac voegt C2PA-herkomstgegevens toe: een `caBX`-chunk bij PNG en een `<metadata>`-blok bij SVG, dat een SVG van 861 bytes tot 8765 bytes opblies. 36 bestanden waren besmet, waarvan een deel al in de geschiedenis stond. Alles is opgeschoond. Controleer hierop na elke overdracht.
-- **20 september.** Inktdekking van het beeldmerk in de favicon is een richtlijn, geen regel. 12,6 procent van het schijfoppervlak is het ankerpunt, de waarde van SFP, en werkt als vertrekpunt bij het schalen. Maar elk merk wordt op zijn eigen beeld beoordeeld: een beeldmerk dat bij die dekking onleesbaar of te zwaar wordt, wijkt af. Gemeten stand: FL, SwS, SFP, CVD en DST op 12,6 procent, SLB op 10,1 (begrensd door de schijf), DPS op 18,0 en DGA op 37,6. DPS en DGA blijven zoals ze zijn omdat ze daarmee beter leesbaar zijn.
-- **20 september.** De vier NL-labelsets DPS, DGA, CVD en DST zijn akkoord bevonden en staan in `logos/`. Daarmee staan alle acht merken in de repo.
-- **20 september.** De inlog-slugs zijn uit de repo gehaald: uit de merktabel in dit bestand, uit `archief/2026-09-19-vervallen-bronbestanden/brand.json` en uit de acht bestanden in `archief/2026-09-19-vervallen-bronbestanden/merken/`. Ze stonden sinds 19 september 21:16 publiek op GitHub. De slugs zelf blijven op de sites ongewijzigd; dat is een bewuste afweging.
-- **20 september.** Type C is netwerkbreed het icoon op een ronde schijf in de grondkleur van die versie. Bij SFP was dat al zo, bij FL, SwS en SLB was type C het kale icoon zonder schijf. Reden: een favicon staat op 16 pixels in browserchroom dat je niet in de hand hebt, en zonder eigen grond valt een donker icoon weg in een donkere tabbalk.
-- **20 september.** FL voert in het logo de Engelse regel BY SCHOOL FOR PROFESSIONALS. De norm is hierop aangepast; de bestanden waren al zo. Let op: de sitetagline van FL is Portugees en de projectinstructies van WordPress Toolkit noemen nog "Parceiro do School for Professionals". Dat punt staat open.
-- **20 september.** De grondvolgorde van FL stond in dit bestand omgedraaid. Alternatief 1 voert gele inkt en hoort op zwart, alternatief 2 voert zwarte inkt en hoort op geel. De bestanden hadden gelijk, de tekst niet. Hetzelfde gold voor de tegels.
-- **20 september.** Zes van de twaalf `svg-op-kleur` bestanden van SLB waren 0 bytes en stonden zo in de eerste commit. Herbouwd uit de transparante versie plus een grondvlak; de grond per bestand is gemeten aan de intacte PNG-op-kleur versie. De herbouw rendert identiek aan die PNG's.
-- **20 september.** De kolom Inloggen is uit de merktabel gehaald. Deze repo is openbaar, en daarmee stonden de aangepaste inlog-URL's van alle acht sites op internet. Die slugs bestaan juist om `wp-login.php` uit het zicht te houden; in een openbare bron vervalt dat. Ze staan waar ze horen: in de projectinstructies van WordPress Toolkit.
-- De git-geschiedenis van deze repo is teruggebracht tot één commit, zodat de nooit beoordeelde NL-sets er niet in achterblijven. De repo was op dat moment nog niet gepusht.
-- De SFP-set is akkoord en staat in `logos/sfp/`. Voor opname zijn vier dingen rechtgezet. BC en CC kregen de witte omlijning om het icoon die alternatief 1 al had, want de bron zegt dat alternatief 1 en 2 dezelfde inkt voeren. De sloganregel in DA stond in `#2e2864`, buiten het palet, en is primair `#3A2B58` geworden. AA, BA, CA en DA droegen nog de oude clip-path-bouw waardoor hun icoon circa drie procent groter was dan in de alternatieven; alle vier staan nu op dezelfde gevectoriseerde paden. En alle clip-paths en dode feColorMatrix-defs zijn eruit.
-- De merkmap van SFP is gespiegeld naar de bron: `01. SFP/01. Branding` voert nu dezelfde vier mappen en bestandsnamen als de repo. De oude `02. SVG` en `03. PNG` staan in `01. SFP/00. Archief/2026-09-19 oude brandingindeling/`. De twee stijlbladen `BRANDING SFP (EN).png` en `BRANDING SFP (NL).png` en de map `00. Alle stijlen bij elkaar` zijn blijven staan; dat zijn geen logobestanden.
-- Een logobestand bevat alleen paden, een grondvlak en waar nodig een cirkel. Geen clip-paths, geen filters, geen maskerlagen, geen ingebedde bitmaps, geen levende tekst. De SFP-set voldoet hieraan; de vier resterende NL-sets worden er bij hun contactbladronde aan gemeten.
-
-Gebouwd op 19 september, nog niet beoordeeld en dus nog geen besluit:
-
-- De iconen van SFP, DPS, DGA, CVD en DST zijn gevectoriseerd, zonder ingebedde bitmaps.
-- De wordmarks van DGA en DST zijn her-rendered naar Rubik Mono One, zodat het logo doet wat de sites al deden.
-- SFP heeft een derde kleurversie gekregen, op `#947BD3`, met witte wordmark en oranje icoon zoals de huisstijlhandleiding toont.
-- Alle vijf labels hebben tegels EA en EB.
-- Wordmarks blijven aaneengeschreven. DST houdt zijn tweekleurige wordmark.
-
-## 2026-07-21
-
-- DGA en DST wordmarks naar Rubik Mono One, voor consistentie met FL, SwS en SLB.
-- SFP typografie: H1 en logo Archivo Black, H2 tot H6 Archivo 900, in hoofdletters. Nergens gewicht 700.
-- SFP wordt meegenomen in de logo-ronde: van twee naar drie kleurversies.
-
-## 2026-07-20
-
-- Netwerk-koptypografie: H1 in de zwaarste displayfont, H2 tot H6 in bold, altijd hoofdletters.
-- De partner-, eigenaars- en sloganregel onder een logo staat altijd in hoofdletters.
-
-## 2026-07-18
-
-- Astra-slot 0 is de merkkleur. SLB: navy. SwS: groen in slot 0 en paars in slot 2, want beide zijn dominant.
-- SLB Accent-rol is groen `#23D366`, losgekoppeld van Brand.
-- Logo-systeem consistent over alle acht merken, met de SFP-huisstijl als norm.
-
-## 2026-07-17
-
-- SwS heet SpeakwithSteve, niet SpeakwithStephan.
-- FL knop- en linkregel: oranje `#FF4F00`, hover `#FF7233`. Geel en zwart zijn geen knopkleuren.
-- SwS en SLB delen knop-rood `#FF0000` met hover `#FF3B3B`, want het zijn beide persoonlijke merken van dezelfde persoon.
-- Knop-radius 3 px voor FL, SLB en SwS. De vijf netwerksites blijven op 0 px.
-- Tint-afstandsregel in L\* vastgelegd.
-- FL heeft geen tint 1, want geel ligt op L\*88.3.
-- SwS voert geen geel. Tertiair `#FEE440` vervalt.
-- SLB-tinten komen uit navy, niet uit groen. Groen is de contrastkleur.
-- Grijs bestaat uitsluitend als bodytekst. Geen grijze vlakken.
-
-## Openstaand
-
-- De witte omlijning om het beeldmerk zit op SFP, DPS, DGA, CVD en DST, en op geen van de drie andere merken. Bij SwS, FL en SLB ontbreekt hij overal. Niet vastgelegd of dat een bewuste keuze is.
-
-- De visuele huisstijlhandleidingen van DGA en DST noemen nog Rubik Black als kopfont. Dat spreekt het besluit van 20 juli tegen en moet herzien.
-- De Canva-kits lopen achter: elf kits voor acht merken, waarvan Nina Lima en Nina Lima 2 dubbel en Garota Corporativa niet bij het netwerk hoort. De SwS-kit heet @speakwithsteve in plaats van SpeakwithSteve.
-- De merkmappen van DPS, DGA, CVD en DST voeren nog de oude bestandsnamen met spaties en haakjes, en de oude indeling. Ze worden per merk gespiegeld zodra hun set akkoord is.
-- NL wordt het negende merk. Er is nog geen merkblok, geen kleurpalet en geen logoset.
