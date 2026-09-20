@@ -11,7 +11,6 @@ De bron is **[`branding.md`](branding.md)**. Eén bestand, met alle acht merken,
 | `branding.md` | De bron: acht merken, netwerknormen, besluitregister |
 | `logos/<merk>/` | De logobestanden in `svg`, `png`, `svg-op-kleur` en `png-op-kleur` |
 | `fonts/` | De lettertypebestanden die de merken voeren |
-| `archief/` | Wat vervallen is, met datum en reden |
 
 ## De acht merken
 
@@ -30,7 +29,7 @@ De bron is **[`branding.md`](branding.md)**. Eén bestand, met alle acht merken,
 
 1. Pas `branding.md` aan.
 2. Leg het besluit vast in het besluitregister onderaan dat bestand, met datum.
-3. Wat vervalt gaat naar `archief/`, niet weg.
+3. Wat vervalt haal je weg. Git bewaart elke versie, dus een verwijderd bestand blijft terug te halen uit de geschiedenis.
 
 Een nieuw merk toevoegen is één blok in `branding.md` en één map in `logos/`.
 
