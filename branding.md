@@ -472,6 +472,24 @@ Gewicht 700 komt in koppen niet voor. Een kop staat op 900, of op 400 als het me
 
 Een pagina mag van de H1-maat afwijken, maar alleen per pagina en alleen als dat vooraf is afgesproken. Een homepage of een over-pagina is daar de meest waarschijnlijke kandidaat voor. Zonder die afspraak is 36 px de maat.
 
+### Responsieve afkapping
+
+De maten hierboven zijn de ontwerpmaten. Daaroverheen ligt op alle acht sites dezelfde responsieve regel, die een kop met de schermbreedte laat meeschalen en afkapt op een maximum.
+
+| Niveau | Regel |
+|---|---|
+| H1 | `clamp(24px, 2.5vw + 14px, 34px)` |
+| H2 | `clamp(20px, 2vw + 12px, 28px)` |
+| H3 | `clamp(18px, 1.5vw + 10px, 22px)` |
+| H4 | `clamp(16px, 1vw + 10px, 20px)` |
+| H5 | `clamp(16px, .8vw + 9px, 18px)` |
+
+H6 valt buiten deze regel en houdt zijn ontwerpmaat.
+
+Een H1 met de klasse `h1-xl` voert een eigen regel: `clamp(32px, 3.5vw + 18px, 46px)`. Die klasse is bedoeld voor de hero-kop bovenaan een pagina.
+
+Deze afkapping gaat voor. Een kop die op een breed scherm kleiner rendert dan zijn ontwerpmaat is dus geen afwijking. De regel geldt netwerkbreed en staat op alle acht sites identiek. De ontwerpmaten blijven bepalen wat een kop doet waar de afkapping niet bijt, dus op smallere schermen.
+
 ### Hoofdlettergebruik
 
 De twee lijsten hieronder zijn uitputtend en gelden op alle acht sites gelijk. Staat een onderdeel in de ene lijst, dan staat het op geen enkele site in de andere.
@@ -546,6 +564,25 @@ Deze regel is ook de sitetagline van dat merk. Het veld Logoregel bovenaan elk m
 | C | alternatief 2 | de merkkleur |
 
 Het logo wordt per versie verkleurd. Voeren twee versies dezelfde kleuren, dan leveren ze hetzelfde beeld op en verschilt alleen de achtergrond. Dat mag.
+
+### Welke versie de site voert
+
+Het favicon, type C, voert per merk deze kleurversie:
+
+| Merk | Versie |
+|---|---|
+| SFP | alternatief 1 |
+| DPS | alternatief 2 |
+| DGA | alternatief 2 |
+| CVD | alternatief 1 |
+| DST | alternatief 2 |
+| SLB | alternatief 2 |
+| SwS | alternatief 2 |
+| FL | alternatief 2 |
+
+Gekozen op leesbaarheid op 16 px, op een lichte en op een donkere tabbalk.
+
+De header voert type D, het partner-, founder- of sloganlogo, in de kleurversie die bij de achtergrond van de header hoort.
 
 ### Twee leveringen
 
