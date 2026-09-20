@@ -14,16 +14,16 @@ Dit deel is een werkinstructie en spreekt de AI aan. De rest van dit bestand bes
 
 De merkcodes fungeren als sneltoetsen met de opdracht om alles van dat merk aan te houden: het merkblok, de netwerknormen die erbij horen en de schrijfstijl in de taal van dat merk.
 
-| Toets | Merk | Betekent |
-|---|---|---|
-| `SFP` | School for Professionals | merkblok SFP plus netwerknormen plus schrijfstijl Engels en Nederlands |
-| `DPS` | De Presenteerschool | merkblok DPS plus netwerknormen plus schrijfstijl Nederlands |
-| `DGA` | De Gespreksacademie | merkblok DGA plus netwerknormen plus schrijfstijl Nederlands |
-| `CVD` | Centrum voor Didactiek | merkblok CVD plus netwerknormen plus schrijfstijl Nederlands |
-| `DST` | De Schrijftrainers | merkblok DST plus netwerknormen plus schrijfstijl Nederlands |
-| `SLB` | Stephan Borggreve | merkblok SLB plus netwerknormen plus schrijfstijl Engels en Nederlands |
-| `SwS` | SpeakwithSteve | merkblok SwS plus netwerknormen plus schrijfstijl Engels |
-| `FL` | Fala Liberada | merkblok FL plus netwerknormen plus schrijfstijl Braziliaans-Portugees |
+| Toets | Merk |
+|---|---|
+| `SFP` | School for Professionals |
+| `DPS` | De Presenteerschool |
+| `DGA` | De Gespreksacademie |
+| `CVD` | Centrum voor Didactiek |
+| `DST` | De Schrijftrainers |
+| `SLB` | Stephan Borggreve |
+| `SwS` | SpeakwithSteve |
+| `FL` | Fala Liberada |
 
 Hoofdletters of kleine letters maken niet uit: `dst` en `DST` zijn hetzelfde. In het geval van twee codes activeer je beide merkblokken, netwerknormen en schrijfstijlen. Je vermengt ze nooit.
 
@@ -395,10 +395,6 @@ De radius is 3 px, op alle acht merken.
 
 Een primaire en een secundaire knop naast elkaar renderen even groot: gelijke padding, minimumhoogte, lettergrootte en radius. Alleen de vulling verschilt.
 
-### Waar de kleuren live staan
-
-Astra bewaart de global colors op twee plekken. `astra-settings[global-color-palette]` rendert de front-end, `astra-color-palettes[currentPalette]` vult de paletkiezer. Beide moeten samen gezet worden. Staat er maar één goed, dan overschrijft Astra bij een volgende save het goede palet met het oude.
-
 ## Schrijfstijl
 
 Deze stijl geldt voor alle acht merken, in elke taal en op elke plek: sitecontent, e-mail, advertenties, social, presentatiemateriaal en AI-gegenereerde tekst.
@@ -498,8 +494,6 @@ In gewone letters:
 - Adresgegevens, juridische teksten, en alles wat een eigennaam, domein of e-mailadres letterlijk moet weergeven.
 
 Hoofdletters komen altijd uit `text-transform: uppercase`, nooit uit kapitalen die in de tekst zelf zijn getypt. Zo blijft de bron leesbaar, ziet de zoekmachine de gewone spelling, en is de regel terug te draaien zonder de content aan te raken.
-
-Een knoplabel of menu-item wordt in hoofdletters merkbaar breder. Elke site wordt daarom op mobiel gecontroleerd voordat hij wordt afgetekend.
 
 ### Wordmarks
 
