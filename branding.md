@@ -547,6 +547,18 @@ SVG en PNG. Geen WEBP: Imagify converteert op de sites zelf, dus een PNG volstaa
 
 De SVG's bevatten echte vectorpaden. Geen ingebedde bitmaps, geen maskerlagen, geen afhankelijkheid van een geïnstalleerd lettertype: wordmarks staan als paden in het bestand. Kleuren zijn exact de merkhex uit dit bestand.
 
+### Marge
+
+Types A, B en D staan op een canvas met rondom een marge van 12 procent van de canvashoogte. Dezelfde absolute marge aan alle vier de zijden, dus bij een breed logo is de marge links en rechts even groot als boven en onder, niet 12 procent van de breedte.
+
+Rekenregel bij het opnieuw uitsnijden: meet de inkt, dan is de nieuwe canvashoogte `inkthoogte / 0,76` en de marge `0,157895 x inkthoogte`. De inkt houdt zijn eigen schaal, het canvas groeit eromheen. Bij de versie op kleur loopt het grondrect exact gelijk met het canvas.
+
+Types C en E vallen hierbuiten: die hebben een vaste vierkante maat en hun eigen inktdekking.
+
+### Renderformaten
+
+De PNG's worden uit de SVG gerenderd op een vaste breedte: A en D op 2000, B op 1200, C en E op 1000 bij 1000. Op-kleur-PNG's zijn volledig dekkend, zonder halftransparante randrij.
+
 ### Omvang van de set
 
 Per merk 52 bestanden: 12 kunstwerken plus 2 tegels is 14 transparant, 12 op kleur, maal twee formaten. Voor acht merken 416 in totaal.
