@@ -30,10 +30,10 @@ De bron is **[`branding.md`](branding.md)**. Eén bestand, met alle acht merken 
 ## Hoe je iets wijzigt
 
 1. Pas `branding.md` aan.
-2. Wat vervalt haal je weg. Git bewaart elke versie, dus een verwijderd bestand blijft terug te halen uit de geschiedenis.
+2. Wat vervalt haal je weg. Reken de geschiedenis niet als archief: die wordt opgeschoond zodra er iets in staat dat er niet hoort. Wil je iets bewaren, bewaar het dan buiten deze repo.
 3. Werk daarna de spiegels bij: de merkmap in `Documents/School for Professionals` en de Canva-kits.
 
-Een nieuw merk toevoegen is één blok in `branding.md` en één map in `logos/`.
+Een nieuw merk toevoegen is drie dingen: één blok in `branding.md`, één regel in de sneltoetstabel daarboven, en één map in `logos/`.
 
 ## Wat hier niet in hoort
 

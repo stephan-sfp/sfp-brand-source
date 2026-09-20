@@ -357,7 +357,7 @@ De regel onder het logo staat in het Engels. FL voert geen Portugese partnerrege
 
 # Netwerknormen
 
-Deze normen gelden identiek voor alle acht merken en alle acht sites. Identiek betekent: dezelfde regel, dezelfde onderdelen, dezelfde uitvoering. Alleen de waarden verschillen per merk, en die staan in het merkblok: de hexcodes, het kopfont, de logobestanden en de taal.
+Deze normen gelden identiek voor alle acht merken en alle acht sites. Identiek betekent: dezelfde regel, dezelfde onderdelen, dezelfde uitvoering. Sommige waarden zijn netwerkbreed en staan hier, zoals de bodykleur en de knopradius. De waarden die per merk verschillen staan in het merkblok: de hexcodes, het kopfont, de logobestanden en de taal.
 
 Verschilt een site van een andere zonder dat het uit hun merkblokken volgt, dan is dat drift. Drift wordt gemeld en opgeheven, niet gelaten omdat het zo gegroeid is.
 
@@ -509,7 +509,7 @@ De wordmarks van DPS, DGA, CVD en DST staan aaneengeschreven, zonder spaties. Da
 
 De bestanden staan in `fonts/`. Op de sites komen ze van Google Fonts, lokaal gehost via WP Rocket.
 
-| Bestand | Familie in het bestand | Gewicht | Rol |
+| Bestand | Familie in het bestand | Gewicht | Waarvoor |
 |---|---|---|---|
 | `ArchivoBlack-Regular.ttf` | Archivo Black | 400 | H1 van SFP |
 | `Archivo-Black.ttf` | Archivo Black | 900 | H2 tot H6 van SFP, dit is Archivo 900 |
