@@ -341,6 +341,8 @@ Wit heeft hier de rol van tertiair.
 
 Dit merk heeft geen tint 1. Het geel is daar zelf al te licht voor: een lichtere versie ervan zou er nauwelijks van te onderscheiden zijn.
 
+Uitzondering voor de longread-inhoudsopgave, vastgesteld op 21 september 2026: deze voert zwart uit de secundaire kleur, zodat de tekst leesbaar blijft op de lichte achtergrond. Geel blijft de primaire merkkleur. De mobiele hoofdstukbalk volgt ook bij FL de kleur voor links en knoppen.
+
 ## Typografie
 
 H1 in Rubik Mono One gewicht 400. H2 tot H6 in Rubik gewicht 900. Body in Roboto 16 px gewicht 400, kleur `#575757`. Woordafstand op H1: `-0.43em`.
@@ -394,6 +396,10 @@ Hoe die drie tinten berekend worden is alleen nodig bij een nieuw merk of bij he
 De radius is 3 px, op alle acht merken.
 
 Een primaire en een secundaire knop naast elkaar renderen even groot: gelijke padding, minimumhoogte, lettergrootte en radius. Alleen de vulling verschilt.
+
+### Longread-navigatie
+
+De hoofdstukbalk voert de kleur voor links en knoppen. De inhoudsopgave voert de primaire merkkleur, met de expliciete uitzondering van FL: daar voert de inhoudsopgave zwart uit de secundaire kleur. Knoppen en de inhoudsopgave gebruiken het H2-tot-H6-lettertype van het merk, op gewicht 900.
 
 ## Schrijfstijl
 
