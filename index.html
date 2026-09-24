@@ -1,0 +1,661 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Merkidentiteit</title>
+<meta name="description" content="Weergave van branding.md, de bron van waarheid voor de merkidentiteit van het School for Professionals-netwerk.">
+<meta name="robots" content="index, follow">
+<style>
+  /* Neutrale UI-kleuren. Geen merkkleur en geen merkfont in dit bestand:
+     alles wat merkgebonden is, komt uit branding.md, fonts/ en logos/. */
+  :root {
+    --bg: #ffffff;
+    --bg-soft: #f6f7f9;
+    --bg-tile: #ffffff;
+    --fg: #16181d;
+    --fg-soft: #5b626e;
+    --line: #e3e6ea;
+    --line-strong: #c9ced6;
+    --focus: #16181d;
+    --radius: 3px;
+    --maxw: 1180px;
+    --ui: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #101216;
+      --bg-soft: #171a20;
+      --bg-tile: #f4f5f7;
+      --fg: #e9ebef;
+      --fg-soft: #a0a7b4;
+      --line: #272b33;
+      --line-strong: #3a404a;
+      --focus: #e9ebef;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 5.5rem; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.6 var(--ui);
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+  /* Kop en navigatie */
+  header.top {
+    position: sticky; top: 0; z-index: 20;
+    background: color-mix(in srgb, var(--bg) 92%, transparent);
+    backdrop-filter: saturate(140%) blur(8px);
+    border-bottom: 1px solid var(--line);
+  }
+  .top-inner {
+    max-width: var(--maxw); margin: 0 auto; padding: .7rem 16px;
+    display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;
+  }
+  .top h1 { font-size: 1rem; margin: 0; font-weight: 650; letter-spacing: -.01em; }
+  .top .meta { color: var(--fg-soft); font-size: .78rem; }
+  nav.brands { display: flex; gap: .3rem; flex-wrap: wrap; margin-left: auto; }
+  nav.brands a {
+    text-decoration: none; font-size: .75rem; font-weight: 600; letter-spacing: .04em;
+    padding: .28rem .5rem; border: 1px solid var(--line-strong); border-radius: var(--radius);
+    color: var(--fg-soft);
+  }
+  nav.brands a:hover { color: var(--fg); border-color: var(--fg-soft); }
+
+  main { max-width: var(--maxw); margin: 0 auto; padding: 0 16px 6rem; }
+
+  .intro { padding: 2.2rem 0 1.4rem; border-bottom: 1px solid var(--line); }
+  .intro h2 { font-size: 1.6rem; margin: 0 0 .4rem; letter-spacing: -.02em; }
+  .intro p { margin: .4rem 0; color: var(--fg-soft); max-width: 62ch; }
+  .note {
+    margin-top: 1.1rem; padding: .7rem .9rem; background: var(--bg-soft);
+    border: 1px solid var(--line); border-radius: var(--radius);
+    font-size: .85rem; color: var(--fg-soft); max-width: 72ch;
+  }
+
+  section.brand { padding: 2.6rem 0 1rem; border-bottom: 1px solid var(--line); }
+  .brand-head { display: flex; align-items: baseline; gap: .7rem; flex-wrap: wrap; }
+  .code-chip {
+    font: 600 .72rem/1 var(--mono); letter-spacing: .08em; text-transform: uppercase;
+    padding: .35rem .45rem; border-radius: var(--radius); color: #fff; background: var(--fg);
+  }
+  .brand-head h2 { font-size: 1.45rem; margin: 0; letter-spacing: -.02em; }
+  .brand-head .domain { color: var(--fg-soft); font-size: .85rem; }
+
+  .block { margin-top: 1.6rem; }
+  .block > h3 {
+    font-size: .74rem; text-transform: uppercase; letter-spacing: .1em;
+    color: var(--fg-soft); margin: 0 0 .7rem; font-weight: 700;
+  }
+
+  /* Kleurstalen */
+  .swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: .6rem; }
+  .swatch {
+    border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
+    background: var(--bg-soft); text-align: left;
+    padding: 0; cursor: copy; font: inherit; color: inherit; width: 100%;
+  }
+  .swatch .chip { height: 62px; border-bottom: 1px solid var(--line); }
+  .swatch .label { padding: .45rem .55rem .55rem; }
+  .swatch .rol { font-size: .8rem; font-weight: 600; }
+  .swatch .hex { font: .74rem/1.4 var(--mono); color: var(--fg-soft); text-transform: uppercase; }
+  .swatch.copied .hex::after { content: " gekopieerd"; }
+
+  /* Letterproef */
+  .specimen { border: 1px solid var(--line); border-radius: var(--radius); padding: .9rem 1rem; margin-bottom: .5rem; background: var(--bg-soft); }
+  .specimen .fname { font: .72rem/1.4 var(--mono); color: var(--fg-soft); }
+  .specimen .sample { font-size: 1.9rem; line-height: 1.25; margin-top: .25rem; word-break: break-word; }
+  .specimen .alpha { font-size: .95rem; color: var(--fg-soft); margin-top: .35rem; word-break: break-word; }
+
+  /* Logotegels */
+  .tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: .7rem; }
+  .tile { border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+  .tile .preview {
+    background: var(--bg-tile); height: 120px; display: flex; align-items: center; justify-content: center;
+    padding: .9rem; border-bottom: 1px solid var(--line);
+  }
+  .tile .preview img { max-width: 100%; max-height: 100%; }
+  .tile .tname { padding: .45rem .55rem .2rem; font-size: .78rem; font-weight: 600; word-break: break-word; }
+  .tile .links { padding: 0 .55rem .55rem; display: flex; gap: .35rem; flex-wrap: wrap; }
+  .tile .links a {
+    font: 600 .68rem/1 var(--mono); text-transform: uppercase; letter-spacing: .05em;
+    text-decoration: none; padding: .3rem .4rem; border: 1px solid var(--line-strong);
+    border-radius: var(--radius); color: var(--fg-soft);
+  }
+  .tile .links a:hover { color: var(--fg); border-color: var(--fg-soft); }
+
+  /* Markdown-weergave */
+  .md { max-width: 74ch; }
+  .md h3 { font-size: 1.05rem; margin: 1.6rem 0 .4rem; letter-spacing: -.01em; }
+  .md h4 { font-size: .92rem; margin: 1.2rem 0 .3rem; }
+  .md p, .md ul, .md ol { margin: .5rem 0; }
+  .md li { margin: .2rem 0; }
+  .md code { font: .85em var(--mono); background: var(--bg-soft); border: 1px solid var(--line); border-radius: 2px; padding: .05em .3em; }
+  .md table { border-collapse: collapse; margin: .7rem 0; font-size: .9rem; width: 100%; }
+  .md th, .md td { border: 1px solid var(--line); padding: .35rem .5rem; text-align: left; vertical-align: top; }
+  .md th { background: var(--bg-soft); font-weight: 650; }
+  .md a { text-underline-offset: 2px; }
+  .wide { max-width: none; }
+
+  details.register { margin-top: 2.4rem; }
+  details.register summary { cursor: pointer; font-weight: 650; padding: .6rem 0; }
+
+  footer {
+    border-top: 1px solid var(--line); margin-top: 3rem; padding: 1.4rem 16px 3rem;
+  }
+  footer .inner { max-width: var(--maxw); margin: 0 auto; color: var(--fg-soft); font-size: .82rem; }
+
+  .status { padding: 3rem 0; color: var(--fg-soft); }
+  .err { border-left: 3px solid var(--line-strong); padding-left: .8rem; }
+  .hidden { display: none; }
+  @media (max-width: 640px) {
+    .brand-head h2 { font-size: 1.25rem; }
+    .specimen .sample { font-size: 1.4rem; }
+  }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="top-inner">
+    <h1 id="doc-title">Merkidentiteit</h1>
+    <span class="meta" id="doc-meta"></span>
+    <nav class="brands" id="nav" aria-label="Merken"></nav>
+  </div>
+</header>
+
+<main id="main">
+  <p class="status" id="status">Bron wordt geladen.</p>
+</main>
+
+<footer>
+  <div class="inner">
+    <p>Deze pagina voegt niets toe. Hij toont <a href="branding.md">branding.md</a> uit deze repository,
+       samen met de bestanden in <code>logos/</code> en <code>fonts/</code>. Wijzig je de bron, dan verandert deze pagina mee.</p>
+  </div>
+</footer>
+
+<script>
+(() => {
+  "use strict";
+
+  /* ------------------------------------------------------------------
+     Instellingen. Alleen repo-gegevens en weergavekeuzes.
+     Geen kleuren, fonts, taglines of merknamen: die komen uit de bron.
+  ------------------------------------------------------------------ */
+  const CONFIG = {
+    bron: "branding.md",
+    // Zet op true om het besluitregister onderaan als inklapbaar blok te tonen.
+    toonBesluitregister: false,
+    // Kopjes die niet als merk gelden. Wordt op kleine letters vergeleken.
+    geenMerk: ["netwerknormen", "besluitregister", "de acht merken"],
+    // Voor het ophalen van de bestandslijst (logo's en fonts).
+    github: { owner: "stephan-sfp", repo: "sfp-brand-source", branch: "main" }
+  };
+
+  const $ = (sel, el = document) => el.querySelector(sel);
+  const el = (tag, cls, text) => {
+    const n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  };
+  const esc = (s) => s.replace(/[&<>"']/g, (c) => (
+    { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]
+  ));
+  const norm = (s) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
+
+  /* ------------------------------------------------------------------
+     Minimale markdown-weergave: koppen, alinea's, lijsten, tabellen,
+     inline code, vet, cursief en links.
+  ------------------------------------------------------------------ */
+  function inline(s) {
+    let out = esc(s);
+    out = out.replace(/`([^`]+)`/g, (_, c) => `<code>${c}</code>`);
+    out = out.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+    out = out.replace(/(^|[^*])\*([^*\n]+)\*/g, "$1<em>$2</em>");
+    out = out.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (_, t, h) => `<a href="${h}">${t}</a>`);
+    out = out.replace(/(^|[\s(])(https?:\/\/[^\s<)]+)/g, (_, p, u) => `${p}<a href="${u}">${u}</a>`);
+    return out;
+  }
+
+  function splitRow(line) {
+    return line.replace(/^\s*\|/, "").replace(/\|\s*$/, "").split("|").map((c) => c.trim());
+  }
+
+  function markdown(src) {
+    const lines = src.replace(/\r\n/g, "\n").split("\n");
+    const html = [];
+    let i = 0;
+    while (i < lines.length) {
+      const line = lines[i];
+
+      if (!line.trim()) { i++; continue; }
+
+      const h = line.match(/^(#{2,6})\s+(.*)$/);
+      if (h) {
+        const lvl = Math.min(h[1].length + 1, 6);
+        html.push(`<h${lvl}>${inline(h[2])}</h${lvl}>`);
+        i++; continue;
+      }
+
+      // Tabel
+      if (/^\s*\|/.test(line) && /^\s*\|?[\s:-]+\|/.test(lines[i + 1] || "")) {
+        const head = splitRow(line);
+        i += 2;
+        const rows = [];
+        while (i < lines.length && /^\s*\|/.test(lines[i])) { rows.push(splitRow(lines[i])); i++; }
+        html.push(
+          "<table><thead><tr>" + head.map((c) => `<th>${inline(c)}</th>`).join("") +
+          "</tr></thead><tbody>" +
+          rows.map((r) => "<tr>" + r.map((c) => `<td>${inline(c)}</td>`).join("") + "</tr>").join("") +
+          "</tbody></table>"
+        );
+        continue;
+      }
+
+      // Lijst
+      if (/^\s*([-*+]|\d+\.)\s+/.test(line)) {
+        const ordered = /^\s*\d+\./.test(line);
+        const items = [];
+        while (i < lines.length && /^\s*([-*+]|\d+\.)\s+/.test(lines[i])) {
+          items.push(lines[i].replace(/^\s*([-*+]|\d+\.)\s+/, ""));
+          i++;
+          // vervolgregels van hetzelfde item
+          while (i < lines.length && /^\s{2,}\S/.test(lines[i]) && !/^\s*([-*+]|\d+\.)\s+/.test(lines[i])) {
+            items[items.length - 1] += " " + lines[i].trim();
+            i++;
+          }
+        }
+        const tag = ordered ? "ol" : "ul";
+        html.push(`<${tag}>` + items.map((t) => `<li>${inline(t)}</li>`).join("") + `</${tag}>`);
+        continue;
+      }
+
+      // Alinea
+      const para = [];
+      while (i < lines.length && lines[i].trim() && !/^(#{2,6}\s|\s*\||\s*([-*+]|\d+\.)\s)/.test(lines[i])) {
+        para.push(lines[i].trim()); i++;
+      }
+      if (para.length) html.push(`<p>${inline(para.join(" "))}</p>`);
+      else i++;
+    }
+    return html.join("\n");
+  }
+
+  /* ------------------------------------------------------------------
+     Bron opdelen in secties op niveau 1, en merksecties in blokken.
+  ------------------------------------------------------------------ */
+  function secties(src) {
+    const out = [];
+    const re = /^#\s+(.+)$/gm;
+    let m, prev = null;
+    while ((m = re.exec(src))) {
+      if (prev) out.push({ titel: prev.titel, body: src.slice(prev.start, m.index).trim() });
+      prev = { titel: m[1].trim(), start: m.index + m[0].length };
+    }
+    if (prev) out.push({ titel: prev.titel, body: src.slice(prev.start).trim() });
+    return out;
+  }
+
+  function blokken(body) {
+    const out = [];
+    const re = /^##\s+(.+)$/gm;
+    let m, prev = null, intro = body;
+    while ((m = re.exec(body))) {
+      if (prev === null) intro = body.slice(0, m.index).trim();
+      else out.push({ titel: prev.titel, body: body.slice(prev.start, m.index).trim() });
+      prev = { titel: m[1].trim(), start: m.index + m[0].length };
+    }
+    if (prev) out.push({ titel: prev.titel, body: body.slice(prev.start).trim() });
+    return { intro, blokken: out };
+  }
+
+  function kleurenUit(body) {
+    const rows = [];
+    body.split("\n").forEach((line) => {
+      if (!/^\s*\|/.test(line)) return;
+      if (/^\s*\|?[\s:-]+\|/.test(line)) return;
+      const cells = splitRow(line);
+      if (cells.length < 2) return;
+      const hex = (cells.join(" ").match(/#[0-9a-fA-F]{3,8}\b/) || [])[0];
+      if (!hex) return;
+      const rol = cells[0].replace(/`/g, "").trim();
+      if (/^rol$/i.test(rol)) return;
+      rows.push({ rol, hex });
+    });
+    return rows;
+  }
+
+  /* ------------------------------------------------------------------
+     Bestandslijst van de repository (logo's en fonts).
+  ------------------------------------------------------------------ */
+  async function bestandslijst() {
+    const key = "brandsource-tree";
+    try {
+      const cached = sessionStorage.getItem(key);
+      if (cached) return JSON.parse(cached);
+    } catch (e) { /* sessionStorage kan geblokkeerd zijn */ }
+
+    const { owner, repo, branch } = CONFIG.github;
+    const url = `https://api.github.com/repos/${owner}/${repo}/git/trees/${branch}?recursive=1`;
+    const res = await fetch(url, { headers: { Accept: "application/vnd.github+json" } });
+    if (!res.ok) throw new Error("bestandslijst " + res.status);
+    const data = await res.json();
+    const paths = (data.tree || []).filter((t) => t.type === "blob").map((t) => t.path);
+    try { sessionStorage.setItem(key, JSON.stringify(paths)); } catch (e) { /* niet erg */ }
+    return paths;
+  }
+
+  function logosVoor(paths, code) {
+    const pre = `logos/${code}/`;
+    const groepen = new Map();
+    paths.filter((p) => p.startsWith(pre)).forEach((p) => {
+      const rest = p.slice(pre.length);
+      const slash = rest.indexOf("/");
+      if (slash < 0) return;
+      const map = rest.slice(0, slash);             // svg, png, svg-op-kleur, png-op-kleur
+      const file = rest.slice(slash + 1);
+      const stem = file.replace(/\.[^.]+$/, "");
+      if (!groepen.has(stem)) groepen.set(stem, { stem, varianten: {} });
+      groepen.get(stem).varianten[map] = p;
+    });
+    return [...groepen.values()].sort((a, b) => a.stem.localeCompare(b.stem));
+  }
+
+  function fontsUit(paths) {
+    return paths
+      .filter((p) => /^fonts\/.+\.(ttf|otf|woff2?|woff)$/i.test(p))
+      .map((p) => {
+        const file = p.slice("fonts/".length);
+        const stem = file.replace(/\.[^.]+$/, "");
+        const basis = norm(stem.split(/[-_]/)[0]);
+        return { pad: p, bestand: file, stem, familie: "bron-" + norm(stem), basis, sleutel: norm(stem) };
+      });
+  }
+
+  function fontsInTekst(fonts, tekst) {
+    const t = norm(tekst);
+    // Per genoemde naam één bestand, zodat vier snedes van hetzelfde font
+    // niet vier keer als proef verschijnen.
+    const perNaam = new Map();
+    fonts.forEach((f) => {
+      const token = t.includes(f.sleutel) ? f.sleutel : (t.includes(f.basis) ? f.basis : null);
+      if (!token) return;
+      const huidig = perNaam.get(token);
+      const beter = !huidig ||
+        (/regular/i.test(f.stem) && !/regular/i.test(huidig.stem)) ||
+        (f.stem.length < huidig.stem.length && !/regular/i.test(huidig.stem));
+      if (beter) perNaam.set(token, f);
+    });
+    // Langste naam eerst claimt zijn plek in de tekst. Zo telt "Rubik" binnen
+    // "Rubik Mono One" niet mee, maar een losse vermelding verderop wel.
+    const bezet = new Array(t.length).fill(false);
+    const gekozen = [];
+    [...perNaam.keys()].sort((a, b) => b.length - a.length).forEach((tok) => {
+      let pos = t.indexOf(tok), eerste = -1;
+      while (pos !== -1) {
+        let vrij = true;
+        for (let k = pos; k < pos + tok.length; k++) if (bezet[k]) { vrij = false; break; }
+        if (vrij) {
+          for (let k = pos; k < pos + tok.length; k++) bezet[k] = true;
+          if (eerste < 0) eerste = pos;
+        }
+        pos = t.indexOf(tok, pos + 1);
+      }
+      if (eerste >= 0) gekozen.push({ pos: eerste, font: perNaam.get(tok) });
+    });
+    // Volgorde aanhouden zoals de namen in de tekst staan.
+    gekozen.sort((a, b) => a.pos - b.pos);
+    return gekozen.map((g) => g.font).slice(0, 6);
+  }
+
+  /* ------------------------------------------------------------------
+     Opbouw van de pagina.
+  ------------------------------------------------------------------ */
+  function swatchKnop({ rol, hex }) {
+    const b = el("button", "swatch");
+    b.type = "button";
+    b.title = "Klik om " + hex + " te kopiëren";
+    const chip = el("div", "chip");
+    chip.style.background = hex;
+    const label = el("div", "label");
+    label.append(el("div", "rol", rol), el("div", "hex", hex));
+    b.append(chip, label);
+    b.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(hex);
+        b.classList.add("copied");
+        setTimeout(() => b.classList.remove("copied"), 1400);
+      } catch (e) { /* klembord niet beschikbaar */ }
+    });
+    return b;
+  }
+
+  function tegel(groep) {
+    const v = groep.varianten;
+    const preview = v["svg"] || v["png"] || v["svg-op-kleur"] || v["png-op-kleur"];
+    const t = el("div", "tile");
+    const p = el("div", "preview");
+    if (preview) {
+      const img = el("img");
+      img.src = preview;
+      img.loading = "lazy";
+      img.alt = groep.stem;
+      img.addEventListener("error", () => { p.textContent = "geen voorbeeld"; });
+      p.append(img);
+    } else {
+      p.textContent = "geen voorbeeld";
+    }
+    t.append(p, el("div", "tname", groep.stem));
+    const links = el("div", "links");
+    [["svg", "svg"], ["png", "png"], ["svg-op-kleur", "svg op kleur"], ["png-op-kleur", "png op kleur"]]
+      .forEach(([map, naam]) => {
+        if (!v[map]) return;
+        const a = el("a", null, naam);
+        a.href = v[map];
+        a.setAttribute("download", "");
+        links.append(a);
+      });
+    t.append(links);
+    return t;
+  }
+
+  function specimen(font, tekst) {
+    const d = el("div", "specimen");
+    d.append(el("div", "fname", font.bestand));
+    const s = el("div", "sample", tekst);
+    s.style.fontFamily = `"${font.familie}", ${getComputedStyle(document.body).fontFamily}`;
+    const a = el("div", "alpha", "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789");
+    a.style.fontFamily = s.style.fontFamily;
+    d.append(s, a);
+    return d;
+  }
+
+  function laadFonts(fonts) {
+    const css = fonts.map((f) => `@font-face{font-family:"${f.familie}";src:url("${f.pad}");font-display:swap;}`).join("\n");
+    const style = document.createElement("style");
+    style.textContent = css;
+    document.head.append(style);
+  }
+
+  function merkSectie(sec, paths, fonts) {
+    const m = sec.titel.match(/^\s*([^,]{1,6}),\s*(.+)$/);
+    const code = m ? m[1].trim() : sec.titel.trim();
+    const naam = m ? m[2].trim() : sec.titel.trim();
+    const slug = norm(code);
+
+    const s = el("section", "brand");
+    s.id = "merk-" + slug;
+
+    const head = el("div", "brand-head");
+    head.append(el("span", "code-chip", code), el("h2", null, naam));
+    s.append(head);
+
+    const { intro, blokken: bl } = blokken(sec.body);
+    if (intro) {
+      const d = el("div", "md");
+      d.innerHTML = markdown(intro);
+      s.append(d);
+    }
+
+    bl.forEach((b) => {
+      const wrap = el("div", "block");
+      wrap.append(el("h3", null, b.titel));
+
+      const kleuren = kleurenUit(b.body);
+      if (kleuren.length) {
+        const grid = el("div", "swatches");
+        kleuren.forEach((k) => grid.append(swatchKnop(k)));
+        wrap.append(grid);
+        // De tabel zelf ook tonen, want daar staat vaak meer in dan rol en hex.
+        const rest = b.body.split("\n").filter((l) => !/^\s*\|/.test(l)).join("\n").trim();
+        if (rest) { const d = el("div", "md"); d.innerHTML = markdown(rest); wrap.append(d); }
+        if (kleuren.length) {
+          head.querySelector(".code-chip").style.background = kleuren[0].hex;
+          s.style.borderTop = "3px solid " + kleuren[0].hex;
+          s.style.paddingTop = "1.8rem";
+        }
+      } else {
+        const d = el("div", "md");
+        d.innerHTML = markdown(b.body);
+        wrap.append(d);
+      }
+
+      const treffers = fontsInTekst(fonts, b.body);
+      if (treffers.length) {
+        const box = el("div");
+        treffers.forEach((f) => box.append(specimen(f, naam)));
+        wrap.append(box);
+      }
+
+      const groepen = logosVoor(paths, slug);
+      if (groepen.length && /logo/i.test(b.titel)) {
+        const grid = el("div", "tiles");
+        groepen.forEach((g) => grid.append(tegel(g)));
+        wrap.append(grid);
+      }
+
+      s.append(wrap);
+    });
+
+    return { node: s, code, id: s.id };
+  }
+
+  function algemeneSectie(sec, wide) {
+    const s = el("section", "brand");
+    s.id = "sec-" + norm(sec.titel);
+    s.append(el("h2", null, sec.titel));
+    const d = el("div", "md" + (wide ? " wide" : ""));
+    d.innerHTML = markdown(sec.body);
+    s.append(d);
+    return s;
+  }
+
+  /* ------------------------------------------------------------------
+     Start
+  ------------------------------------------------------------------ */
+  async function start() {
+    const main = $("#main");
+    const status = $("#status");
+
+    let src, gewijzigd = null;
+    try {
+      const res = await fetch(CONFIG.bron, { cache: "no-cache" });
+      if (!res.ok) throw new Error(res.status);
+      src = await res.text();
+      gewijzigd = res.headers.get("last-modified");
+    } catch (e) {
+      status.className = "status err";
+      status.textContent = "De bron kon niet worden geladen. Deze pagina moet vanaf een webserver worden geopend, niet als los bestand.";
+      return;
+    }
+
+    let paths = [];
+    let lijstFout = false;
+    try { paths = await bestandslijst(); } catch (e) { lijstFout = true; }
+
+    const fonts = fontsUit(paths);
+    if (fonts.length) laadFonts(fonts);
+
+    const secs = secties(src);
+    main.textContent = "";
+
+    // Inleiding: alles vóór het eerste merk.
+    const isMerk = (t) => {
+      const n = norm(t);
+      if (CONFIG.geenMerk.some((g) => norm(g) === n)) return false;
+      return /^[^,]{1,6},\s*.+$/.test(t);
+    };
+
+    const intro = el("div", "intro");
+    const eersteMerk = secs.findIndex((s) => isMerk(s.titel));
+    const introSecs = eersteMerk < 0 ? secs : secs.slice(0, eersteMerk);
+    if (introSecs.length) {
+      document.title = introSecs[0].titel;
+      $("#doc-title").textContent = introSecs[0].titel;
+      intro.append(el("h2", null, introSecs[0].titel));
+      introSecs.forEach((s, idx) => {
+        const d = el("div", "md wide");
+        d.innerHTML = markdown(s.body);
+        if (idx > 0) intro.append(el("h3", null, s.titel));
+        intro.append(d);
+      });
+    }
+    const nota = el("div", "note");
+    nota.textContent = "Deze pagina toont branding.md uit de repository. Er staat niets in deze pagina dat niet in de bron staat.";
+    if (lijstFout) {
+      nota.textContent += " De bestandslijst kon nu niet worden opgehaald, dus logo's en letterproeven ontbreken tijdelijk.";
+    }
+    intro.append(nota);
+    main.append(intro);
+
+    const navEl = $("#nav");
+    secs.forEach((sec) => {
+      const n = norm(sec.titel);
+      if (introSecs.includes(sec)) return;
+      if (n === norm("Besluitregister")) {
+        if (!CONFIG.toonBesluitregister) return;
+        const det = el("details", "register");
+        det.append(el("summary", null, sec.titel));
+        const d = el("div", "md wide");
+        d.innerHTML = markdown(sec.body);
+        det.append(d);
+        main.append(det);
+        return;
+      }
+      if (isMerk(sec.titel)) {
+        const { node, code, id } = merkSectie(sec, paths, fonts);
+        main.append(node);
+        const a = el("a", null, code);
+        a.href = "#" + id;
+        navEl.append(a);
+      } else {
+        const node = algemeneSectie(sec, true);
+        main.append(node);
+        const a = el("a", null, sec.titel);
+        a.href = "#" + node.id;
+        navEl.append(a);
+      }
+    });
+
+    if (gewijzigd) {
+      const d = new Date(gewijzigd);
+      if (!isNaN(d)) {
+        $("#doc-meta").textContent = "bron bijgewerkt " +
+          d.toLocaleDateString("nl-NL", { day: "numeric", month: "long", year: "numeric" });
+      }
+    }
+  }
+
+  start();
+})();
+</script>
+</body>
+</html>
