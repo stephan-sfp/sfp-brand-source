@@ -326,8 +326,8 @@ Schrijftaal: Braziliaans-Portugees.
 
 | Rol | Hex |
 |---|---|
-| Primair | `#FEDD03` |
-| Secundair | `#000000` |
+| Primair | `#000000` |
+| Secundair | `#FEDD03` |
 | Tertiair | `#FFFFFF` |
 | Links en knoppen | `#FF4F00` |
 | Hover | `#FF7233` |
@@ -339,9 +339,7 @@ Schrijftaal: Braziliaans-Portugees.
 
 Wit heeft hier de rol van tertiair.
 
-Dit merk heeft geen tint 1. Het geel is daar zelf al te licht voor: een lichtere versie ervan zou er nauwelijks van te onderscheiden zijn.
-
-Uitzondering voor de longread-inhoudsopgave, vastgesteld op 21 september 2026: deze voert zwart uit de secundaire kleur, zodat de tekst leesbaar blijft op de lichte achtergrond. Geel blijft de primaire merkkleur. De mobiele hoofdstukbalk volgt ook bij FL de kleur voor links en knoppen.
+De tinten komen bij dit merk uit het geel, de secundaire kleur. Tint 1 bestaat niet: het geel is daar zelf al te licht voor, een lichtere versie ervan zou er nauwelijks van te onderscheiden zijn.
 
 ## Typografie
 
