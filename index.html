@@ -137,10 +137,12 @@
   .md p, .md ul, .md ol { margin: .5rem 0; }
   .md li { margin: .2rem 0; }
   .md code { font: .85em var(--mono); background: var(--bg-soft); border: 1px solid var(--line); border-radius: 2px; padding: .05em .3em; }
-  .md table { border-collapse: collapse; margin: .7rem 0; font-size: .9rem; width: 100%; }
+  .tablewrap { overflow-x: auto; margin: .7rem 0; -webkit-overflow-scrolling: touch; }
+  .md table { border-collapse: collapse; margin: 0; font-size: .9rem; width: 100%; min-width: 0; }
   .md th, .md td { border: 1px solid var(--line); padding: .35rem .5rem; text-align: left; vertical-align: top; }
   .md th { background: var(--bg-soft); font-weight: 650; }
   .md a { text-underline-offset: 2px; }
+  .md hr { border: 0; border-top: 1px solid var(--line); margin: 1.4rem 0; }
   .wide { max-width: none; }
 
   details.register { margin-top: 2.4rem; }
@@ -238,6 +240,8 @@
 
       if (!line.trim()) { i++; continue; }
 
+      if (/^\s*(-{3,}|_{3,}|\*{3,})\s*$/.test(line)) { html.push("<hr>"); i++; continue; }
+
       const h = line.match(/^(#{2,6})\s+(.*)$/);
       if (h) {
         const lvl = Math.min(h[1].length + 1, 6);
@@ -252,10 +256,10 @@
         const rows = [];
         while (i < lines.length && /^\s*\|/.test(lines[i])) { rows.push(splitRow(lines[i])); i++; }
         html.push(
-          "<table><thead><tr>" + head.map((c) => `<th>${inline(c)}</th>`).join("") +
+          "<div class=\"tablewrap\"><table><thead><tr>" + head.map((c) => `<th>${inline(c)}</th>`).join("") +
           "</tr></thead><tbody>" +
           rows.map((r) => "<tr>" + r.map((c) => `<td>${inline(c)}</td>`).join("") + "</tr>").join("") +
-          "</tbody></table>"
+          "</tbody></table></div>"
         );
         continue;
       }
