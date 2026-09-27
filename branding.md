@@ -1,6 +1,6 @@
 # Branding School for Professionals
 
-Dit document is de bron van waarheid voor de merkidentiteit van acht merken: kleuren, typografie, logo's en de regels die voor het hele netwerk gelden. Verwijs hiernaar vanuit een AI met dit adres:
+Dit document is de bron van waarheid voor de merkidentiteit van de acht bestaande netwerkmerken en Reviravolta Publishing: kleuren, typografie, logo's en de regels die voor het hele netwerk gelden. Reviravolta is de eigen uitgeverij; het goedgekeurde logo staat in het eigen merkblok. Verwijs hiernaar vanuit een AI met dit adres:
 
 `https://raw.githubusercontent.com/stephan-sfp/sfp-brand-source/main/branding.md`
 
@@ -24,12 +24,13 @@ De merkcodes fungeren als sneltoetsen met de opdracht om alles van dat merk aan 
 | `SLB` | Stephan Borggreve |
 | `SwS` | SpeakwithSteve |
 | `FL` | Fala Liberada |
+| `RP` | Reviravolta Publishing |
 
 Hoofdletters of kleine letters maken niet uit: `dst` en `DST` zijn hetzelfde. In het geval van twee codes activeer je beide merkblokken, netwerknormen en schrijfstijlen. Je vermengt ze nooit.
 
 Noemt de gebruiker geen merk, dan vraag je om welk merk het gaat. Kies er zelf nooit een, ook SFP niet.
 
-Gebruik het merkblok en de netwerknormen altijd samen. De netwerknormen gelden voor alle acht merken. Het merkblok geeft de waarden van dat ene merk: de kleuren, het kopfont, de logobestanden en de taal.
+Gebruik het merkblok en de netwerknormen altijd samen. De netwerknormen gelden voor de acht bestaande netwerkmerken. Voor Reviravolta Publishing geldt de afbakening in het eigen merkblok. Het merkblok geeft de waarden van dat ene merk: de kleuren, het kopfont, de logobestanden en de taal.
 
 Heeft een merk een uitzondering op een netwerknorm, dan staat die opgeschreven: in de norm zelf of in het merkblok. Een uitzondering die nergens staat, bestaat niet.
 
@@ -352,6 +353,53 @@ De bestanden staan in `logos/fl/`. Type D heet bij dit merk **partnerlogo**.
 De drie achtergronden zijn `#FFFFFF`, `#000000` en `#FEDD03`. Alternatief 1 is geel op zwart, alternatief 2 is zwart op geel. De tegels EA en EB staan op zwart en geel.
 
 De regel onder het logo staat in het Engels. FL voert geen Portugese partnerregel.
+
+---
+
+# Reviravolta Publishing
+
+Eigen uitgeverij van School for Professionals. Het logo moet zelfstandig bruikbaar zijn voor toekomstige uitgaven en auteurs. De eerste toepassing is *De FASTER-methode* van Stephan Borggreve.
+
+## Status
+
+Ontwerp en gestapelde opbouw goedgekeurd op 27 september 2026. De onderstaande afbeelding is de goedgekeurde ontwerpreferentie, nog geen drukklare of exact reproduceerbare vectoruitwerking.
+
+![Goedgekeurd ontwerp Reviravolta Publishing](logos/reviravolta/referentie/reviravolta-publishing-goedgekeurd-2026-09-27.png)
+
+## Logo
+
+De vaste opbouw is, gecentreerd onder elkaar:
+
+1. Beeldmerk.
+2. Woordmerk **Reviravolta**.
+3. **PUBLISHING**, kleiner en gecentreerd onder het woordmerk.
+
+Het beeldmerk is een witte omgedraaide R in een zwart vlak met afgeronde hoeken. De R is gebaseerd op de gekozen vorm met de vloeiend gebogen poot en horizontale eindiging. De stand komt overeen met een R die 180 graden is gedraaid en daarna horizontaal gespiegeld: stam links, ronding rechtsonder en gebogen poot rechtsboven. Die omdraaiing is bepalend voor het ontwerp.
+
+Het beeldmerk kan zelfstandig worden gebruikt, bijvoorbeeld op een boekrug. In het volledige logo staat het boven de naam. Het vervangt niet de eerste letter van het woordmerk.
+
+Het woordmerk heeft een gewone, rechtopstaande beginhoofdletter R en eindigt op een kleine a: **Reviravolta**. Publishing is de uitgeversaanduiding, geen aanvullende slogan of partnerregel.
+
+Geen boek, veer of ladder toevoegen. De ladder met zes sporten en het oranje accent horen bij het boekontwerp, niet bij de uitgeversidentiteit.
+
+## Kleuren
+
+| Toepassing | Hex |
+|---|---|
+| Zwart vlak en woordmerk op wit | `#000000` |
+| Wit beeldmerk en lichte achtergrond | `#FFFFFF` |
+
+Zwart en wit zijn de goedgekeurde basis voor het logo. Navy en oranje zijn niet vastgesteld als Reviravolta-merkkleuren. Een websitepalet en aanvullende kleurversies zijn nog niet vastgesteld.
+
+## Typografie en productie
+
+Het gekozen woordbeeld is stevig en schreefloos, zoals in de ontwerpreferentie. Een exact lettertype is nog niet vastgesteld; de gegenereerde afbeelding bewijst geen specifieke fontfamilie. Publishing staat kleiner, in hoofdletters en met extra letterruimte. Exacte maten, afstanden en lettervormen moeten bij de vectoruitwerking worden vastgelegd.
+
+De ontwerpreferentie is een rasterafbeelding en geen drukklare master. Definitieve logobestanden voldoen aan de eis van echte vectorpaden uit de netwerknormen.
+
+## Relatie tot de netwerknormen
+
+De goedgekeurde gestapelde opbouw, zwart-wituitvoering en regel PUBLISHING vormen het specifieke logobesluit voor deze uitgeverij. De bestaande voorschriften voor de acht websites blijven ongewijzigd. Een domein, schrijftalen, webtypografie, volledig websitepalet en volledige netwerkset van 52 logobestanden zijn voor Reviravolta nog niet vastgesteld. Die worden niet uit andere merken overgenomen zonder afzonderlijk besluit.
 
 ---
 

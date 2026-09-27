@@ -1,8 +1,8 @@
 # SFP Brand Source
 
-Dit is de bron van waarheid voor de merkidentiteit van het School for Professionals netwerk: acht merken, hun kleuren, typografie en logobestanden.
+Dit is de bron van waarheid voor de merkidentiteit van het School for Professionals netwerk: acht bestaande netwerkmerken en Reviravolta Publishing, met hun vastgestelde kleuren, typografie en logo's.
 
-De bron is **[`branding.md`](branding.md)**. Eén bestand, met alle acht merken en de netwerknormen erin. Verwijs vanuit een AI naar `https://raw.githubusercontent.com/stephan-sfp/sfp-brand-source/main/branding.md`. Wijzig je iets, wijzig het daar en nergens anders.
+De bron is **[`branding.md`](branding.md)**. Eén bestand, met de acht netwerkmerken, Reviravolta Publishing en de netwerknormen erin. Verwijs vanuit een AI naar `https://raw.githubusercontent.com/stephan-sfp/sfp-brand-source/main/branding.md`. Wijzig je iets, wijzig het daar en nergens anders.
 
 `branding.md` beschrijft wat geldt, niet hoe het zo gekomen is. Overwegingen, afgevallen varianten, de volgorde van besluiten en bouwinstructies horen hier niet.
 
@@ -10,7 +10,7 @@ De bron is **[`branding.md`](branding.md)**. Eén bestand, met alle acht merken 
 
 | Pad | Inhoud |
 |---|---|
-| `branding.md` | De bron: acht merken en de netwerknormen |
+| `branding.md` | De bron: acht netwerkmerken, Reviravolta Publishing en de netwerknormen |
 | `logos/<merk>/` | De logobestanden in `svg`, `png`, `svg-op-kleur` en `png-op-kleur` |
 | `fonts/` | De lettertypebestanden die de merken voeren |
 
@@ -26,6 +26,8 @@ De bron is **[`branding.md`](branding.md)**. Eén bestand, met alle acht merken 
 | SLB | Stephan Borggreve | stephanborggreve.com | en, nl |
 | SwS | SpeakwithSteve | speakwithsteve.com | en |
 | FL | Fala Liberada | falaliberada.com.br | pt-BR |
+
+Reviravolta Publishing (`RP`) is de eigen uitgeverij. Het goedgekeurde ontwerp staat in `branding.md`; de ontwerpreferentie staat in `logos/reviravolta/referentie/`.
 
 ## Hoe je iets wijzigt
 
