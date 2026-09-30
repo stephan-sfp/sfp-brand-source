@@ -542,6 +542,15 @@ Een H1 met de klasse `h1-xl` voert een eigen regel: `clamp(32px, 3.5vw + 18px, 4
 
 Deze afkapping gaat voor. Een kop die op een breed scherm kleiner rendert dan zijn ontwerpmaat is dus geen afwijking. De regel geldt netwerkbreed en staat op alle acht sites identiek. De ontwerpmaten blijven bepalen wat een kop doet waar de afkapping niet bijt, dus op smallere schermen.
 
+### Kopblokken
+
+Een kop in de inhoud is op alle acht sites een Spectra-kop (`uagb/advanced-heading`), nooit het standaard kopblok van WordPress. Dat geldt voor pagina's, berichten, begrippen, tools en gedeelde blokken zoals Astra-hooks.
+
+- Opvulling 8 px boven en 8 px onder, 0 links en rechts.
+- Geen eigen kleur, font, grootte of gewicht. De kop erft alles van Astra, zodat de typografie hierboven en de responsieve afkapping overal gelijk werken.
+- Uitzondering: staat een kop op een donkere achtergrond, dan mag hij een kleur krijgen, en alleen via een Astra global color (`var(--ast-global-color-N)`), nooit als hexcode.
+- Het koptype (H2, H3 enzovoort) volgt de structuur van de pagina, niet de gewenste grootte.
+
 ### Hoofdlettergebruik
 
 De twee lijsten hieronder zijn uitputtend en gelden op alle acht sites gelijk. Staat een onderdeel in de ene lijst, dan staat het op geen enkele site in de andere.
