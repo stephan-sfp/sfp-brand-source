@@ -44,7 +44,7 @@ Loop na afloop je uitvoer langs deze bron en meld wat je hebt nagekeken.
 
 | Controle | Waaraan |
 |---|---|
-| Kleuren | de kleurtabel van het merkblok, en niets daarbuiten |
+| Kleuren | de kleurtabel van het merkblok, plus de drie functionele kleuren uit de netwerknormen, en niets daarbuiten |
 | Typografie | het H1-font, H2 tot H6, de groottes, en de woordafstand als het merk Rubik Mono One voert |
 | Hoofdletters | de twee lijsten bij Hoofdlettergebruik |
 | Logo | de kleurversie die bij de achtergrond hoort, en de naam die type D bij dit merk draagt |
@@ -436,6 +436,18 @@ Hoe die drie tinten berekend worden is alleen nodig bij een nieuw merk of bij he
 
 - Geen enkel merk voert een grijs vlak. Grijs bestaat uitsluitend als bodytekst. Randen en lijnen komen uit de merkkleuren, of uit de primaire kleur met transparantie.
 - De knopkleur komt altijd uit de rol links en knoppen, en nooit uit een hoofdkleur.
+
+### Functionele kleuren
+
+Drie kleuren staan buiten de merktabellen omdat ze een betekenis dragen die bij elk merk gelijk is. Ze mogen letterlijk in code staan en zijn de enige hexcodes die daar horen.
+
+| Betekenis | Hex | Gebruik |
+|---|---|---|
+| Goed, gelukt | `#1E8B45` | Bevestigingen, vinkjes, groene status |
+| Fout, mislukt | `#a4262c` | Foutmeldingen, rode status |
+| Reviewster | `#FBBC04` | De gevulde ster bij Google-reviews, in de samenvatting en in de kaarten. Dit is de sterkleur van Google zelf; een merkkleur zou de herkomst van de beoordeling verhullen. |
+
+Geen andere groenen, roden of gelen met een functionele betekenis. Een lege ster voert geen functionele kleur maar een merkkleur: de primaire kleur met transparantie.
 
 ### Knoppen
 
