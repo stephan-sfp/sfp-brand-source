@@ -13,6 +13,7 @@ repository. De volledige licentietekst per familie staat hiernaast.
 | `Roboto-Bold.ttf` | Roboto | [OFL-Roboto.txt](OFL-Roboto.txt) |
 | `Roboto-Italic.ttf` | Roboto | [OFL-Roboto.txt](OFL-Roboto.txt) |
 | `Roboto-BoldItalic.ttf` | Roboto | [OFL-Roboto.txt](OFL-Roboto.txt) |
+| `Roboto-Black.ttf` | Roboto | [OFL-Roboto.txt](OFL-Roboto.txt) |
 | `Rubik-Black.ttf` | Rubik | [OFL-Rubik.txt](OFL-Rubik.txt) |
 | `RubikMonoOne-Regular.ttf` | Rubik Mono One | [OFL-RubikMonoOne.txt](OFL-RubikMonoOne.txt) |
 

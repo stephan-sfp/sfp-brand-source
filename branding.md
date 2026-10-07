@@ -456,7 +456,7 @@ Welke rol een onderdeel voert, staat hier. Er komen geen kleuren bij: elk onderd
 | Tekstlink op een lichte achtergrond | Links en knoppen, onderstreept. Bij DPS, DST en FL de primaire kleur, onderstreept. |
 | Tekstlink op een donkere achtergrond | Wit, onderstreept, bij alle acht merken |
 | Tekstlink onder de muis | De tekstkleur blijft. De onderstreping wordt 3 px dik en krijgt de kleur Links en knoppen. Bij alle acht merken, op een lichte en een donkere achtergrond. |
-| Tweede call-to-action | Een tekstlink met een pijl erachter, geen tweede knop. Hij voert de kleur van de tekstlink op die achtergrond, in het bodyfont op gewicht 700, in gewone letters en onderstreept. |
+| Tweede call-to-action | Een tekstlink met een pijl erachter, geen tweede knop. Hij voert de kleur van de tekstlink op die achtergrond, in het bodyfont op gewicht 900, in gewone letters en onderstreept. |
 | Kop | Primair, op een donkere achtergrond wit |
 | Focusrand | Primair, op een donkere achtergrond wit |
 | Rand van een formulierveld | Primair met transparantie |
@@ -617,10 +617,11 @@ De bestanden staan in `fonts/`. Op de sites komen ze van Google Fonts, lokaal ge
 | `Roboto-Bold.ttf` | Roboto | 700 | Vette body van alle acht |
 | `Roboto-Italic.ttf` | Roboto | 400 cursief | Cursieve body van alle acht |
 | `Roboto-BoldItalic.ttf` | Roboto | 700 cursief | Vette cursieve body van alle acht |
+| `Roboto-Black.ttf` | Roboto Black | 900 | De tweede call-to-action van alle acht |
 
 Google Fonts noemt een instantie op gewicht 900 intern "Black", ook waar deze norm hem Archivo 900 of Rubik 900 noemt. De familienaam in het bestand zegt dus niets, het gewicht wel.
 
-Voor de kopfonts sluit de norm gewicht 700 uit: Archivo, Nunito en Rubik staan hier alleen op 400 en 900. Voor Roboto geldt dat niet, want de body heeft vet en cursief nodig. Roboto staat er daarom compleet in: 400, 700, 400 cursief en 700 cursief.
+Voor de kopfonts sluit de norm gewicht 700 uit: Archivo, Nunito en Rubik staan hier alleen op 400 en 900. Voor Roboto geldt dat niet, want de body heeft vet en cursief nodig. Roboto staat er daarom compleet in: 400, 700, 400 cursief en 700 cursief, plus 900 voor de tweede call-to-action.
 
 ## Logo-systeem
 
