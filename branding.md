@@ -319,7 +319,7 @@ De drie achtergronden zijn `#FFFFFF`, `#3A2B58` en `#00BF63`. De tegels EA en EB
 
 # FL, Fala Liberada
 
-Logoregel: **BY SCHOOL FOR PROFESSIONALS**
+Logoregel: **By School for Professionals**
 
 Schrijftaal: Braziliaans-Portugees.
 
@@ -420,7 +420,7 @@ Elk merk voert dezelfde rollen. Welke hexcode bij welke rol hoort staat in het m
 | Primair | Het donkere anker: koppen, de footer, donkere secties, de tegel EA. |
 | Secundair | De heldere merkkleur: accenten, iconen, gekleurde secties, de tegel EB. |
 | Tertiair | Een derde kleur, voor merken die er een voeren. |
-| Links en knoppen | Links in de lopende tekst en de vulling van een knop. Altijd een warm oranjerood, bij elk merk. |
+| Links en knoppen | Links in de lopende tekst en de vulling van een knop. Altijd een warme kleur, van oranje tot rood, bij elk merk. |
 | Hover | Dezelfde link of knop onder de muis. Een lichtere versie van de vorige rol. |
 | Tint 1 | De donkerste van de drie lichte tinten. Voor een blok dat nog contrast moet dragen. |
 | Tint 2 | Een lichte achtergrond voor een sectie. |
@@ -444,7 +444,7 @@ Drie kleuren staan buiten de merktabellen omdat ze een betekenis dragen die bij 
 | Betekenis | Hex | Gebruik |
 |---|---|---|
 | Goed, gelukt | `#1E8B45` | Bevestigingen, vinkjes, groene status |
-| Fout, mislukt | `#a4262c` | Foutmeldingen, rode status |
+| Fout, mislukt | `#A4262C` | Foutmeldingen, rode status |
 | Reviewster | `#FBBC04` | De gevulde ster bij Google-reviews, in de samenvatting en in de kaarten. Dit is de sterkleur van Google zelf; een merkkleur zou de herkomst van de beoordeling verhullen. |
 
 Geen andere groenen, roden of gelen met een functionele betekenis. Een lege ster voert geen functionele kleur maar een merkkleur: de primaire kleur met transparantie.
@@ -598,7 +598,7 @@ De bestanden staan in `fonts/`. Op de sites komen ze van Google Fonts, lokaal ge
 | Bestand | Familie in het bestand | Gewicht | Waarvoor |
 |---|---|---|---|
 | `ArchivoBlack-Regular.ttf` | Archivo Black | 400 | H1 van SFP |
-| `Archivo-Black.ttf` | Archivo Black | 900 | H2 tot H6 van SFP, dit is Archivo 900 |
+| `Archivo-Black.ttf` | Archivo | 900 | H2 tot H6 van SFP, dit is Archivo 900 |
 | `Nunito-Black.ttf` | Nunito Black | 900 | Koppen van DPS en CVD |
 | `RubikMonoOne-Regular.ttf` | Rubik Mono One | 400 | H1 van DGA, DST, SLB, SwS en FL |
 | `Rubik-Black.ttf` | Rubik Black | 900 | H2 tot H6 van DGA, DST, SLB, SwS en FL |
@@ -625,7 +625,7 @@ Voor de kopfonts sluit de norm gewicht 700 uit: Archivo, Nunito en Rubik staan h
 
 De tegels heten EA en EB. EA staat op het donkere anker, EB op de merkkleur. Een tegel op wit bestaat niet.
 
-De regel onder de wordmark bij type D staat **altijd in hoofdletters**. Per merk luidt hij anders: "Partner van School for Professionals" bij de vier NL-labels, "BY SCHOOL FOR PROFESSIONALS" bij FL, "Partner of School for Professionals" bij SwS en "Founder of School for Professionals" bij SLB. SFP voert zijn eigen slogan.
+De regel onder de wordmark bij type D staat **altijd in hoofdletters**. Per merk luidt hij anders: "Partner van School for Professionals" bij de vier NL-labels, "By School for Professionals" bij FL, "Partner of School for Professionals" bij SwS en "Founder of School for Professionals" bij SLB. SFP voert zijn eigen slogan.
 
 Deze regel is ook de sitetagline van dat merk. Het veld Logoregel bovenaan elk merkblok noemt hem, zodat je hem niet uit de logobestanden hoeft te lezen.
 
@@ -671,7 +671,7 @@ SVG en PNG. Geen WEBP: Imagify converteert op de sites zelf, dus een PNG volstaa
 
 ### Naamgeving
 
-`{code}-{merk}-{typenaam}-{versienaam}.{ext}`, bijvoorbeeld `ab-de-presenteerschool-logo-alternatief-1.svg`. De code is twee letters: de eerste is het type, de tweede de versie. In `ab` staat de `a` dus voor het logo en de `b` voor alternatief 1. Alles in kleine letters met koppeltekens, zodat een raw-URL geen spaties of haakjes bevat. Dit stelsel geldt ook voor de merkmappen in `Documents/School for Professionals`.
+`{code}-{merk}-{typenaam}-{versienaam}.{ext}`, bijvoorbeeld `ab-de-presenteerschool-logo-alternatief-1.svg`. De code is twee letters: de eerste is het type, de tweede de versie. In `ab` staat de `a` dus voor het logo en de `b` voor alternatief 1. Bij de tegels is de versienaam de kleur van de achtergrond, bijvoorbeeld `ea-de-presenteerschool-tegel-donkerblauw.svg`. Alles in kleine letters met koppeltekens, zodat een raw-URL geen spaties of haakjes bevat. Dit stelsel geldt ook voor de merkmappen in `Documents/School for Professionals`.
 
 ### Eisen aan het bestand
 
