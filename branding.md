@@ -49,7 +49,7 @@ Loop na afloop je uitvoer langs deze bron en meld wat je hebt nagekeken.
 | Hoofdletters | de twee lijsten bij Hoofdlettergebruik |
 | Logo | de kleurversie die bij de achtergrond hoort, en de naam die type D bij dit merk draagt |
 | Schrijfstijl | de taal van het merk, de juiste aanspreekvorm, actieve vorm, geen naamwoordstijl |
-| Knoppen en velden | knopkleur uit de rol links en knoppen, radius 6 px voor knoppen en formuliervelden, primair en secundair even groot |
+| Knoppen en velden | de tabel Kleur per onderdeel, contrast minstens 4,5 ook onder de muis, radius 6 px voor knoppen en formuliervelden, de tweede call-to-action als tekstlink met pijl |
 
 Meld elke afwijking, ook een kleine. Verzin nooit een waarde die hier niet staat. Ontbreekt iets in deze bron, dan is dat een vraag aan de gebruiker en geen eigen keuze. Die stel je zo mogelijk met AskUserQuestion.
 
@@ -84,7 +84,7 @@ Schrijftaal: Engels en Nederlands, in die volgorde.
 | Secundair | `#947BD3` |
 | Tertiair | `#F46036` |
 | Links en knoppen | `#D22D00` |
-| Hover | `#E63100` |
+| Hover | `#B22600` |
 | Tint 1 | `#CFC6E3` |
 | Tint 2 | `#E8E3F1` |
 | Tint 3 | `#F8F7FB` |
@@ -117,8 +117,8 @@ Schrijftaal: Nederlands.
 |---|---|
 | Primair | `#2E2864` |
 | Secundair | `#00B0E3` |
-| Links en knoppen | `#FF5A06` |
-| Hover | `#FF7420` |
+| Links en knoppen | `#FF6803` |
+| Hover | `#FF954F` |
 | Tint 1 | `#A1D9F4` |
 | Tint 2 | `#D4EDFA` |
 | Tint 3 | `#F7FCFE` |
@@ -126,6 +126,8 @@ Schrijftaal: Nederlands.
 | Bodytekst | `#575757` |
 
 Dit merk voert geen tertiair.
+
+Dit merk voert donkere knoptekst. De tekst op een knop staat in de primaire kleur, en een tekstlink op een lichte achtergrond ook, onderstreept. De hover is hier lichter in plaats van donkerder: een donkerdere knop zou met de primaire kleur geen 4,5 contrast meer halen.
 
 ## Typografie
 
@@ -153,8 +155,8 @@ Schrijftaal: Nederlands.
 |---|---|
 | Primair | `#552583` |
 | Secundair | `#FDB927` |
-| Links en knoppen | `#FC5130` |
-| Hover | `#FD7257` |
+| Links en knoppen | `#E52803` |
+| Hover | `#C32203` |
 | Tint 1 | `#DDD3E6` |
 | Tint 2 | `#FEF0D3` |
 | Tint 3 | `#F9F9FB` |
@@ -188,8 +190,8 @@ Schrijftaal: Nederlands.
 | Primair | `#0D124D` |
 | Secundair | `#FFCD00` |
 | Tertiair | `#0496FF` |
-| Links en knoppen | `#FF3C38` |
-| Hover | `#FF625F` |
+| Links en knoppen | `#EE0500` |
+| Hover | `#CA0400` |
 | Tint 1 | `#9AD5FF` |
 | Tint 2 | `#CCEAFF` |
 | Tint 3 | `#FFFDF3` |
@@ -223,7 +225,7 @@ Schrijftaal: Nederlands.
 | Primair | `#0B2A19` |
 | Secundair | `#25B33E` |
 | Links en knoppen | `#FF9F1C` |
-| Hover | `#FFB857` |
+| Hover | `#F18B00` |
 | Tint 1 | `#93D7A1` |
 | Tint 2 | `#E9F7EB` |
 | Tint 3 | `#F7FCF8` |
@@ -231,6 +233,8 @@ Schrijftaal: Nederlands.
 | Bodytekst | `#575757` |
 
 Dit merk voert geen tertiair.
+
+Dit merk voert donkere knoptekst. De tekst op een knop staat in de primaire kleur, en een tekstlink op een lichte achtergrond ook, onderstreept.
 
 ## Typografie
 
@@ -242,7 +246,7 @@ De bestanden staan in `logos/dst/`. Type D heet bij dit merk **partnerlogo**.
 
 De drie achtergronden zijn `#FFFFFF`, `#0B2A19` en `#25B33E`. De tegels EA en EB staan op donkergroen en groen.
 
-De wordmark is tweekleurig. SCHRIJF staat in `#FF9F1C`, dezelfde kleur als links en knoppen. Staat het logo op de merkkleur, dan is SCHRIJF wit.
+De wordmark is tweekleurig. SCHRIJF staat in `#FF9F1C`, dezelfde kleur als de knoppen. Staat het logo op de merkkleur, dan is SCHRIJF wit.
 
 ---
 
@@ -259,8 +263,8 @@ Schrijftaal: Engels en Nederlands, in die volgorde.
 | Primair | `#242E51` |
 | Secundair | `#FFFFFF`, gelijk aan de rol Wit |
 | Tertiair | `#23D366` |
-| Links en knoppen | `#FF0000` |
-| Hover | `#FF3B3B` |
+| Links en knoppen | `#EE0000` |
+| Hover | `#CA0000` |
 | Tint 1 | `#CFD1D9` |
 | Tint 2 | `#E3E8F3` |
 | Tint 3 | `#F8F9FC` |
@@ -295,8 +299,8 @@ Schrijftaal: Engels.
 |---|---|
 | Primair | `#3A2B58` |
 | Secundair | `#00BF63` |
-| Links en knoppen | `#FF0000` |
-| Hover | `#FF3B3B` |
+| Links en knoppen | `#EE0000` |
+| Hover | `#CA0000` |
 | Tint 1 | `#D9D0DE` |
 | Tint 2 | `#D9F1E5` |
 | Tint 3 | `#F8F7FB` |
@@ -319,7 +323,7 @@ De drie achtergronden zijn `#FFFFFF`, `#3A2B58` en `#00BF63`. De tegels EA en EB
 
 # FL, Fala Liberada
 
-Logoregel: **BY SCHOOL FOR PROFESSIONALS**
+Logoregel: **By School for Professionals**
 
 Schrijftaal: Braziliaans-Portugees.
 
@@ -331,7 +335,7 @@ Schrijftaal: Braziliaans-Portugees.
 | Secundair | `#FEDD03` |
 | Tertiair | `#FFFFFF` |
 | Links en knoppen | `#FF4F00` |
-| Hover | `#FF7233` |
+| Hover | `#D94300` |
 | Tint 1 | bestaat niet |
 | Tint 2 | `#FFF287` |
 | Tint 3 | `#FDFAED` |
@@ -339,6 +343,8 @@ Schrijftaal: Braziliaans-Portugees.
 | Bodytekst | `#575757` |
 
 Wit heeft hier de rol van tertiair.
+
+Dit merk voert donkere knoptekst. De tekst op een knop staat in de primaire kleur, en een tekstlink op een lichte achtergrond ook, onderstreept.
 
 De tinten komen bij dit merk uit het geel, de secundaire kleur. Tint 1 bestaat niet: het geel is daar zelf al te licht voor, een lichtere versie ervan zou er nauwelijks van te onderscheiden zijn.
 
@@ -411,7 +417,7 @@ Verschilt een site van een andere zonder dat het uit hun merkblokken volgt, dan 
 
 ## Kleuranatomie
 
-Een kleur heeft in dit systeem een rol: de taak die hij vervult. `#FF3C38` is bij CVD niet zomaar rood, het is de kleur van links en knoppen. Die rol staat in de linkerkolom van elke kleurtabel, de hexcode ernaast. Verandert er ooit een kleur, dan verandert de hexcode en blijft de rol staan.
+Een kleur heeft in dit systeem een rol: de taak die hij vervult. `#EE0500` is bij CVD niet zomaar rood, het is de kleur van links en knoppen. Die rol staat in de linkerkolom van elke kleurtabel, de hexcode ernaast. Verandert er ooit een kleur, dan verandert de hexcode en blijft de rol staan.
 
 Elk merk voert dezelfde rollen. Welke hexcode bij welke rol hoort staat in het merkblok, en daar staat ook of een merk een rol niet voert.
 
@@ -420,8 +426,8 @@ Elk merk voert dezelfde rollen. Welke hexcode bij welke rol hoort staat in het m
 | Primair | Het donkere anker: koppen, de footer, donkere secties, de tegel EA. |
 | Secundair | De heldere merkkleur: accenten, iconen, gekleurde secties, de tegel EB. |
 | Tertiair | Een derde kleur, voor merken die er een voeren. |
-| Links en knoppen | Links in de lopende tekst en de vulling van een knop. Altijd een warm oranjerood, bij elk merk. |
-| Hover | Dezelfde link of knop onder de muis. Een lichtere versie van de vorige rol. |
+| Links en knoppen | De vulling van een knop, links in de lopende tekst bij merken met witte knoptekst, en de onderstreping van elke link onder de muis. Altijd een warme kleur, van oranje tot rood, bij elk merk. |
+| Hover | Dezelfde knop onder de muis. Een donkerdere versie van de vorige rol, behalve waar het merkblok anders zegt. |
 | Tint 1 | De donkerste van de drie lichte tinten. Voor een blok dat nog contrast moet dragen. |
 | Tint 2 | Een lichte achtergrond voor een sectie. |
 | Tint 3 | Bijna wit. Voor een sectie die zich net van de pagina moet onderscheiden. |
@@ -432,10 +438,28 @@ De drie tinten komen uit de kleuren van het merk zelf en lopen af naar bijna wit
 
 Hoe die drie tinten berekend worden is alleen nodig bij een nieuw merk of bij het vervangen van een hoofdkleur, en staat daarom buiten deze repo, in `WordPress Toolkit/nieuw-merk-bouwregels.md`.
 
-### Twee harde regels
+### Drie harde regels
 
 - Geen enkel merk voert een grijs vlak. Grijs bestaat uitsluitend als bodytekst. Randen en lijnen komen uit de merkkleuren, of uit de primaire kleur met transparantie.
 - De knopkleur komt altijd uit de rol links en knoppen, en nooit uit een hoofdkleur.
+- Tekst haalt minstens 4,5 contrast op zijn achtergrond, ook op een knop en ook onder de muis. Dat is de norm WCAG AA voor tekst van gewone grootte.
+
+### Kleur per onderdeel
+
+Welke rol een onderdeel voert, staat hier. Er komen geen kleuren bij: elk onderdeel gebruikt een bestaande rol uit de kleurtabel van het merk.
+
+| Onderdeel | Rol |
+|---|---|
+| Knopvulling | Links en knoppen |
+| Knoptekst | Wit. Bij DPS, DST en FL de primaire kleur. |
+| Knop onder de muis | Hover |
+| Tekstlink op een lichte achtergrond | Links en knoppen, onderstreept. Bij DPS, DST en FL de primaire kleur, onderstreept. |
+| Tekstlink op een donkere achtergrond | Wit, onderstreept, bij alle acht merken |
+| Tekstlink onder de muis | De tekstkleur blijft. De onderstreping wordt 3 px dik en krijgt de kleur Links en knoppen. Bij alle acht merken, op een lichte en een donkere achtergrond. |
+| Tweede call-to-action | Een tekstlink met een pijl erachter, geen tweede knop. Hij voert de kleur van de tekstlink op die achtergrond, in het bodyfont op gewicht 900, in gewone letters en onderstreept. |
+| Kop | Primair, op een donkere achtergrond wit |
+| Focusrand | Primair, op een donkere achtergrond wit |
+| Rand van een formulierveld | Primair met transparantie |
 
 ### Functionele kleuren
 
@@ -444,7 +468,7 @@ Drie kleuren staan buiten de merktabellen omdat ze een betekenis dragen die bij 
 | Betekenis | Hex | Gebruik |
 |---|---|---|
 | Goed, gelukt | `#1E8B45` | Bevestigingen, vinkjes, groene status |
-| Fout, mislukt | `#a4262c` | Foutmeldingen, rode status |
+| Fout, mislukt | `#A4262C` | Foutmeldingen, rode status |
 | Reviewster | `#FBBC04` | De gevulde ster bij Google-reviews, in de samenvatting en in de kaarten. Dit is de sterkleur van Google zelf; een merkkleur zou de herkomst van de beoordeling verhullen. |
 
 Geen andere groenen, roden of gelen met een functionele betekenis. Een lege ster voert geen functionele kleur maar een merkkleur: de primaire kleur met transparantie.
@@ -453,7 +477,7 @@ Geen andere groenen, roden of gelen met een functionele betekenis. Een lege ster
 
 De radius is 6 px, op alle acht merken, voor elke soort knop. Formuliervelden voeren dezelfde radius.
 
-Een primaire en een secundaire knop naast elkaar renderen even groot: gelijke padding, minimumhoogte, lettergrootte en radius. Alleen de vulling verschilt.
+Een call-to-action voert één knop. Het alternatief ernaast is een tekstlink met een pijl, zie Kleur per onderdeel. Staan er toch twee knoppen naast elkaar, zoals in een formulier, dan renderen ze even groot: gelijke padding, minimumhoogte, lettergrootte en radius.
 
 ### Longread-navigatie
 
@@ -521,45 +545,31 @@ De woordafstand hoort bij Rubik Mono One. Die letter is monospace: elke letter e
 
 ### Groottes
 
-| Niveau | Grootte | Gewicht |
-|---|---|---|
-| H1 | 36 px | zie de tabel hierboven |
-| H2 | 30 px | 900 |
-| H3 | 24 px | 900 |
-| H4 | 20 px | 900 |
-| H5 | 18 px | 900 |
-| H6 | 16 px | 900 |
+Een kop schaalt mee met de schermbreedte en blijft tussen een kleinste en een grootste maat. De regel staat op alle acht sites identiek.
+
+| Niveau | Kleinste | Grootste | Regel | Gewicht |
+|---|---|---|---|---|
+| H1 | 24 px | 34 px | `clamp(24px, 2.5vw + 14px, 34px)` | zie de tabel hierboven |
+| H2 | 20 px | 28 px | `clamp(20px, 2vw + 12px, 28px)` | 900 |
+| H3 | 18 px | 22 px | `clamp(18px, 1.5vw + 10px, 22px)` | 900 |
+| H4 | 16 px | 20 px | `clamp(16px, 1vw + 10px, 20px)` | 900 |
+| H5 | 16 px | 18 px | `clamp(16px, .8vw + 9px, 18px)` | 900 |
+| H6 | 16 px | 16 px | vast | 900 |
+
+Een H1 met de klasse `h1-xl` voert een eigen regel: `clamp(32px, 3.5vw + 18px, 46px)`. Die klasse is bedoeld voor de hero-kop bovenaan een pagina.
 
 Body Roboto 16 px op gewicht 400, vet op 700, en cursief in beide gewichten.
 
 Gewicht 700 komt in koppen niet voor. Een kop staat op 900, of op 400 als het merk een displayfont voert die alleen dat gewicht kent.
 
-Een pagina mag van de H1-maat afwijken, maar alleen per pagina en alleen als dat vooraf is afgesproken. Een homepage of een over-pagina is daar de meest waarschijnlijke kandidaat voor. Zonder die afspraak is 36 px de maat.
-
-### Responsieve afkapping
-
-De maten hierboven zijn de ontwerpmaten. Daaroverheen ligt op alle acht sites dezelfde responsieve regel, die een kop met de schermbreedte laat meeschalen en afkapt op een maximum.
-
-| Niveau | Regel |
-|---|---|
-| H1 | `clamp(24px, 2.5vw + 14px, 34px)` |
-| H2 | `clamp(20px, 2vw + 12px, 28px)` |
-| H3 | `clamp(18px, 1.5vw + 10px, 22px)` |
-| H4 | `clamp(16px, 1vw + 10px, 20px)` |
-| H5 | `clamp(16px, .8vw + 9px, 18px)` |
-
-H6 valt buiten deze regel en houdt zijn ontwerpmaat.
-
-Een H1 met de klasse `h1-xl` voert een eigen regel: `clamp(32px, 3.5vw + 18px, 46px)`. Die klasse is bedoeld voor de hero-kop bovenaan een pagina.
-
-Deze afkapping gaat voor. Een kop die op een breed scherm kleiner rendert dan zijn ontwerpmaat is dus geen afwijking. De regel geldt netwerkbreed en staat op alle acht sites identiek. De ontwerpmaten blijven bepalen wat een kop doet waar de afkapping niet bijt, dus op smallere schermen.
+Een pagina mag van de H1-maat afwijken, maar alleen per pagina en alleen als dat vooraf is afgesproken. Een homepage of een over-pagina is daar de meest waarschijnlijke kandidaat voor. Zonder die afspraak geldt de regel hierboven.
 
 ### Kopblokken
 
 Een kop in de inhoud is op alle acht sites een Spectra-kop (`uagb/advanced-heading`), nooit het standaard kopblok van WordPress. Dat geldt voor pagina's, berichten, begrippen, tools en gedeelde blokken zoals Astra-hooks.
 
 - Opvulling 8 px boven en 8 px onder, 0 links en rechts.
-- Geen eigen kleur, font, grootte of gewicht. De kop erft alles van Astra, zodat de typografie hierboven en de responsieve afkapping overal gelijk werken.
+- Geen eigen kleur, font, grootte of gewicht. De kop erft alles van Astra, zodat de typografie en de groottes hierboven overal gelijk werken.
 - Uitzondering: staat een kop op een donkere achtergrond, dan mag hij een kleur krijgen, en alleen via een Astra global color (`var(--ast-global-color-N)`), nooit als hexcode.
 - Het koptype (H2, H3 enzovoort) volgt de structuur van de pagina, niet de gewenste grootte.
 
@@ -582,6 +592,7 @@ In gewone letters:
 - Body: alinea's, opsommingen en tabelcellen.
 - Het kruimelpad.
 - De vraag in een FAQ.
+- De tweede call-to-action, die een tekstlink is en geen knop.
 - Alles in een formulier: het opschrift van een veld, de helptekst, de tijdelijke tekst in het veld, de foutmelding en de invoer van de bezoeker.
 - Adresgegevens, juridische teksten, en alles wat een eigennaam, domein of e-mailadres letterlijk moet weergeven.
 
@@ -598,7 +609,7 @@ De bestanden staan in `fonts/`. Op de sites komen ze van Google Fonts, lokaal ge
 | Bestand | Familie in het bestand | Gewicht | Waarvoor |
 |---|---|---|---|
 | `ArchivoBlack-Regular.ttf` | Archivo Black | 400 | H1 van SFP |
-| `Archivo-Black.ttf` | Archivo Black | 900 | H2 tot H6 van SFP, dit is Archivo 900 |
+| `Archivo-Black.ttf` | Archivo | 900 | H2 tot H6 van SFP, dit is Archivo 900 |
 | `Nunito-Black.ttf` | Nunito Black | 900 | Koppen van DPS en CVD |
 | `RubikMonoOne-Regular.ttf` | Rubik Mono One | 400 | H1 van DGA, DST, SLB, SwS en FL |
 | `Rubik-Black.ttf` | Rubik Black | 900 | H2 tot H6 van DGA, DST, SLB, SwS en FL |
@@ -606,10 +617,11 @@ De bestanden staan in `fonts/`. Op de sites komen ze van Google Fonts, lokaal ge
 | `Roboto-Bold.ttf` | Roboto | 700 | Vette body van alle acht |
 | `Roboto-Italic.ttf` | Roboto | 400 cursief | Cursieve body van alle acht |
 | `Roboto-BoldItalic.ttf` | Roboto | 700 cursief | Vette cursieve body van alle acht |
+| `Roboto-Black.ttf` | Roboto Black | 900 | De tweede call-to-action van alle acht |
 
 Google Fonts noemt een instantie op gewicht 900 intern "Black", ook waar deze norm hem Archivo 900 of Rubik 900 noemt. De familienaam in het bestand zegt dus niets, het gewicht wel.
 
-Voor de kopfonts sluit de norm gewicht 700 uit: Archivo, Nunito en Rubik staan hier alleen op 400 en 900. Voor Roboto geldt dat niet, want de body heeft vet en cursief nodig. Roboto staat er daarom compleet in: 400, 700, 400 cursief en 700 cursief.
+Voor de kopfonts sluit de norm gewicht 700 uit: Archivo, Nunito en Rubik staan hier alleen op 400 en 900. Voor Roboto geldt dat niet, want de body heeft vet en cursief nodig. Roboto staat er daarom compleet in: 400, 700, 400 cursief en 700 cursief, plus 900 voor de tweede call-to-action.
 
 ## Logo-systeem
 
@@ -625,7 +637,7 @@ Voor de kopfonts sluit de norm gewicht 700 uit: Archivo, Nunito en Rubik staan h
 
 De tegels heten EA en EB. EA staat op het donkere anker, EB op de merkkleur. Een tegel op wit bestaat niet.
 
-De regel onder de wordmark bij type D staat **altijd in hoofdletters**. Per merk luidt hij anders: "Partner van School for Professionals" bij de vier NL-labels, "BY SCHOOL FOR PROFESSIONALS" bij FL, "Partner of School for Professionals" bij SwS en "Founder of School for Professionals" bij SLB. SFP voert zijn eigen slogan.
+De regel onder de wordmark bij type D staat **altijd in hoofdletters**. Per merk luidt hij anders: "Partner van School for Professionals" bij de vier NL-labels, "By School for Professionals" bij FL, "Partner of School for Professionals" bij SwS en "Founder of School for Professionals" bij SLB. SFP voert zijn eigen slogan.
 
 Deze regel is ook de sitetagline van dat merk. Het veld Logoregel bovenaan elk merkblok noemt hem, zodat je hem niet uit de logobestanden hoeft te lezen.
 
@@ -671,7 +683,7 @@ SVG en PNG. Geen WEBP: Imagify converteert op de sites zelf, dus een PNG volstaa
 
 ### Naamgeving
 
-`{code}-{merk}-{typenaam}-{versienaam}.{ext}`, bijvoorbeeld `ab-de-presenteerschool-logo-alternatief-1.svg`. De code is twee letters: de eerste is het type, de tweede de versie. In `ab` staat de `a` dus voor het logo en de `b` voor alternatief 1. Alles in kleine letters met koppeltekens, zodat een raw-URL geen spaties of haakjes bevat. Dit stelsel geldt ook voor de merkmappen in `Documents/School for Professionals`.
+`{code}-{merk}-{typenaam}-{versienaam}.{ext}`, bijvoorbeeld `ab-de-presenteerschool-logo-alternatief-1.svg`. De code is twee letters: de eerste is het type, de tweede de versie. In `ab` staat de `a` dus voor het logo en de `b` voor alternatief 1. Bij de tegels is de versienaam de kleur van de achtergrond, bijvoorbeeld `ea-de-presenteerschool-tegel-donkerblauw.svg`. Alles in kleine letters met koppeltekens, zodat een raw-URL geen spaties of haakjes bevat. Dit stelsel geldt ook voor de merkmappen in `Documents/School for Professionals`.
 
 ### Eisen aan het bestand
 

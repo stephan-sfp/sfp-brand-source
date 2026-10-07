@@ -25,7 +25,7 @@ gewone taal.
 ## Praktisch
 
 - Houd rondom het logo vrije ruimte aan en schaal altijd proportioneel.
-- De regels over kleur, contrast en minimale afmetingen staan in
+- De regels over kleuren, kleurversies en de marge rond het logo staan in
   [branding.md](branding.md). Volg die bij twijfel.
 - Twijfel je of iets mag, vraag het dan even. Dat kost minder tijd dan het
   achteraf aanpassen.
@@ -53,12 +53,12 @@ logo of School for Professionals or one of its brands. The legal text is in
 - Download a logo and use it unaltered in an article, a programme, a
   presentation or an announcement that is about us.
 - Choose the svg for print and screen, or the png when you cannot place an
-  svg. On a colored background, use the on-color variant.
+  svg. On a coloured background, use the on-colour variant.
 - Quote the descriptive text from `branding.md`, with attribution.
 
 ## What you do not do
 
-- Alter the logo. No recoloring, no stretching, no cropping, no shadow or
+- Alter the logo. No recolouring, no stretching, no cropping, no shadow or
   outline, no separating of elements.
 - Build the logo into your own logo, product name, domain name or app icon.
 - Suggest a collaboration, partnership or endorsement that does not exist.
@@ -67,15 +67,15 @@ logo of School for Professionals or one of its brands. The legal text is in
 ## Practical
 
 - Keep clear space around the logo and always scale proportionally.
-- The rules on color, contrast and minimum sizes are in
+- The rules on colours, colour versions and the margin around the logo are in
   [branding.md](branding.md). When in doubt, follow those.
 - If you are unsure whether something is allowed, just ask. That takes less
   time than fixing it afterwards.
 
 ## Typefaces
 
-The files in `fonts/` are third party works and retain their own licenses. We
-do not grant those here. Which license applies to which file is listed in
+The files in `fonts/` are third party works and retain their own licences. We
+do not grant those here. Which licence applies to which file is listed in
 [fonts/LETTERTYPEN.md](fonts/LETTERTYPEN.md).
 
 ## Contact
