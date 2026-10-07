@@ -49,7 +49,7 @@ Loop na afloop je uitvoer langs deze bron en meld wat je hebt nagekeken.
 | Hoofdletters | de twee lijsten bij Hoofdlettergebruik |
 | Logo | de kleurversie die bij de achtergrond hoort, en de naam die type D bij dit merk draagt |
 | Schrijfstijl | de taal van het merk, de juiste aanspreekvorm, actieve vorm, geen naamwoordstijl |
-| Knoppen | knopkleur uit de rol links en knoppen, radius 3 px, primair en secundair even groot |
+| Knoppen en velden | knopkleur uit de rol links en knoppen, radius 6 px voor knoppen en formuliervelden, primair en secundair even groot |
 
 Meld elke afwijking, ook een kleine. Verzin nooit een waarde die hier niet staat. Ontbreekt iets in deze bron, dan is dat een vraag aan de gebruiker en geen eigen keuze. Die stel je zo mogelijk met AskUserQuestion.
 
@@ -451,7 +451,7 @@ Geen andere groenen, roden of gelen met een functionele betekenis. Een lege ster
 
 ### Knoppen
 
-De radius is 3 px, op alle acht merken.
+De radius is 6 px, op alle acht merken, voor elke soort knop. Formuliervelden voeren dezelfde radius.
 
 Een primaire en een secundaire knop naast elkaar renderen even groot: gelijke padding, minimumhoogte, lettergrootte en radius. Alleen de vulling verschilt.
 
@@ -581,6 +581,7 @@ In gewone letters:
 
 - Body: alinea's, opsommingen en tabelcellen.
 - Het kruimelpad.
+- De vraag in een FAQ.
 - Alles in een formulier: het opschrift van een veld, de helptekst, de tijdelijke tekst in het veld, de foutmelding en de invoer van de bezoeker.
 - Adresgegevens, juridische teksten, en alles wat een eigennaam, domein of e-mailadres letterlijk moet weergeven.
 
