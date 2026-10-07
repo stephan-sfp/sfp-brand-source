@@ -456,7 +456,7 @@ Welke rol een onderdeel voert, staat hier. Er komen geen kleuren bij: elk onderd
 | Tekstlink op een lichte achtergrond | Links en knoppen, onderstreept. Bij DPS, DST en FL de primaire kleur, onderstreept. |
 | Tekstlink op een donkere achtergrond | Wit, onderstreept, bij alle acht merken |
 | Tekstlink onder de muis | De tekstkleur blijft. De onderstreping wordt 3 px dik en krijgt de kleur Links en knoppen. Bij alle acht merken, op een lichte en een donkere achtergrond. |
-| Tweede call-to-action | Een tekstlink met een pijl erachter, geen tweede knop. Hij voert de kleur van de tekstlink op die achtergrond. |
+| Tweede call-to-action | Een tekstlink met een pijl erachter, geen tweede knop. Hij voert de kleur van de tekstlink op die achtergrond, in het bodyfont op gewicht 700, in gewone letters en onderstreept. |
 | Kop | Primair, op een donkere achtergrond wit |
 | Focusrand | Primair, op een donkere achtergrond wit |
 | Rand van een formulierveld | Primair met transparantie |
@@ -592,6 +592,7 @@ In gewone letters:
 - Body: alinea's, opsommingen en tabelcellen.
 - Het kruimelpad.
 - De vraag in een FAQ.
+- De tweede call-to-action, die een tekstlink is en geen knop.
 - Alles in een formulier: het opschrift van een veld, de helptekst, de tijdelijke tekst in het veld, de foutmelding en de invoer van de bezoeker.
 - Adresgegevens, juridische teksten, en alles wat een eigennaam, domein of e-mailadres letterlijk moet weergeven.
 
