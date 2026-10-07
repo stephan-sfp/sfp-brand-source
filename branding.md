@@ -426,8 +426,8 @@ Elk merk voert dezelfde rollen. Welke hexcode bij welke rol hoort staat in het m
 | Primair | Het donkere anker: koppen, de footer, donkere secties, de tegel EA. |
 | Secundair | De heldere merkkleur: accenten, iconen, gekleurde secties, de tegel EB. |
 | Tertiair | Een derde kleur, voor merken die er een voeren. |
-| Links en knoppen | De vulling van een knop, en links in de lopende tekst bij merken met witte knoptekst. Altijd een warme kleur, van oranje tot rood, bij elk merk. |
-| Hover | Dezelfde knop onder de muis, en bij merken met witte knoptekst ook de tekstlink. Een donkerdere versie van de vorige rol, behalve waar het merkblok anders zegt. |
+| Links en knoppen | De vulling van een knop, links in de lopende tekst bij merken met witte knoptekst, en de onderstreping van elke link onder de muis. Altijd een warme kleur, van oranje tot rood, bij elk merk. |
+| Hover | Dezelfde knop onder de muis. Een donkerdere versie van de vorige rol, behalve waar het merkblok anders zegt. |
 | Tint 1 | De donkerste van de drie lichte tinten. Voor een blok dat nog contrast moet dragen. |
 | Tint 2 | Een lichte achtergrond voor een sectie. |
 | Tint 3 | Bijna wit. Voor een sectie die zich net van de pagina moet onderscheiden. |
@@ -455,6 +455,7 @@ Welke rol een onderdeel voert, staat hier. Er komen geen kleuren bij: elk onderd
 | Knop onder de muis | Hover |
 | Tekstlink op een lichte achtergrond | Links en knoppen, onderstreept. Bij DPS, DST en FL de primaire kleur, onderstreept. |
 | Tekstlink op een donkere achtergrond | Wit, onderstreept, bij alle acht merken |
+| Tekstlink onder de muis | De tekstkleur blijft. De onderstreping wordt 3 px dik en krijgt de kleur Links en knoppen. Bij alle acht merken, op een lichte en een donkere achtergrond. |
 | Tweede call-to-action | Een tekstlink met een pijl erachter, geen tweede knop. Hij voert de kleur van de tekstlink op die achtergrond. |
 | Kop | Primair, op een donkere achtergrond wit |
 | Focusrand | Primair, op een donkere achtergrond wit |
