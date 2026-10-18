@@ -117,8 +117,8 @@ Schrijftaal: Nederlands.
 |---|---|
 | Primair | `#2E2864` |
 | Secundair | `#00B0E3` |
-| Links en knoppen | `#C95100` |
-| Hover | `#A84400` |
+| Links en knoppen | `#FF6803` |
+| Hover | `#E05A00` |
 | Tint 1 | `#A1D9F4` |
 | Tint 2 | `#D4EDFA` |
 | Tint 3 | `#F7FCFE` |
@@ -127,7 +127,7 @@ Schrijftaal: Nederlands.
 
 Dit merk voert geen tertiair.
 
-Dit merk voert witte knoptekst. Een tekstlink op een lichte achtergrond staat in de primaire kleur, onderstreept.
+Dit merk voert witte knoptekst. Een tekstlink op een lichte achtergrond staat in de primaire kleur, onderstreept. De witte knoptekst is een bewuste uitzondering op de regel van 4,5 contrast: wit op de knop haalt 2,9, onder de muis 3,7.
 
 ## Typografie
 
