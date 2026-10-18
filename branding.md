@@ -117,8 +117,8 @@ Schrijftaal: Nederlands.
 |---|---|
 | Primair | `#2E2864` |
 | Secundair | `#00B0E3` |
-| Links en knoppen | `#FF6803` |
-| Hover | `#FF954F` |
+| Links en knoppen | `#C95100` |
+| Hover | `#A84400` |
 | Tint 1 | `#A1D9F4` |
 | Tint 2 | `#D4EDFA` |
 | Tint 3 | `#F7FCFE` |
@@ -127,7 +127,7 @@ Schrijftaal: Nederlands.
 
 Dit merk voert geen tertiair.
 
-Dit merk voert donkere knoptekst. De tekst op een knop staat in de primaire kleur, en een tekstlink op een lichte achtergrond ook, onderstreept. De hover is hier lichter in plaats van donkerder: een donkerdere knop zou met de primaire kleur geen 4,5 contrast meer halen.
+Dit merk voert witte knoptekst. Een tekstlink op een lichte achtergrond staat in de primaire kleur, onderstreept.
 
 ## Typografie
 
@@ -451,7 +451,7 @@ Welke rol een onderdeel voert, staat hier. Er komen geen kleuren bij: elk onderd
 | Onderdeel | Rol |
 |---|---|
 | Knopvulling | Links en knoppen |
-| Knoptekst | Wit. Bij DPS, DST en FL de primaire kleur. |
+| Knoptekst | Wit. Bij DST en FL de primaire kleur. |
 | Knop onder de muis | Hover |
 | Tekstlink op een lichte achtergrond | Links en knoppen, onderstreept. Bij DPS, DST en FL de primaire kleur, onderstreept. |
 | Tekstlink op een donkere achtergrond | Wit, onderstreept, bij alle acht merken |
