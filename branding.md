@@ -426,7 +426,7 @@ Elk merk voert dezelfde rollen. Welke hexcode bij welke rol hoort staat in het m
 | Primair | Het donkere anker: koppen, de footer, donkere secties, de tegel EA. |
 | Secundair | De heldere merkkleur: accenten, iconen, gekleurde secties, de tegel EB. |
 | Tertiair | Een derde kleur, voor merken die er een voeren. |
-| Links en knoppen | De vulling van een knop, links in de lopende tekst bij merken met witte knoptekst, en de onderstreping van elke link onder de muis. Altijd een warme kleur, van oranje tot rood, bij elk merk. |
+| Links en knoppen | De vulling van een knop, links in de lopende tekst bij merken met witte knoptekst (behalve DPS, zie het merkblok), en de onderstreping van elke link onder de muis. Altijd een warme kleur, van oranje tot rood, bij elk merk. |
 | Hover | Dezelfde knop onder de muis. Een donkerdere versie van de vorige rol, behalve waar het merkblok anders zegt. |
 | Tint 1 | De donkerste van de drie lichte tinten. Voor een blok dat nog contrast moet dragen. |
 | Tint 2 | Een lichte achtergrond voor een sectie. |
