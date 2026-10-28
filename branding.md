@@ -566,7 +566,7 @@ Een pagina mag van de H1-maat afwijken, maar alleen per pagina en alleen als dat
 
 ### Kopblokken
 
-Een kop in de inhoud is op alle acht sites een Spectra-kop (`uagb/advanced-heading`), nooit het standaard kopblok van WordPress. Dat geldt voor pagina's, berichten, begrippen, tools en gedeelde blokken zoals Astra-hooks.
+Een kop in de inhoud is op alle acht sites het standaard kopblok van WordPress (`core/heading`), nooit een Spectra-kop. Spectra gaat netwerkbreed uit. Dat geldt voor pagina's, berichten, begrippen, tools en gedeelde blokken zoals Astra-hooks.
 
 - Opvulling 8 px boven en 8 px onder, 0 links en rechts.
 - Geen eigen kleur, font, grootte of gewicht. De kop erft alles van Astra, zodat de typografie en de groottes hierboven overal gelijk werken.
