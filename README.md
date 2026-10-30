@@ -11,6 +11,7 @@ De bron is **[`branding.md`](branding.md)**. Eén bestand, met de acht netwerkme
 | Pad | Inhoud |
 |---|---|
 | `branding.md` | De bron: acht netwerkmerken, Reviravolta Publishing en de netwerknormen |
+| `kernwaarden.md` | De Engelse en Portugese vertaling van de kernwaarden; de bron staat in `branding.md` |
 | `logos/<merk>/` | De logobestanden in `svg`, `png`, `svg-op-kleur` en `png-op-kleur` |
 | `fonts/` | De lettertypebestanden die de merken voeren |
 

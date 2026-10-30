@@ -45,11 +45,13 @@ Loop na afloop je uitvoer langs deze bron en meld wat je hebt nagekeken.
 | Controle | Waaraan |
 |---|---|
 | Kleuren | de kleurtabel van het merkblok, plus de drie functionele kleuren uit de netwerknormen, en niets daarbuiten |
-| Typografie | het H1-font, H2 tot H6, de groottes, en de woordafstand als het merk Rubik Mono One voert |
+| Typografie | het H1-font, H2 tot H6, de groottes, de kernzin, de leesbreedte en het afbreken, en de woordafstand als het merk Rubik Mono One voert |
 | Hoofdletters | de twee lijsten bij Hoofdlettergebruik |
 | Logo | de kleurversie die bij de achtergrond hoort, en de naam die type D bij dit merk draagt |
 | Schrijfstijl | de taal van het merk, de juiste aanspreekvorm, actieve vorm, geen naamwoordstijl |
-| Knoppen en velden | de tabel Kleur per onderdeel, contrast minstens 4,5 ook onder de muis, radius 6 px voor knoppen en formuliervelden, de tweede call-to-action als tekstlink met pijl |
+| Knoppen en velden | de tabel Kleur per onderdeel, contrast minstens 4,5 ook onder de muis, radius 6 px voor knoppen, formuliervelden, kaarten en vlakken, de tweede call-to-action als tekstlink met pijl |
+| Kernwaarden | de controlevragen van Robuust, Eenvoudig en Aansprekend |
+| Pagina-opbouw | kern bovenaan, een actie als slot, navigatie in beeld, en de regels voor uitklappen, tooltip en klikbare kaart |
 
 Meld elke afwijking, ook een kleine. Verzin nooit een waarde die hier niet staat. Ontbreekt iets in deze bron, dan is dat een vraag aan de gebruiker en geen eigen keuze. Die stel je zo mogelijk met AskUserQuestion.
 
@@ -415,6 +417,98 @@ Deze normen gelden identiek voor alle acht merken en alle acht sites. Identiek b
 
 Verschilt een site van een andere zonder dat het uit hun merkblokken volgt, dan is dat drift. Drift wordt gemeld en opgeheven, niet gelaten omdat het zo gegroeid is.
 
+## Kernwaarden
+
+De Engelse en Portugese versie staan in `kernwaarden.md`. Dit bestand is de bron; bij een wijziging gaat kernwaarden.md mee.
+
+Namen per taal: Robuust, Eenvoudig, Aansprekend (nl); Robust, Simple, Appealing (en); Robusto, Simples, Cativante (pt-BR). Elk ontwerp en elke tekst doorstaat de controlevragen.
+
+Alles wat we maken moet robuust, eenvoudig en aansprekend zijn.
+
+Deze waarden gelden voor alles wat we namens onze merken naar buiten brengen. Met ‘de lezer’ bedoelen we iedereen die iets van ons ziet: een website, een offerte, een slide of een bericht op sociale media.
+
+### Robuust
+
+**Kernvraag:** Kan de lezer vertrouwen op wat hij ziet?
+
+Alles past bij elkaar. Elk onderdeel is ook afzonderlijk te begrijpen. Wat we maken, werkt in elk formaat en is toegankelijk voor zoveel mogelijk mensen. We maken waar wat we in woord en beeld beloven.
+
+**Grens:** Stevig en samenhangend, zonder log of ingewikkeld te worden.
+
+**Toelichting:**
+
+- We beginnen bij het kleinste formaat en werken van daaruit naar grotere formaten. Op websites is de mobiele weergave het uitgangspunt, geen verkleinde desktopversie of apart ontwerp.
+- Op websites blijft de navigatie altijd binnen bereik: wie naar beneden scrolt, kan snel terug naar boven.
+
+**Controlevragen:**
+
+1. **Samenhang:** Past dit onderdeel qua vorm en toon bij de rest, bij het merk en bij ons netwerk?
+2. **Zelfstandig te begrijpen:** Begrijpt de lezer dit onderdeel ook zonder de rest te zien?
+3. **Toegankelijkheid:** Kunnen zoveel mogelijk mensen dit lezen en gebruiken, ook mensen die slecht zien, kleurenblind zijn of een motorische beperking hebben?
+4. **Betrouwbaarheid:** Maken we waar wat we hier in woord en beeld beloven?
+5. **Juistheid:** Zijn feiten en claims juist, actueel en controleerbaar?
+6. **Kleine schermen (web):** Werkt dit op een scherm van 320 pixels breed, zonder onbedoeld horizontaal scrollen? Is de belangrijkste actie binnen bereik?
+7. **Bediening (web):** Is alles met alleen een toetsenbord te bedienen?
+8. **Navigatie in beeld (web):** Kan de bezoeker vanaf elke plek op de pagina snel terug naar boven en naar het menu?
+9. **Toegankelijkheidsnorm (web):** Voldoet dit aan WCAG 2.2, niveau AA?
+
+### Eenvoudig
+
+**Kernvraag:** Vindt de lezer moeiteloos zijn weg?
+
+De lezer ziet meteen waar het over gaat en wat hij kan doen. We beginnen met de kern en geven daarna meer informatie, in overzichtelijke stappen. Alles wat nodig is, staat erin; alles wat afleidt, laten we weg.
+
+**Grens:** Eenvoud mag niet ten koste gaan van de inhoud. We helpen de lezer op weg, zonder hem te sturen naar iets wat hij niet wil.
+
+**Toelichting:**
+
+- We verminderen het aantal stappen en halen obstakels weg, zodat minder uitleg nodig is.
+- We maken de volgende stap makkelijk, zonder druk uit te oefenen.
+- De lezer beslist zelf wat hij doet.
+
+**Controlevragen:**
+
+1. **Eerste indruk:** Ziet de lezer meteen waar het over gaat en wat hij kan doen?
+2. **Opbouw:** Staat de kern voorop? Volgen de details in een logische volgorde en blijft het geheel overzichtelijk?
+3. **Volgende stap:** Is steeds duidelijk hoe de lezer verder kan?
+4. **Gebruiksgemak:** Kan iemand die dit voor het eerst ziet doen wat hij wil doen, zonder uitleg of zoekwerk?
+5. **Volledigheid:** Heeft de lezer alle informatie die nodig is om de volgende stap te zetten?
+6. **Begrijpelijke taal:** Begrijpt onze doelgroep de woorden en voorbeelden?
+7. **Schrappen:** Zou de lezer iets missen als we dit weghalen? Zo niet, schrap het en controleer of de overige criteria nog kloppen.
+8. **Navigatie (web):** Is op elk schermformaat en overal op de pagina duidelijk hoe de bezoeker verder kan?
+
+### Aansprekend
+
+**Kernvraag:** Krijgt de lezer zin om verder te kijken?
+
+We spreken de lezer rechtstreeks aan, betrekken hem bij het onderwerp en maken hem nieuwsgierig. Beeld, letters, kleuren en toon zorgen samen voor een frisse, krachtige, energieke en positieve uitstraling. De actiekleur gebruiken we alleen voor onderdelen waarmee de lezer iets kan doen.
+
+**Grens:** We trekken de aandacht zonder te schreeuwen, te versieren of te joviaal te worden.
+
+**Toelichting:**
+
+- We maken nieuwsgierig met inhoud die de moeite waard is.
+- We overtuigen eerlijk, zonder de werkelijkheid te verdraaien.
+- **Fris:** Een heldere uitstraling die niet afhankelijk is van de laatste mode.
+- **Krachtig:** Duidelijk en overtuigend, zonder de lezer te overstemmen.
+- **Energiek:** Er zit vaart in, zonder dat het onrustig wordt.
+- **Positief:** We geloven dat mensen zich kunnen ontwikkelen en laten zien wat mogelijk is. Dat doen we met nuchter optimisme, zonder overdreven enthousiasme.
+- **Op websites:** We maken links en knoppen herkenbaar volgens de huisstijl van het merk. Zo ziet de bezoeker meteen waarop hij kan klikken.
+
+**Controlevragen:**
+
+1. **Persoonlijk aanspreken:** Spreken we de lezer rechtstreeks aan in de opening, bij de overgangen en wanneer we hem uitnodigen iets te doen?
+2. **Nieuwsgierigheid:** Geeft dit onderdeel de lezer een reden om verder te kijken?
+3. **Relevantie:** Sluit dit aan op een concrete vraag of behoefte van de lezer?
+4. **Uitstraling:** Zorgen beeld, letters, kleuren en toon ook zonder de actiekleur voor een frisse, krachtige, energieke en positieve uitstraling?
+5. **Kleurgebruik:** Gebruiken we de actiekleur uitsluitend voor onderdelen waarmee de lezer iets kan doen?
+
+### Samenhang
+
+Een goede oproep tot actie laat alle drie de waarden zien: de lezer vindt de knop waar hij die verwacht, kan vertrouwen op wat we beloven en krijgt zin om de volgende stap te zetten.
+
+Denk aan LEGO: losse blokken die precies op elkaar passen, waarmee je zonder bouwtekening aan de slag kunt en die uitnodigen om iets te maken. De eenvoud van gewone LEGO, zonder de grove blokken van DUPLO of de ingewikkelde constructies van LEGO Technic.
+
 ## Kleuranatomie
 
 Een kleur heeft in dit systeem een rol: de taak die hij vervult. `#EE0500` is bij CVD niet zomaar rood, het is de kleur van links en knoppen. Die rol staat in de linkerkolom van elke kleurtabel, de hexcode ernaast. Verandert er ooit een kleur, dan verandert de hexcode en blijft de rol staan.
@@ -423,7 +517,7 @@ Elk merk voert dezelfde rollen. Welke hexcode bij welke rol hoort staat in het m
 
 | Rol | Waar hij landt |
 |---|---|
-| Primair | Het donkere anker: koppen, de footer, donkere secties, de tegel EA. |
+| Primair | Het donkere anker: koppen, kernzinnen, de footer, donkere secties, de knop terug naar boven, het vak van een tooltip, de tegel EA. |
 | Secundair | De heldere merkkleur: accenten, iconen, gekleurde secties, de tegel EB. |
 | Tertiair | Een derde kleur, voor merken die er een voeren. |
 | Links en knoppen | De vulling van een knop, links in de lopende tekst bij merken met witte knoptekst (behalve DPS, zie het merkblok), en de onderstreping van elke link onder de muis. Altijd een warme kleur, van oranje tot rood, bij elk merk. |
@@ -441,7 +535,7 @@ Hoe die drie tinten berekend worden is alleen nodig bij een nieuw merk of bij he
 ### Drie harde regels
 
 - Geen enkel merk voert een grijs vlak. Grijs bestaat uitsluitend als bodytekst. Randen en lijnen komen uit de merkkleuren, of uit de primaire kleur met transparantie.
-- De knopkleur komt altijd uit de rol links en knoppen, en nooit uit een hoofdkleur.
+- De knopkleur komt altijd uit de rol links en knoppen, en nooit uit een hoofdkleur. De enige uitzondering is de knop terug naar boven: die is navigatie en geen oproep tot actie, zie Navigatie in beeld.
 - Tekst haalt minstens 4,5 contrast op zijn achtergrond, ook op een knop en ook onder de muis. Dat is de norm WCAG AA voor tekst van gewone grootte.
 
 ### Kleur per onderdeel
@@ -458,6 +552,9 @@ Welke rol een onderdeel voert, staat hier. Er komen geen kleuren bij: elk onderd
 | Tekstlink onder de muis | De tekstkleur blijft. De onderstreping wordt 3 px dik en krijgt de kleur Links en knoppen. Bij alle acht merken, op een lichte en een donkere achtergrond. |
 | Tweede call-to-action | Een tekstlink met een pijl erachter, geen tweede knop. Hij voert de kleur van de tekstlink op die achtergrond, in het bodyfont op gewicht 900, in gewone letters en onderstreept. |
 | Kop | Primair, op een donkere achtergrond wit |
+| Kernzin | Primair, op een donkere achtergrond wit |
+| Knop terug naar boven | Primair, met een witte pijl |
+| Tooltip | Het woord houdt de tekstkleur, met een stippellijn in die kleur. Het vak is primair met witte tekst. |
 | Focusrand | Primair, op een donkere achtergrond wit |
 | Rand van een formulierveld | Primair met transparantie |
 
@@ -475,13 +572,39 @@ Geen andere groenen, roden of gelen met een functionele betekenis. Een lege ster
 
 ### Knoppen
 
-De radius is 6 px, op alle acht merken, voor elke soort knop. Formuliervelden voeren dezelfde radius.
+De radius is 6 px, op alle acht merken, voor elke soort knop. Formuliervelden, kaarten, tekstvakken en andere vlakken voeren dezelfde radius.
 
 Een call-to-action voert één knop. Het alternatief ernaast is een tekstlink met een pijl, zie Kleur per onderdeel. Staan er toch twee knoppen naast elkaar, zoals in een formulier, dan renderen ze even groot: gelijke padding, minimumhoogte, lettergrootte en radius.
 
 ### Longread-navigatie
 
-De hoofdstukbalk voert de kleur voor links en knoppen. De inhoudsopgave voert de primaire merkkleur, met de expliciete uitzondering van FL: daar voert de inhoudsopgave zwart uit de secundaire kleur. Knoppen en de inhoudsopgave gebruiken het H2-tot-H6-lettertype van het merk, op gewicht 900.
+De hoofdstukbalk voert de kleur voor links en knoppen. De inhoudsopgave voert de primaire merkkleur, bij alle acht merken. Knoppen en de inhoudsopgave gebruiken het H2-tot-H6-lettertype van het merk, op gewicht 900.
+
+## Pagina-opbouw en interactie
+
+Deze regels werken de kernwaarden uit voor het web. Ze gelden op alle acht sites gelijk.
+
+### Trechter
+
+Een pagina begint met de kern en wordt pas verderop gedetailleerder, nooit te complex. Bovenaan staat in één oogopslag waar het over gaat en wat de lezer kan doen. Detail staat lager of achter een uitklapknop.
+
+Een pagina eindigt altijd met een actie: één knop, eventueel met een tekstlink als tweede actie. Een zin vlak voor de knop spreekt de lezer rechtstreeks aan en leidt naar de actie.
+
+### Navigatie in beeld
+
+De header met het logo en de navigatie blijft bij het scrollen bovenaan staan. Na een stuk scrollen verschijnt rechtsonder een knop terug naar boven: een vierkant van 48 px met radius 6 px, in de primaire kleur met een witte pijl. Hij voert niet de kleur links en knoppen, want hij is navigatie en geen oproep tot actie.
+
+### Uitklappen
+
+Een uitklapknop is een tekstlink in de kleur van de tekstlink, met een pijl die bij openen draait. Na openen schuift de pagina zacht naar de knop, zodat de inhoud in beeld komt. De inhoud verschijnt met een korte overgang. Wie in zijn apparaat minder beweging heeft ingesteld, krijgt geen animatie en geen zacht scrollen.
+
+### Tooltip
+
+Een tooltip legt een begrip uit zonder de tekst te onderbreken. Het woord krijgt een stippellijn eronder in de kleur van de tekst, niet in de kleur links en knoppen, zodat het niet leest als een spelfout. De uitleg verschijnt bij aanwijzen, tikken of tabben, in een vak in de primaire kleur met witte tekst en radius 6 px. Een tooltip staat nooit in een element dat zelf een link is.
+
+### Klikbare kaart
+
+Een kaart die naar een andere plek leidt, is als geheel klikbaar: één link om de hele kaart. Onder in de kaart staat een tekstlink met pijl als zichtbare aanwijzing. Onder de muis komt de kaart iets omhoog en krijgt hij een zachte schaduw in de primaire kleur met transparantie, nooit in grijs.
 
 ## Schrijfstijl
 
@@ -526,7 +649,7 @@ Bij SFP en SLB luidt de eerste regel anders, omdat die merken twee talen voeren.
 
 ## Typografie
 
-H1 en de titel staan in de zwaarste displayfont. H2 tot en met H6 en de ondertitels staan in de bold-variant. De body blijft Roboto.
+H1 en de titel staan in de zwaarste displayfont. H2 tot en met H6 en de ondertitels staan in de bold-variant. De body en de kernzin blijven Roboto.
 
 In Astra staat het basis-kopfont op de bold-variant, en alleen H1 apart op de displayfont.
 
@@ -558,11 +681,25 @@ Een kop schaalt mee met de schermbreedte en blijft tussen een kleinste en een gr
 
 Een H1 met de klasse `h1-xl` voert een eigen regel: `clamp(32px, 3.5vw + 18px, 46px)`. Die klasse is bedoeld voor de hero-kop bovenaan een pagina.
 
+Een kaarttitel voert de H3-schaal, ook als hij in de HTML een H2 is. Zo past een lange merkterm in een smalle kaart zonder af te breken.
+
 Body Roboto 16 px op gewicht 400, vet op 700, en cursief in beide gewichten.
 
 Gewicht 700 komt in koppen niet voor. Een kop staat op 900, of op 400 als het merk een displayfont voert die alleen dat gewicht kent.
 
 Een pagina mag van de H1-maat afwijken, maar alleen per pagina en alleen als dat vooraf is afgesproken. Een homepage of een over-pagina is daar de meest waarschijnlijke kandidaat voor. Zonder die afspraak geldt de regel hierboven.
+
+### Kernzin
+
+Een kernzin is de ene zin die de boodschap van een blok draagt: de openingszin onder een paginatitel, de vraag op een kaart, de slotzin vóór een knop. Hij staat in Roboto 700, in de primaire kleur en in gewone letters. Onder een paginatitel schaalt hij mee: `clamp(18px, 1.5vw + 12px, 24px)`. Elders staat hij op 18 px. Hooguit één kernzin per blok.
+
+Een kernzin is geen ondertitel. Een ondertitel staat in het kopfont en in hoofdletters; een kernzin is een gewone zin die leesbaar moet blijven.
+
+### Leesbreedte en afbreken
+
+Lopende tekst en kernzinnen lopen tot ongeveer 66 tekens per regel. Alle tekst in één blok houdt dezelfde breedte aan, zodat de rechterrand niet verspringt.
+
+Koppen en kernzinnen breken gebalanceerd af (`text-wrap: balance`): even lange regels, geen los woord op de laatste regel. Koppen krijgen geen automatische woordafbreking (`hyphens: manual`).
 
 ### Kopblokken
 
@@ -570,6 +707,7 @@ Een kop in de inhoud is op alle acht sites het standaard kopblok van WordPress (
 
 - Opvulling 8 px boven en 8 px onder, 0 links en rechts.
 - Geen eigen kleur, font, grootte of gewicht. De kop erft alles van Astra, zodat de typografie en de groottes hierboven overal gelijk werken.
+- Uitzondering: een kaarttitel voert de H3-schaal, ook als hij een H2 is, zie Groottes.
 - Uitzondering: staat een kop op een donkere achtergrond, dan mag hij een kleur krijgen, en alleen via een Astra global color (`var(--ast-global-color-N)`), nooit als hexcode.
 - Het koptype (H2, H3 enzovoort) volgt de structuur van de pagina, niet de gewenste grootte.
 
@@ -593,6 +731,9 @@ In gewone letters:
 - Het kruimelpad.
 - De vraag in een FAQ.
 - De tweede call-to-action, die een tekstlink is en geen knop.
+- Elke andere tekstlink, ook de aanwijzing onder in een klikbare kaart en het label van een uitklapknop.
+- Kernzinnen: de openingszin onder een paginatitel, de vraag op een kaart en de slotzin vóór een knop.
+- De uitleg in een tooltip.
 - Alles in een formulier: het opschrift van een veld, de helptekst, de tijdelijke tekst in het veld, de foutmelding en de invoer van de bezoeker.
 - Adresgegevens, juridische teksten, en alles wat een eigennaam, domein of e-mailadres letterlijk moet weergeven.
 
@@ -614,7 +755,7 @@ De bestanden staan in `fonts/`. Op de sites komen ze van Google Fonts, lokaal ge
 | `RubikMonoOne-Regular.ttf` | Rubik Mono One | 400 | H1 van DGA, DST, SLB, SwS en FL |
 | `Rubik-Black.ttf` | Rubik Black | 900 | H2 tot H6 van DGA, DST, SLB, SwS en FL |
 | `Roboto-Regular.ttf` | Roboto | 400 | Body van alle acht |
-| `Roboto-Bold.ttf` | Roboto | 700 | Vette body van alle acht |
+| `Roboto-Bold.ttf` | Roboto | 700 | Vette body en de kernzin van alle acht |
 | `Roboto-Italic.ttf` | Roboto | 400 cursief | Cursieve body van alle acht |
 | `Roboto-BoldItalic.ttf` | Roboto | 700 cursief | Vette cursieve body van alle acht |
 | `Roboto-Black.ttf` | Roboto Black | 900 | De tweede call-to-action van alle acht |
