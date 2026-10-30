@@ -30,7 +30,7 @@ Hoofdletters of kleine letters maken niet uit: `dst` en `DST` zijn hetzelfde. In
 
 Noemt de gebruiker geen merk, dan vraag je om welk merk het gaat. Kies er zelf nooit een, ook SFP niet.
 
-Gebruik het merkblok en de netwerknormen altijd samen. De netwerknormen gelden voor de acht bestaande netwerkmerken. Voor Reviravolta Publishing geldt de afbakening in het eigen merkblok. Het merkblok geeft de waarden van dat ene merk: de kleuren, het kopfont, de logobestanden en de taal.
+Gebruik het merkblok en de netwerknormen altijd samen. De netwerknormen gelden voor de acht bestaande netwerkmerken. Voor Reviravolta Publishing geldt de afbakening in het eigen merkblok; de kernwaarden gelden wel voor Reviravolta. Het merkblok geeft de waarden van dat ene merk: de kleuren, het kopfont, de logobestanden en de taal.
 
 Heeft een merk een uitzondering op een netwerknorm, dan staat die opgeschreven: in de norm zelf of in het merkblok. Een uitzondering die nergens staat, bestaat niet.
 
@@ -407,7 +407,7 @@ De ontwerpreferentie is een rasterafbeelding en geen drukklare master. Definitie
 
 ## Relatie tot de netwerknormen
 
-De goedgekeurde gestapelde opbouw, zwart-wituitvoering en regel PUBLISHING vormen het specifieke logobesluit voor deze uitgeverij. De bestaande voorschriften voor de acht websites blijven ongewijzigd. Een domein, schrijftalen, webtypografie, volledig websitepalet en volledige netwerkset van 52 logobestanden zijn voor Reviravolta nog niet vastgesteld. Die worden niet uit andere merken overgenomen zonder afzonderlijk besluit.
+De goedgekeurde gestapelde opbouw, zwart-wituitvoering en regel PUBLISHING vormen het specifieke logobesluit voor deze uitgeverij. De bestaande voorschriften voor de acht websites blijven ongewijzigd. Een domein, schrijftalen, webtypografie, volledig websitepalet en volledige netwerkset van 52 logobestanden zijn voor Reviravolta nog niet vastgesteld. Die worden niet uit andere merken overgenomen zonder afzonderlijk besluit. De kernwaarden uit de netwerknormen gelden wel voor Reviravolta.
 
 ---
 
@@ -425,7 +425,7 @@ Namen per taal: Robuust, Eenvoudig, Aansprekend (nl); Robust, Simple, Appealing 
 
 Alles wat we maken moet robuust, eenvoudig en aansprekend zijn.
 
-Deze waarden gelden voor alles wat we namens onze merken naar buiten brengen. Met ‘de lezer’ bedoelen we iedereen die iets van ons ziet: een website, een offerte, een slide of een bericht op sociale media.
+Deze waarden gelden voor alles wat we namens onze merken naar buiten brengen, ook voor Reviravolta Publishing. Met ‘de lezer’ bedoelen we iedereen die iets van ons ziet: een website, een offerte, een slide of een bericht op sociale media.
 
 ### Robuust
 
@@ -450,7 +450,7 @@ Alles past bij elkaar. Elk onderdeel is ook afzonderlijk te begrijpen. Wat we ma
 6. **Kleine schermen (web):** Werkt dit op een scherm van 320 pixels breed, zonder onbedoeld horizontaal scrollen? Is de belangrijkste actie binnen bereik?
 7. **Bediening (web):** Is alles met alleen een toetsenbord te bedienen?
 8. **Navigatie in beeld (web):** Kan de bezoeker vanaf elke plek op de pagina snel terug naar boven en naar het menu?
-9. **Toegankelijkheidsnorm (web):** Voldoet dit aan WCAG 2.2, niveau AA?
+9. **Toegankelijkheidsnorm (web):** Voldoet dit aan WCAG 2.2, niveau AA, behalve waar een merkblok een uitzondering vastlegt?
 
 ### Eenvoudig
 
@@ -525,7 +525,7 @@ Elk merk voert dezelfde rollen. Welke hexcode bij welke rol hoort staat in het m
 | Tint 1 | De donkerste van de drie lichte tinten. Voor een blok dat nog contrast moet dragen. |
 | Tint 2 | Een lichte achtergrond voor een sectie. |
 | Tint 3 | Bijna wit. Voor een sectie die zich net van de pagina moet onderscheiden. |
-| Wit | De paginagrond, en tekst op een donkere achtergrond. |
+| Wit | De paginagrond, tekst op een donkere achtergrond, en de knop terug naar boven op een donkere achtergrond. |
 | Bodytekst | `#575757`. Lopende tekst, bij elk merk. |
 
 De drie tinten komen uit de kleuren van het merk zelf en lopen af naar bijna wit. Welke kleur de bron is, staat in het merkblok.
@@ -553,7 +553,7 @@ Welke rol een onderdeel voert, staat hier. Er komen geen kleuren bij: elk onderd
 | Tweede call-to-action | Een tekstlink met een pijl erachter, geen tweede knop. Hij voert de kleur van de tekstlink op die achtergrond, in het bodyfont op gewicht 900, in gewone letters en onderstreept. |
 | Kop | Primair, op een donkere achtergrond wit |
 | Kernzin | Primair, op een donkere achtergrond wit |
-| Knop terug naar boven | Primair, met een witte pijl |
+| Knop terug naar boven | Primair met een witte pijl, op een donkere achtergrond wit met een primaire pijl |
 | Tooltip | Het woord houdt de tekstkleur, met een stippellijn in die kleur. Het vak is primair met witte tekst. |
 | Focusrand | Primair, op een donkere achtergrond wit |
 | Rand van een formulierveld | Primair met transparantie |
@@ -592,7 +592,7 @@ Een pagina eindigt altijd met een actie: één knop, eventueel met een tekstlink
 
 ### Navigatie in beeld
 
-De header met het logo en de navigatie blijft bij het scrollen bovenaan staan. Na een stuk scrollen verschijnt rechtsonder een knop terug naar boven: een vierkant van 48 px met radius 6 px, in de primaire kleur met een witte pijl. Hij voert niet de kleur links en knoppen, want hij is navigatie en geen oproep tot actie.
+De header met het logo en de navigatie blijft bij het scrollen bovenaan staan. Na een stuk scrollen verschijnt rechtsonder een knop terug naar boven: een vierkant van 48 px met radius 6 px, in de primaire kleur met een witte pijl. Op een donkere achtergrond is hij wit met een pijl in de primaire kleur. Hij voert niet de kleur links en knoppen, want hij is navigatie en geen oproep tot actie.
 
 ### Uitklappen
 

@@ -6,7 +6,7 @@ Bron: de sectie Kernwaarden in branding.md. Dit bestand bevat alleen de vertalin
 
 Everything we make must be robust, simple and appealing.
 
-These values apply to everything we put out on behalf of our brands. By ‘the reader’ we mean anyone who sees something from us: a website, a proposal, a slide or a social media post.
+These values apply to everything we put out on behalf of our brands, including Reviravolta Publishing. By ‘the reader’ we mean anyone who sees something from us: a website, a proposal, a slide or a social media post.
 
 ### Robust
 
@@ -31,7 +31,7 @@ Everything fits together. Each element also makes sense on its own. What we make
 6. **Small screens (web):** Does this work on a screen 320 pixels wide, without unintended horizontal scrolling? Is the main action within reach?
 7. **Operation (web):** Can everything be operated with a keyboard alone?
 8. **Navigation in view (web):** Can the visitor get back to the top and the menu quickly from anywhere on the page?
-9. **Accessibility standard (web):** Does this meet WCAG 2.2, level AA?
+9. **Accessibility standard (web):** Does this meet WCAG 2.2, level AA, except where a brand block sets out an exception?
 
 ### Simple
 
@@ -94,7 +94,7 @@ Think of LEGO: separate bricks that fit together precisely, that you can start b
 
 Tudo o que criamos precisa ser robusto, simples e cativante.
 
-Estes valores valem para tudo o que publicamos em nome das nossas marcas. Por ‘o leitor’ entendemos qualquer pessoa que vê algo nosso: um site, uma proposta, um slide ou um post nas redes sociais.
+Estes valores valem para tudo o que publicamos em nome das nossas marcas, inclusive a Reviravolta Publishing. Por ‘o leitor’ entendemos qualquer pessoa que vê algo nosso: um site, uma proposta, um slide ou um post nas redes sociais.
 
 ### Robusto
 
@@ -119,7 +119,7 @@ Tudo combina entre si. Cada elemento também faz sentido por si só. O que criam
 6. **Telas pequenas (web):** Funciona em uma tela de 320 pixels de largura, sem rolagem horizontal indesejada? A ação principal está ao alcance?
 7. **Operação (web):** Dá para operar tudo só com o teclado?
 8. **Navegação à vista (web):** O visitante consegue voltar rápido ao topo e ao menu de qualquer ponto da página?
-9. **Norma de acessibilidade (web):** Atende à WCAG 2.2, nível AA?
+9. **Norma de acessibilidade (web):** Atende à WCAG 2.2, nível AA, exceto onde o bloco da marca define uma exceção?
 
 ### Simples
 
