@@ -34,6 +34,7 @@ De termen uit `branding.md` in drie talen. Bij twijfel geldt de Nederlandse term
 | Trechter | Funnel | Funil |
 | Logoregel | Logo line | Linha do logo |
 | Partnerlogo | Partner logo | Logo de parceiro |
+| Eigenaarslogo | Owner logo | Logo de proprietário |
 | Founderlogo | Founder logo | Logo de fundador |
 | Logoslogan | Slogan logo | Logo com slogan |
 | Tegel | Tile | Bloco quadrado |

@@ -254,7 +254,7 @@ De wordmark is tweekleurig. SCHRIJF staat in `#FF9F1C`, dezelfde kleur als de kn
 
 # SLB, Stephan Borggreve
 
-Logoregel: **Founder of School for Professionals**
+Logoregel: **Eigenaar van School for Professionals** (nl), **Founder of School for Professionals** (en)
 
 Schrijftaal: Engels en Nederlands, in die volgorde.
 
@@ -281,7 +281,7 @@ H1 in Rubik Mono One gewicht 400. H2 tot H6 in Rubik gewicht 900. Body in Roboto
 
 ## Logo
 
-De bestanden staan in `logos/slb/`. Type D heet bij dit merk **founderlogo**.
+De bestanden staan in `logos/slb/`. Type D bestaat bij dit merk in twee talen: het **eigenaarslogo** voor de Nederlandse pagina's en het **founderlogo** voor de Engelse. Een pagina voert het type D in de taal van die pagina.
 
 De drie achtergronden zijn `#FFFFFF`, `#242E51` en `#23D366`. De tegels EA en EB staan op navy en groen.
 
@@ -761,7 +761,7 @@ In hoofdletters:
 - Menu-items, in de hoofdnavigatie, het mobiele menu en de footer.
 - Paginering.
 - Badges en korte opschriften die een status of categorie aanduiden, zoals `NIEUW`, `VOL` of een leesduur.
-- De partner-, founder- of sloganregel onder het logo.
+- De partner-, eigenaars-, founder- of sloganregel onder het logo.
 
 In gewone letters:
 
@@ -811,12 +811,12 @@ Voor de kopfonts sluit de norm gewicht 700 uit: Archivo, Nunito en Rubik staan h
 | A | logo: icoon plus wordmark |
 | B | icoon |
 | C | favicon: het beeldmerk op een ronde schijf van 1000x1000 in de achtergrondkleur van die versie |
-| D | partnerlogo, founderlogo of logoslogan, afhankelijk van het merk |
+| D | partnerlogo, eigenaarslogo, founderlogo of logoslogan, afhankelijk van het merk en de taal |
 | E | tegel: vierkante social-avatar |
 
 De tegels heten EA en EB. EA staat op het donkere anker, EB op de merkkleur. Een tegel op wit bestaat niet.
 
-De regel onder de wordmark bij type D staat **altijd in hoofdletters**. Per merk luidt hij anders: "Partner van School for Professionals" bij de vier NL-labels, "By School for Professionals" bij FL, "Partner of School for Professionals" bij SwS en "Founder of School for Professionals" bij SLB. SFP voert zijn eigen slogan.
+De regel onder de wordmark bij type D staat **altijd in hoofdletters**. Per merk luidt hij anders: "Partner van School for Professionals" bij de vier NL-labels, "By School for Professionals" bij FL, "Partner of School for Professionals" bij SwS en bij SLB "Eigenaar van School for Professionals" in het Nederlands en "Founder of School for Professionals" in het Engels. SFP voert zijn eigen slogan.
 
 Deze regel is ook de sitetagline van dat merk. Het veld Logoregel bovenaan elk merkblok noemt hem, zodat je hem niet uit de logobestanden hoeft te lezen.
 
@@ -847,7 +847,7 @@ Het favicon, type C, voert per merk deze kleurversie:
 
 Gekozen op leesbaarheid op 16 px, op een lichte en op een donkere tabbalk.
 
-De header voert type D, het partner-, founder- of sloganlogo, in de kleurversie die bij de achtergrond van de header hoort.
+De header voert type D, het partner-, eigenaars-, founder- of sloganlogo, in de taal van de pagina en in de kleurversie die bij de achtergrond van de header hoort.
 
 ### Twee leveringen
 
@@ -882,4 +882,4 @@ De PNG's worden uit de SVG gerenderd op een vaste breedte: A en D op 2000, B op 
 
 ### Omvang van de set
 
-Per merk 52 bestanden. De types A tot en met D maal drie kleurversies is twaalf beelden, plus de twee tegels is veertien. Die veertien staan transparant in de map, en twaalf ervan ook op kleur, want tegels dragen hun kleur al. Samen zesentwintig, maal twee formaten is tweeënvijftig. Voor acht merken 416 in totaal.
+Per merk 52 bestanden. De types A tot en met D maal drie kleurversies is twaalf beelden, plus de twee tegels is veertien. Die veertien staan transparant in de map, en twaalf ervan ook op kleur, want tegels dragen hun kleur al. Samen zesentwintig, maal twee formaten is tweeënvijftig. SLB voert type D in twee talen en heeft daardoor twaalf bestanden meer, 64 in totaal. Voor acht merken 428 in totaal.
