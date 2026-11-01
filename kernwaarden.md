@@ -90,6 +90,42 @@ A good call to action shows all three values: the reader finds the button where 
 
 Think of LEGO: separate bricks that fit together precisely, that you can start building with without instructions and that invite you to make something. The simplicity of regular LEGO, without the chunky bricks of DUPLO or the complex constructions of LEGO Technic.
 
+### For visitors
+
+**Title:** Our core values
+
+**Key sentence:** Everything we make must be robust, simple and appealing.
+
+**Introduction:** That goes for everything you see from us, from a website to a proposal or a presentation.
+
+#### Robust
+
+**Question:** Can you trust what you see?
+
+Everything fits together, and each part also makes sense on its own. What we make works on every screen and is accessible to as many people as possible. And what we promise, we deliver.
+
+**Boundary:** Solid and coherent, without becoming heavy or complicated.
+
+#### Simple
+
+**Question:** Do you find your way easily?
+
+You see at once what it is about and what you can do. We start with the main point and then give you more, in clear steps. What you need is there; what distracts, we leave out.
+
+**Boundary:** Simplicity never comes at the expense of content. We help you along, without steering you towards something you don't want.
+
+#### Appealing
+
+**Question:** Do you want to explore further?
+
+We address you directly and make you curious with content worth your time. Images, type, colours and tone are fresh, powerful, energetic and positive.
+
+**Boundary:** We draw your attention without being loud, overly decorative or overfamiliar.
+
+#### Together
+
+Think of LEGO: separate bricks that fit together precisely, that you can start building with without instructions and that invite you to make something.
+
 ## Português do Brasil (Fala Liberada)
 
 Tudo o que criamos precisa ser robusto, simples e cativante.
@@ -177,3 +213,39 @@ Falamos diretamente com o leitor, o envolvemos no assunto e despertamos a curios
 Uma boa chamada para ação mostra os três valores: o leitor encontra o botão onde espera, pode confiar no que prometemos e tem vontade de dar o próximo passo.
 
 Pense em LEGO: peças soltas que se encaixam com precisão, com as quais você começa a montar sem manual e que convidam a criar algo. A simplicidade do LEGO comum, sem as peças grandes do DUPLO nem as construções complicadas do LEGO Technic.
+
+### Para visitantes
+
+**Título:** Nossos valores
+
+**Frase-chave:** Tudo o que criamos precisa ser robusto, simples e cativante.
+
+**Introdução:** Isso vale para tudo o que você vê de nós, de um site a uma proposta ou uma apresentação.
+
+#### Robusto
+
+**Pergunta:** Você pode confiar no que está vendo?
+
+Tudo combina entre si, e cada parte também faz sentido sozinha. O que criamos funciona em qualquer tela e é acessível ao maior número possível de pessoas. E o que prometemos, cumprimos.
+
+**Limite:** Sólido e coerente, sem ficar pesado nem complicado.
+
+#### Simples
+
+**Pergunta:** Você encontra o caminho sem esforço?
+
+Você vê na hora do que se trata e o que pode fazer. Começamos pelo essencial e depois damos mais, em etapas claras. O que você precisa está lá; o que distrai, deixamos de fora.
+
+**Limite:** A simplicidade nunca prejudica o conteúdo. Ajudamos você no caminho, sem levá-lo para algo que você não quer.
+
+#### Cativante
+
+**Pergunta:** Você fica com vontade de saber mais?
+
+Falamos diretamente com você e despertamos sua curiosidade com conteúdo que vale a pena. Imagem, letras, cores e tom são leves, fortes, dinâmicos e positivos.
+
+**Limite:** Chamamos a sua atenção sem gritar, sem enfeitar e sem ficar informais demais.
+
+#### Juntos
+
+Pense em LEGO: peças soltas que se encaixam com precisão, com as quais você começa a montar sem manual e que convidam a criar algo.

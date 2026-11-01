@@ -509,6 +509,44 @@ Een goede oproep tot actie laat alle drie de waarden zien: de lezer vindt de kno
 
 Denk aan LEGO: losse blokken die precies op elkaar passen, waarmee je zonder bouwtekening aan de slag kunt en die uitnodigen om iets te maken. De eenvoud van gewone LEGO, zonder de grove blokken van DUPLO of de ingewikkelde constructies van LEGO Technic.
 
+### Voor bezoekers
+
+Dit is de tekst die de sites tonen op de pagina over de kernwaarden. Hij volgt de waarden hierboven en spreekt de bezoeker rechtstreeks aan. De Engelse en Portugese versie staan in `kernwaarden.md`.
+
+**Titel:** Onze kernwaarden
+
+**Kernzin:** Alles wat we maken moet robuust, eenvoudig en aansprekend zijn.
+
+**Inleiding:** Dat geldt voor alles wat je van ons ziet, van een website tot een offerte of een presentatie.
+
+#### Robuust
+
+**Vraag:** Kun je vertrouwen op wat je ziet?
+
+Alles past bij elkaar, en elk onderdeel is ook op zichzelf te begrijpen. Wat we maken, werkt op elk scherm en is toegankelijk voor zoveel mogelijk mensen. En wat we beloven, maken we waar.
+
+**Grens:** Stevig en samenhangend, zonder log of ingewikkeld te worden.
+
+#### Eenvoudig
+
+**Vraag:** Vind je moeiteloos je weg?
+
+Je ziet meteen waar het over gaat en wat je kunt doen. We beginnen met de kern en geven je daarna meer, in overzichtelijke stappen. Wat je nodig hebt, staat erin; wat afleidt, laten we weg.
+
+**Grens:** Eenvoud gaat nooit ten koste van de inhoud. We helpen je op weg, zonder je te sturen naar iets wat je niet wilt.
+
+#### Aansprekend
+
+**Vraag:** Krijg je zin om verder te kijken?
+
+We spreken je rechtstreeks aan en maken je nieuwsgierig met inhoud die de moeite waard is. Beeld, letters, kleuren en toon zijn fris, krachtig, energiek en positief.
+
+**Grens:** We trekken je aandacht zonder te schreeuwen, te versieren of te joviaal te worden.
+
+#### Samen
+
+Denk aan LEGO: losse blokken die precies op elkaar passen, waarmee je zonder bouwtekening aan de slag kunt en die uitnodigen om iets te maken.
+
 ## Kleuranatomie
 
 Een kleur heeft in dit systeem een rol: de taak die hij vervult. `#EE0500` is bij CVD niet zomaar rood, het is de kleur van links en knoppen. Die rol staat in de linkerkolom van elke kleurtabel, de hexcode ernaast. Verandert er ooit een kleur, dan verandert de hexcode en blijft de rol staan.

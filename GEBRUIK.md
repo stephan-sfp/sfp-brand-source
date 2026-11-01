@@ -81,3 +81,36 @@ do not grant those here. Which licence applies to which file is listed in
 ## Contact
 
 info@schoolforprofessionals.com
+
+---
+
+# Uso dos logos e da identidade visual
+
+Esta página é para jornalistas, parceiros, clientes e qualquer pessoa que queira usar um logo da School for Professionals ou de uma das marcas. O texto jurídico está em [LICENSE](LICENSE). Abaixo está o mesmo em linguagem simples.
+
+## O que você pode fazer
+
+- Baixar um logo e usá-lo sem alterações em um artigo, programa, apresentação ou anúncio que fale sobre nós.
+- Escolher entre o svg para impressão e tela, e o png se não puder usar svg. Para um fundo colorido, use a versão sobre cor.
+- Citar o texto descritivo de `branding.md`, com indicação da fonte.
+
+## O que você não faz
+
+- Alterar o logo. Nenhuma outra cor, sem esticar, sem cortar, sem sombra ou contorno, sem separar partes.
+- Incorporar o logo no seu próprio logo, nome de produto, domínio ou ícone de app.
+- Dar a impressão de uma colaboração, parceria ou aprovação que não existe.
+- Colocar o logo em brindes ou produtos vendidos.
+
+## Na prática
+
+- Deixe espaço livre ao redor do logo e redimensione sempre de forma proporcional.
+- As regras sobre cores, versões de cor e a margem ao redor do logo estão em [branding.md](branding.md). Na dúvida, siga essas regras.
+- Se tiver dúvida se algo é permitido, pergunte. Leva menos tempo do que corrigir depois.
+
+## Fontes
+
+Os arquivos em `fonts/` são de terceiros e mantêm a sua própria licença, que você não recebe de nós. Qual licença vale para cada arquivo está em [fonts/LETTERTYPEN.md](fonts/LETTERTYPEN.md).
+
+## Contato
+
+info@schoolforprofessionals.com
