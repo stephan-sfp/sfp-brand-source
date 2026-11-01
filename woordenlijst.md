@@ -4,7 +4,7 @@ De termen uit `branding.md` in drie talen. Bij twijfel geldt de Nederlandse term
 
 | Nederlands | English | Português |
 |---|---|---|
-| Kernwaarden | Core values | Valores essenciais |
+| Merkwaarden | Brand values | Valores de marca |
 | Robuust | Robust | Robusto |
 | Eenvoudig | Simple | Simples |
 | Aansprekend | Appealing | Cativante |

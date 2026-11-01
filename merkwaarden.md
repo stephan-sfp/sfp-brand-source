@@ -1,6 +1,6 @@
-# Kernwaarden: vertalingen
+# Merkwaarden: vertalingen
 
-Bron: de sectie Kernwaarden in branding.md. Dit bestand bevat alleen de vertalingen en volgt die bron; bij verschil geldt branding.md.
+Bron: de sectie Merkwaarden in branding.md. Dit bestand bevat alleen de vertalingen en volgt die bron; bij verschil geldt branding.md.
 
 ## English (SpeakwithSteve)
 
@@ -92,7 +92,7 @@ Think of LEGO: separate bricks that fit together precisely, that you can start b
 
 ### For visitors
 
-**Title:** Our core values
+**Title:** Our brand values
 
 **Key sentence:** Everything we make must be robust, simple and appealing.
 
@@ -216,7 +216,7 @@ Pense em LEGO: peças soltas que se encaixam com precisão, com as quais você c
 
 ### Para visitantes
 
-**Título:** Nossos valores
+**Título:** Nossos valores de marca
 
 **Frase-chave:** Tudo o que criamos precisa ser robusto, simples e cativante.
 

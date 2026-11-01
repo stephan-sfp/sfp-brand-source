@@ -30,7 +30,7 @@ Hoofdletters of kleine letters maken niet uit: `dst` en `DST` zijn hetzelfde. In
 
 Noemt de gebruiker geen merk, dan vraag je om welk merk het gaat. Kies er zelf nooit een, ook SFP niet.
 
-Gebruik het merkblok en de netwerknormen altijd samen. De netwerknormen gelden voor de acht bestaande netwerkmerken. Voor Reviravolta Publishing geldt de afbakening in het eigen merkblok; de kernwaarden gelden wel voor Reviravolta. Het merkblok geeft de waarden van dat ene merk: de kleuren, het kopfont, de logobestanden en de taal.
+Gebruik het merkblok en de netwerknormen altijd samen. De netwerknormen gelden voor de acht bestaande netwerkmerken. Voor Reviravolta Publishing geldt de afbakening in het eigen merkblok; de merkwaarden gelden wel voor Reviravolta. Het merkblok geeft de waarden van dat ene merk: de kleuren, het kopfont, de logobestanden en de taal.
 
 Heeft een merk een uitzondering op een netwerknorm, dan staat die opgeschreven: in de norm zelf of in het merkblok. Een uitzondering die nergens staat, bestaat niet.
 
@@ -50,7 +50,7 @@ Loop na afloop je uitvoer langs deze bron en meld wat je hebt nagekeken.
 | Logo | de kleurversie die bij de achtergrond hoort, en de naam die type D bij dit merk draagt |
 | Schrijfstijl | de taal van het merk, de juiste aanspreekvorm, actieve vorm, geen naamwoordstijl |
 | Knoppen en velden | de tabel Kleur per onderdeel, contrast minstens 4,5 ook onder de muis, radius 6 px voor knoppen, formuliervelden, kaarten en vlakken, de tweede call-to-action als tekstlink met pijl |
-| Kernwaarden | de controlevragen van Robuust, Eenvoudig en Aansprekend |
+| Merkwaarden | de controlevragen van Robuust, Eenvoudig en Aansprekend |
 | Pagina-opbouw | kern bovenaan, een actie als slot, navigatie in beeld, en de regels voor uitklappen, tooltip en klikbare kaart |
 
 Meld elke afwijking, ook een kleine. Verzin nooit een waarde die hier niet staat. Ontbreekt iets in deze bron, dan is dat een vraag aan de gebruiker en geen eigen keuze. Die stel je zo mogelijk met AskUserQuestion.
@@ -407,7 +407,7 @@ De ontwerpreferentie is een rasterafbeelding en geen drukklare master. Definitie
 
 ## Relatie tot de netwerknormen
 
-De goedgekeurde gestapelde opbouw, zwart-wituitvoering en regel PUBLISHING vormen het specifieke logobesluit voor deze uitgeverij. De bestaande voorschriften voor de acht websites blijven ongewijzigd. Een domein, schrijftalen, webtypografie, volledig websitepalet en volledige netwerkset van 52 logobestanden zijn voor Reviravolta nog niet vastgesteld. Die worden niet uit andere merken overgenomen zonder afzonderlijk besluit. De kernwaarden uit de netwerknormen gelden wel voor Reviravolta.
+De goedgekeurde gestapelde opbouw, zwart-wituitvoering en regel PUBLISHING vormen het specifieke logobesluit voor deze uitgeverij. De bestaande voorschriften voor de acht websites blijven ongewijzigd. Een domein, schrijftalen, webtypografie, volledig websitepalet en volledige netwerkset van 52 logobestanden zijn voor Reviravolta nog niet vastgesteld. Die worden niet uit andere merken overgenomen zonder afzonderlijk besluit. De merkwaarden uit de netwerknormen gelden wel voor Reviravolta.
 
 ---
 
@@ -417,9 +417,9 @@ Deze normen gelden identiek voor alle acht merken en alle acht sites. Identiek b
 
 Verschilt een site van een andere zonder dat het uit hun merkblokken volgt, dan is dat drift. Drift wordt gemeld en opgeheven, niet gelaten omdat het zo gegroeid is.
 
-## Kernwaarden
+## Merkwaarden
 
-De Engelse en Portugese versie staan in `kernwaarden.md`. Dit bestand is de bron; bij een wijziging gaat kernwaarden.md mee.
+De Engelse en Portugese versie staan in `merkwaarden.md`. Dit bestand is de bron; bij een wijziging gaat merkwaarden.md mee.
 
 Namen per taal: Robuust, Eenvoudig, Aansprekend (nl); Robust, Simple, Appealing (en); Robusto, Simples, Cativante (pt-BR). Elk ontwerp en elke tekst doorstaat de controlevragen.
 
@@ -511,9 +511,9 @@ Denk aan LEGO: losse blokken die precies op elkaar passen, waarmee je zonder bou
 
 ### Voor bezoekers
 
-Dit is de tekst die de sites tonen op de pagina over de kernwaarden. Hij volgt de waarden hierboven en spreekt de bezoeker rechtstreeks aan. De Engelse en Portugese versie staan in `kernwaarden.md`.
+Dit is de tekst die de sites tonen op de pagina over de merkwaarden. Hij volgt de waarden hierboven en spreekt de bezoeker rechtstreeks aan. De Engelse en Portugese versie staan in `merkwaarden.md`.
 
-**Titel:** Onze kernwaarden
+**Titel:** Onze merkwaarden
 
 **Kernzin:** Alles wat we maken moet robuust, eenvoudig en aansprekend zijn.
 
@@ -620,7 +620,7 @@ De hoofdstukbalk voert de kleur voor links en knoppen. De inhoudsopgave voert de
 
 ## Pagina-opbouw en interactie
 
-Deze regels werken de kernwaarden uit voor het web. Ze gelden op alle acht sites gelijk.
+Deze regels werken de merkwaarden uit voor het web. Ze gelden op alle acht sites gelijk.
 
 ### Trechter
 

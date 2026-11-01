@@ -11,7 +11,7 @@ De bron is **[`branding.md`](branding.md)**. Eén bestand, met de acht netwerkme
 | Pad | Inhoud |
 |---|---|
 | `branding.md` | De bron: acht netwerkmerken, Reviravolta Publishing en de netwerknormen |
-| `kernwaarden.md` | De Engelse en Portugese vertaling van de kernwaarden; de bron staat in `branding.md` |
+| `merkwaarden.md` | De Engelse en Portugese vertaling van de merkwaarden; de bron staat in `branding.md` |
 | `logos/<merk>/` | De logobestanden in `svg`, `png`, `svg-op-kleur` en `png-op-kleur` |
 | `fonts/` | De lettertypebestanden die de merken voeren |
 | woordenlijst.md | De termen uit branding.md in het Nederlands, Engels en Portugees |
@@ -34,7 +34,7 @@ Reviravolta Publishing (`RP`) is de eigen uitgeverij. Het goedgekeurde ontwerp s
 
 ## Hoe je iets wijzigt
 
-1. Pas `branding.md` aan. Raakt de wijziging de kernwaarden, werk dan ook `kernwaarden.md` bij. Komt er een term bij of verandert er een, werk dan ook `woordenlijst.md` bij.
+1. Pas `branding.md` aan. Raakt de wijziging de merkwaarden, werk dan ook `merkwaarden.md` bij. Komt er een term bij of verandert er een, werk dan ook `woordenlijst.md` bij.
 2. Wat vervalt haal je weg. Reken de geschiedenis niet als archief: die wordt opgeschoond zodra er iets in staat dat er niet hoort. Wil je iets bewaren, bewaar het dan buiten deze repo.
 3. Werk daarna de spiegels bij: de merkmap in `Documents/School for Professionals` en de Canva-kits.
 
@@ -50,8 +50,8 @@ De geschiedenis, de openstaande punten en de bouwinstructies voor een nieuw merk
 
 ## English
 
-This repository is the single source of truth for the brand identity of the School for Professionals network. The source is `branding.md`, written in Dutch. The core values in English are in `kernwaarden.md`, and `woordenlijst.md` gives every term in English. For using the logos, see `GEBRUIK.md`.
+This repository is the single source of truth for the brand identity of the School for Professionals network. The source is `branding.md`, written in Dutch. The brand values in English are in `merkwaarden.md`, and `woordenlijst.md` gives every term in English. For using the logos, see `GEBRUIK.md`.
 
 ## Português
 
-Este repositório é a fonte única da identidade visual da rede School for Professionals. A fonte é `branding.md`, em holandês. Os valores em português estão em `kernwaarden.md`, e `woordenlijst.md` traz todos os termos em português. Para usar os logos, veja `GEBRUIK.md`.
+Este repositório é a fonte única da identidade visual da rede School for Professionals. A fonte é `branding.md`, em holandês. Os valores de marca em português estão em `merkwaarden.md`, e `woordenlijst.md` traz todos os termos em português. Para usar os logos, veja `GEBRUIK.md`.
