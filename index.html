@@ -67,6 +67,15 @@
     color: var(--fg-soft);
   }
   nav.brands a:hover { color: var(--fg); border-color: var(--fg-soft); }
+  .taal { display: flex; gap: .2rem; }
+  .taal button {
+    font: inherit; font-size: .72rem; font-weight: 650; letter-spacing: .04em;
+    padding: .24rem .45rem; border: 1px solid var(--line); border-radius: var(--radius);
+    background: transparent; color: var(--fg-soft); cursor: pointer;
+  }
+  .taal button[aria-pressed="true"] { color: var(--fg); border-color: var(--fg); }
+  .taalregel { margin: 1.4rem 0 0; padding: .6rem .8rem; background: var(--bg-soft);
+    border-radius: var(--radius); font-size: .9rem; }
 
   main { max-width: var(--maxw); margin: 0 auto; padding: 0 16px 6rem; }
 
@@ -105,7 +114,7 @@
   .swatch .label { padding: .45rem .55rem .55rem; }
   .swatch .rol { font-size: .8rem; font-weight: 600; }
   .swatch .hex { font: .74rem/1.4 var(--mono); color: var(--fg-soft); text-transform: uppercase; }
-  .swatch.copied .hex::after { content: " gekopieerd"; }
+  .swatch.copied .hex::after { content: " " attr(data-ok); }
 
   /* Letterproef */
   .specimen { border: 1px solid var(--line); border-radius: var(--radius); padding: .9rem 1rem; margin-bottom: .5rem; background: var(--bg-soft); }
@@ -168,6 +177,11 @@
   <div class="top-inner">
     <h1 id="doc-title">Merkidentiteit</h1>
     <span class="meta" id="doc-meta"></span>
+    <div class="taal" id="taal" role="group" aria-label="Taal">
+      <button type="button" data-taal="nl" lang="nl">NL</button>
+      <button type="button" data-taal="en" lang="en">EN</button>
+      <button type="button" data-taal="pt" lang="pt-BR">PT</button>
+    </div>
     <nav class="brands" id="nav" aria-label="Merken"></nav>
   </div>
 </header>
@@ -178,9 +192,9 @@
 
 <footer>
   <div class="inner">
-    <p>Deze pagina voegt niets toe. Hij toont <a href="branding.md">branding.md</a> uit deze repository,
+    <p id="voet-bron">Deze pagina voegt niets toe. Hij toont <a href="branding.md">branding.md</a> uit deze repository,
        samen met de bestanden in <code>logos/</code> en <code>fonts/</code>. Wijzig je de bron, dan verandert deze pagina mee.</p>
-    <p>Voordat je een logo gebruikt: lees <a href="GEBRUIK.md">de gebruiksregels</a> en de
+    <p id="voet-gebruik">Voordat je een logo gebruikt: lees <a href="GEBRUIK.md">de gebruiksregels</a> en de
        <a href="LICENSE">licentie</a>.</p>
   </div>
 </footer>
@@ -202,6 +216,73 @@
     // Voor het ophalen van de bestandslijst (logo's en fonts).
     github: { owner: "stephan-sfp", repo: "sfp-brand-source", branch: "main" }
   };
+
+  /* ------------------------------------------------------------------
+     Vaste teksten van deze pagina per taal. De inhoud blijft branding.md
+     in het Nederlands; alleen titel, uitleg, knoppen en de tekst over de
+     bron wisselen mee.
+  ------------------------------------------------------------------ */
+  const TEKSTEN = {
+    nl: {
+      html: "nl", titel: null, datum: "nl-NL",
+      beschrijving: "Weergave van branding.md, de bron van waarheid voor de merkidentiteit van het School for Professionals-netwerk.",
+      merken: "Merken", taal: "Taal",
+      laden: "Bron wordt geladen.",
+      fout: "De bron kon niet worden geladen. Deze pagina moet vanaf een webserver worden geopend, niet als los bestand.",
+      nota: "Deze pagina toont branding.md uit de repository. Er staat niets in deze pagina dat niet in de bron staat.",
+      lijstFout: " De bestandslijst kon nu niet worden opgehaald, dus logo's en letterproeven ontbreken tijdelijk.",
+      bijgewerkt: "bron bijgewerkt ",
+      kopieer: (hex) => "Klik om " + hex + " te kopiëren",
+      gekopieerd: "gekopieerd",
+      geenVoorbeeld: "geen voorbeeld",
+      svgOpKleur: "svg op kleur", pngOpKleur: "png op kleur",
+      taalregel: null,
+      voetBron: 'Deze pagina voegt niets toe. Hij toont <a href="branding.md">branding.md</a> uit deze repository, samen met de bestanden in <code>logos/</code> en <code>fonts/</code>. Wijzig je de bron, dan verandert deze pagina mee.',
+      voetGebruik: 'Voordat je een logo gebruikt: lees <a href="GEBRUIK.md">de gebruiksregels</a> en de <a href="LICENSE">licentie</a>.'
+    },
+    en: {
+      html: "en", titel: "Brand identity", datum: "en-GB",
+      beschrijving: "View of branding.md, the single source of truth for the brand identity of the School for Professionals network.",
+      merken: "Brands", taal: "Language",
+      laden: "Loading the source.",
+      fout: "The source could not be loaded. Open this page from a web server, not as a local file.",
+      nota: "This page shows branding.md from the repository, in Dutch. Nothing on this page is not in the source.",
+      lijstFout: " The file list could not be fetched, so logos and type specimens are temporarily missing.",
+      bijgewerkt: "source updated ",
+      kopieer: (hex) => "Click to copy " + hex,
+      gekopieerd: "copied",
+      geenVoorbeeld: "no preview",
+      svgOpKleur: "svg on colour", pngOpKleur: "png on colour",
+      taalregel: 'The content below is in Dutch. The core values in English are in <a href="kernwaarden.md">kernwaarden.md</a>, and every term is in <a href="woordenlijst.md">woordenlijst.md</a>.',
+      voetBron: 'This page adds nothing. It shows <a href="branding.md">branding.md</a> from this repository, together with the files in <code>logos/</code> and <code>fonts/</code>. Change the source and this page changes with it.',
+      voetGebruik: 'Before you use a logo: read <a href="GEBRUIK.md">the usage rules</a> and the <a href="LICENSE">licence</a>.'
+    },
+    pt: {
+      html: "pt-BR", titel: "Identidade visual", datum: "pt-BR",
+      beschrijving: "Visualização de branding.md, a fonte única da identidade visual da rede School for Professionals.",
+      merken: "Marcas", taal: "Idioma",
+      laden: "Carregando a fonte.",
+      fout: "Não foi possível carregar a fonte. Abra esta página a partir de um servidor web, não como arquivo local.",
+      nota: "Esta página mostra branding.md do repositório, em holandês. Não há nada nesta página que não esteja na fonte.",
+      lijstFout: " Não foi possível obter a lista de arquivos, então os logos e as amostras de fonte estão temporariamente ausentes.",
+      bijgewerkt: "fonte atualizada em ",
+      kopieer: (hex) => "Clique para copiar " + hex,
+      gekopieerd: "copiado",
+      geenVoorbeeld: "sem prévia",
+      svgOpKleur: "svg sobre cor", pngOpKleur: "png sobre cor",
+      taalregel: 'O conteúdo abaixo está em holandês. Os valores em português estão em <a href="kernwaarden.md">kernwaarden.md</a>, e todos os termos estão em <a href="woordenlijst.md">woordenlijst.md</a>.',
+      voetBron: 'Esta página não acrescenta nada. Ela mostra <a href="branding.md">branding.md</a> deste repositório, junto com os arquivos em <code>logos/</code> e <code>fonts/</code>. Se você mudar a fonte, esta página muda junto.',
+      voetGebruik: 'Antes de usar um logo: leia <a href="GEBRUIK.md">as regras de uso</a> e a <a href="LICENSE">licença</a>.'
+    }
+  };
+  const kiesTaal = () => {
+    const q = new URLSearchParams(location.search).get("taal");
+    if (q && TEKSTEN[q]) return q;
+    try { const v = localStorage.getItem("brand-taal"); if (v && TEKSTEN[v]) return v; } catch (e) { /* geen opslag */ }
+    return "nl";
+  };
+  let taal = kiesTaal();
+  const T = () => TEKSTEN[taal];
 
   const $ = (sel, el = document) => el.querySelector(sel);
   const el = (tag, cls, text) => {
@@ -428,11 +509,13 @@
   function swatchKnop({ rol, hex }) {
     const b = el("button", "swatch");
     b.type = "button";
-    b.title = "Klik om " + hex + " te kopiëren";
+    b.title = T().kopieer(hex);
     const chip = el("div", "chip");
     chip.style.background = hex;
     const label = el("div", "label");
-    label.append(el("div", "rol", rol), el("div", "hex", hex));
+    const hexEl = el("div", "hex", hex);
+    hexEl.dataset.ok = T().gekopieerd;
+    label.append(el("div", "rol", rol), hexEl);
     b.append(chip, label);
     b.addEventListener("click", async () => {
       try {
@@ -454,14 +537,14 @@
       img.src = preview;
       img.loading = "lazy";
       img.alt = groep.stem;
-      img.addEventListener("error", () => { p.textContent = "geen voorbeeld"; });
+      img.addEventListener("error", () => { p.textContent = T().geenVoorbeeld; });
       p.append(img);
     } else {
-      p.textContent = "geen voorbeeld";
+      p.textContent = T().geenVoorbeeld;
     }
     t.append(p, el("div", "tname", groep.stem));
     const links = el("div", "links");
-    [["svg", "svg"], ["png", "png"], ["svg-op-kleur", "svg op kleur"], ["png-op-kleur", "png op kleur"]]
+    [["svg", "svg"], ["png", "png"], ["svg-op-kleur", T().svgOpKleur], ["png-op-kleur", T().pngOpKleur]]
       .forEach(([map, naam]) => {
         if (!v[map]) return;
         const a = el("a", null, naam);
@@ -567,9 +650,41 @@
   /* ------------------------------------------------------------------
      Start
   ------------------------------------------------------------------ */
-  async function start() {
-    const main = $("#main");
+  let bron = null;
+
+  function vasteTeksten() {
+    const t = T();
+    document.documentElement.lang = t.html;
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) meta.content = t.beschrijving;
+    $("#nav").setAttribute("aria-label", t.merken);
+    $("#taal").setAttribute("aria-label", t.taal);
+    $("#voet-bron").innerHTML = t.voetBron;
+    $("#voet-gebruik").innerHTML = t.voetGebruik;
+    document.querySelectorAll("#taal button").forEach((b) => {
+      b.setAttribute("aria-pressed", String(b.dataset.taal === taal));
+    });
     const status = $("#status");
+    if (status && !status.classList.contains("err")) status.textContent = t.laden;
+  }
+
+  function zetTaal(nieuw) {
+    if (!TEKSTEN[nieuw] || nieuw === taal) return;
+    taal = nieuw;
+    try { localStorage.setItem("brand-taal", taal); } catch (e) { /* geen opslag */ }
+    const url = new URL(location.href);
+    url.searchParams.set("taal", taal);
+    history.replaceState(null, "", url);
+    vasteTeksten();
+    if (bron) tekenen();
+  }
+
+  async function start() {
+    const status = $("#status");
+    vasteTeksten();
+    document.querySelectorAll("#taal button").forEach((b) => {
+      b.addEventListener("click", () => zetTaal(b.dataset.taal));
+    });
 
     let src, gewijzigd = null;
     try {
@@ -579,7 +694,7 @@
       gewijzigd = res.headers.get("last-modified");
     } catch (e) {
       status.className = "status err";
-      status.textContent = "De bron kon niet worden geladen. Deze pagina moet vanaf een webserver worden geopend, niet als los bestand.";
+      status.textContent = T().fout;
       return;
     }
 
@@ -590,8 +705,24 @@
     const fonts = fontsUit(paths);
     if (fonts.length) laadFonts(fonts);
 
+    bron = { src, gewijzigd, paths, lijstFout, fonts };
+    tekenen();
+  }
+
+  function tekenen() {
+    const { src, gewijzigd, paths, lijstFout, fonts } = bron;
+    const t = T();
+    const main = $("#main");
+    const navEl = $("#nav");
     const secs = secties(src);
     main.textContent = "";
+    navEl.textContent = "";
+
+    if (t.taalregel) {
+      const r = el("p", "taalregel");
+      r.innerHTML = t.taalregel;
+      main.append(r);
+    }
 
     // Inleiding: alles vóór het eerste merk.
     const isMerk = (t) => {
@@ -604,8 +735,8 @@
     const eersteMerk = secs.findIndex((s) => isMerk(s.titel));
     const introSecs = eersteMerk < 0 ? secs : secs.slice(0, eersteMerk);
     if (introSecs.length) {
-      document.title = introSecs[0].titel;
-      $("#doc-title").textContent = introSecs[0].titel;
+      document.title = t.titel || introSecs[0].titel;
+      $("#doc-title").textContent = t.titel || introSecs[0].titel;
       intro.append(el("h2", null, introSecs[0].titel));
       introSecs.forEach((s, idx) => {
         const d = el("div", "md wide");
@@ -615,14 +746,13 @@
       });
     }
     const nota = el("div", "note");
-    nota.textContent = "Deze pagina toont branding.md uit de repository. Er staat niets in deze pagina dat niet in de bron staat.";
+    nota.textContent = t.nota;
     if (lijstFout) {
-      nota.textContent += " De bestandslijst kon nu niet worden opgehaald, dus logo's en letterproeven ontbreken tijdelijk.";
+      nota.textContent += t.lijstFout;
     }
     intro.append(nota);
     main.append(intro);
 
-    const navEl = $("#nav");
     secs.forEach((sec) => {
       const n = norm(sec.titel);
       if (introSecs.includes(sec)) return;
@@ -654,8 +784,8 @@
     if (gewijzigd) {
       const d = new Date(gewijzigd);
       if (!isNaN(d)) {
-        $("#doc-meta").textContent = "bron bijgewerkt " +
-          d.toLocaleDateString("nl-NL", { day: "numeric", month: "long", year: "numeric" });
+        $("#doc-meta").textContent = t.bijgewerkt +
+          d.toLocaleDateString(t.datum, { day: "numeric", month: "long", year: "numeric" });
       }
     }
   }
