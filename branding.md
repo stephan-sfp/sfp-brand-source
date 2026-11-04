@@ -588,7 +588,7 @@ Welke rol een onderdeel voert, staat hier. Er komen geen kleuren bij: elk onderd
 | Tekstlink op een lichte achtergrond | Links en knoppen, onderstreept. Bij DPS, DST en FL de primaire kleur, onderstreept. |
 | Tekstlink op een donkere achtergrond | Wit, onderstreept, bij alle acht merken |
 | Tekstlink onder de muis | De tekstkleur blijft. De onderstreping wordt 3 px dik en krijgt de kleur Links en knoppen. Bij alle acht merken, op een lichte en een donkere achtergrond. |
-| Tweede call-to-action | Een tekstlink met een pijl erachter, geen tweede knop. Hij voert de kleur van de tekstlink op die achtergrond, in het bodyfont op gewicht 900, in gewone letters en onderstreept. |
+| Tweede call-to-action | Een tekstlink met een pijl erachter, geen tweede knop. Hij voert de kleur van de tekstlink op die achtergrond, in het bodyfont op gewicht 700, in gewone letters en onderstreept. |
 | Kop | Primair, op een donkere achtergrond wit |
 | Kernzin | Primair, op een donkere achtergrond wit |
 | Knop terug naar boven | Primair met een witte pijl, op een donkere achtergrond wit met een primaire pijl |
@@ -627,6 +627,10 @@ Deze regels werken de merkwaarden uit voor het web. Ze gelden op alle acht sites
 Een pagina begint met de kern en wordt pas verderop gedetailleerder, nooit te complex. Bovenaan staat in één oogopslag waar het over gaat en wat de lezer kan doen. Detail staat lager of achter een uitklapknop.
 
 Een pagina eindigt altijd met een actie: één knop, eventueel met een tekstlink als tweede actie. Een zin vlak voor de knop spreekt de lezer rechtstreeks aan en leidt naar de actie.
+
+### Kruimelpad
+
+De pijlerregel boven de H1 van een artikel, begrip of pijler is het zichtbare kruimelpad: "Part of <pijler> in <hoofdpijler of blog>", met elke naam als tekstlink. Er is geen apart kruimelpad, geen link naar de homepage en geen vermelding van de huidige pagina. Op een pijler luidt de regel "Pillar in <blog>". Elke link in de regel heeft een tikdoel van minstens 24 px hoog, zonder ander uiterlijk dan de tekstlink.
 
 ### Navigatie in beeld
 
@@ -766,7 +770,7 @@ In hoofdletters:
 In gewone letters:
 
 - Body: alinea's, opsommingen en tabelcellen.
-- Het kruimelpad.
+- De pijlerregel boven de H1, die het kruimelpad is.
 - De vraag in een FAQ.
 - De tweede call-to-action, die een tekstlink is en geen knop.
 - Elke andere tekstlink, ook de aanwijzing onder in een klikbare kaart en het label van een uitklapknop.
@@ -793,14 +797,13 @@ De bestanden staan in `fonts/`. Op de sites komen ze van Google Fonts, lokaal ge
 | `RubikMonoOne-Regular.ttf` | Rubik Mono One | 400 | H1 van DGA, DST, SLB, SwS en FL |
 | `Rubik-Black.ttf` | Rubik Black | 900 | H2 tot H6 van DGA, DST, SLB, SwS en FL |
 | `Roboto-Regular.ttf` | Roboto | 400 | Body van alle acht |
-| `Roboto-Bold.ttf` | Roboto | 700 | Vette body en de kernzin van alle acht |
+| `Roboto-Bold.ttf` | Roboto | 700 | Vette body, de kernzin en de tweede call-to-action van alle acht |
 | `Roboto-Italic.ttf` | Roboto | 400 cursief | Cursieve body van alle acht |
 | `Roboto-BoldItalic.ttf` | Roboto | 700 cursief | Vette cursieve body van alle acht |
-| `Roboto-Black.ttf` | Roboto Black | 900 | De tweede call-to-action van alle acht |
 
 Google Fonts noemt een instantie op gewicht 900 intern "Black", ook waar deze norm hem Archivo 900 of Rubik 900 noemt. De familienaam in het bestand zegt dus niets, het gewicht wel.
 
-Voor de kopfonts sluit de norm gewicht 700 uit: Archivo, Nunito en Rubik staan hier alleen op 400 en 900. Voor Roboto geldt dat niet, want de body heeft vet en cursief nodig. Roboto staat er daarom compleet in: 400, 700, 400 cursief en 700 cursief, plus 900 voor de tweede call-to-action.
+Voor de kopfonts sluit de norm gewicht 700 uit: Archivo, Nunito en Rubik staan hier alleen op 400 en 900. Voor Roboto geldt dat niet, want de body heeft vet en cursief nodig. Roboto staat er daarom compleet in: 400, 700, 400 cursief en 700 cursief.
 
 ## Logo-systeem
 
