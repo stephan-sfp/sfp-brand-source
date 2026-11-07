@@ -565,6 +565,7 @@ Elk merk voert dezelfde rollen. Welke hexcode bij welke rol hoort staat in het m
 | Tint 3 | Bijna wit. Voor een sectie die zich net van de pagina moet onderscheiden. |
 | Wit | De paginagrond, tekst op een donkere achtergrond, en de knop terug naar boven op een donkere achtergrond. |
 | Bodytekst | `#575757`. Lopende tekst, bij elk merk. |
+| Label | Het korte opschrift boven een blok (Inhoud, Samenvatting, Gids, Verwante begrippen). Voert bij alle acht merken de primaire kleur; het secundair haalde op wit 1,4 tot 3,5 contrast (besluit 7-11-2026). |
 
 De drie tinten komen uit de kleuren van het merk zelf en lopen af naar bijna wit. Welke kleur de bron is, staat in het merkblok.
 
@@ -722,6 +723,8 @@ Een kop schaalt mee met de schermbreedte en blijft tussen een kleinste en een gr
 | H6 | 16 px | 16 px | vast | 900 |
 
 Een H1 met de klasse `h1-xl` voert een eigen regel: `clamp(32px, 3.5vw + 18px, 46px)`. Die klasse is bedoeld voor de hero-kop bovenaan een pagina.
+
+Regel per font (besluit 7-11-2026): bij de merken met Rubik Mono One als H1-font (DGA, DST, SLB, SwS, FL) voert de H1 in de leeskolom van een artikel, begrip, tool of pijler de H2-schaal, `clamp(20px, 2vw + 12px, 28px)`. Een monospace letter zet op 34 px maar 24 tekens per regel van 680 px, waardoor de meeste titels drie regels werden. De hero-H1 (`h1-xl`) en de H1 op pagina's blijven op de regel hierboven. SFP Page Config regelt dit op de sites met de leestekencorrectie K28 aan.
 
 Een kaarttitel voert de H3-schaal, ook als hij in de HTML een H2 is. Zo past een lange merkterm in een smalle kaart zonder af te breken.
 
