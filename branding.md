@@ -46,7 +46,7 @@ Loop na afloop je uitvoer langs deze bron en meld wat je hebt nagekeken.
 |---|---|
 | Kleuren | de kleurtabel van het merkblok, plus de drie functionele kleuren uit de netwerknormen, en niets daarbuiten |
 | Typografie | het H1-font, H2 tot H6, de groottes, de kernzin, de leesbreedte en het afbreken, en de woordafstand als het merk Rubik Mono One voert |
-| Hoofdletters | de twee lijsten bij Hoofdlettergebruik |
+| Hoofdletters | de twee lijsten bij Hoofdlettergebruik en de visuele controle van elke geëxporteerde illustratie en infographic |
 | Logo | de kleurversie die bij de achtergrond hoort, en de naam die type D bij dit merk draagt |
 | Schrijfstijl | de taal van het merk, de juiste aanspreekvorm, actieve vorm, geen naamwoordstijl |
 | Knoppen en velden | de tabel Kleur per onderdeel, contrast minstens 4,5 ook onder de muis, radius 6 px voor knoppen, formuliervelden, kaarten en vlakken, de tweede call-to-action als tekstlink met pijl |
@@ -784,6 +784,16 @@ In gewone letters:
 - Adresgegevens, juridische teksten, en alles wat een eigennaam, domein of e-mailadres letterlijk moet weergeven.
 
 Hoofdletters komen altijd uit `text-transform: uppercase`, nooit uit kapitalen die in de tekst zelf zijn getypt. Zo blijft de bron leesbaar, ziet de zoekmachine de gewone spelling, en is de regel terug te draaien zonder de content aan te raken.
+
+#### Illustraties en infographics
+
+Voor alle merken staan alle koppen en ondertitels in het geëxporteerde beeld zichtbaar in HOOFDLETTERS. Dit geldt ook voor tussenkoppen en voor de titels en ondertitels van panelen, kaarten, grafieken en diagrammen.
+
+Benoem in de beeldopdracht welke teksten koppen en ondertitels zijn. Geef voor elk daarvan het kopfont van het merk en de weergave in hoofdletters op. Een kleine regel die als ondertitel dient, volgt dezelfde regel. Lopende tekst, kernzinnen en bijschriften houden hun gewone spelling.
+
+Pas bij HTML en SVG de hoofdletteropmaak op de koppen én de ondertitels toe. Zorg bij andere beeldformaten of bij beeldgeneratie dat de letters ook daar als kapitalen worden getekend.
+
+Open vóór oplevering elk geëxporteerd beeld en lees de hoofdkop, alle tussenkoppen en alle ondertitels in het beeld zelf. Controleer bij een PDF elke pagina. Staat een van deze teksten in kleine letters, herstel de opmaak, exporteer opnieuw en herhaal de visuele controle. Meld een export alleen als gecontroleerd nadat je het eindbestand hebt bekeken.
 
 ### Wordmarks
 
