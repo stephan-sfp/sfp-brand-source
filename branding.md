@@ -787,14 +787,15 @@ Hoofdletters komen altijd uit `text-transform: uppercase`, nooit uit kapitalen d
 
 #### Illustraties en infographics
 
-Benoem in de beeldopdracht de functie van elke regel en geef het bijbehorende lettertype en hoofdlettergebruik op. Dit geldt voor alle merken, ook binnen panelen, kaarten, grafieken en diagrammen.
+Kies bij het ontwerpen hoeveel nadruk een tekst krijgt. Het kopfont van het merk in HOOFDLETTERS geeft meer nadruk. Roboto in sentence case geeft een rustiger beeld. Leg de gekozen combinatie vast in de beeldopdracht.
 
-- **Koppen en ondertitels** staan in het kopfont van het merk en verschijnen in HOOFDLETTERS. Dit geldt ook voor tussenkoppen.
-- **Toelichtende regels** staan in Roboto en verschijnen in sentence case, met een hoofdletter aan het begin en verder de gewone spelling van de taal, inclusief eigennamen en afkortingen. Dit geldt ook direct onder een titel. Lopende tekst, kernzinnen en bijschriften behouden hun gewone spelling.
+Ook voor een schemalabel, paneeltitel, tussenkop of ondertitel zijn beide behandelingen mogelijk. Zo kan een kaart het label “Onthouden” krijgen in Roboto, of “ONTHOUDEN” in het kopfont als het woord meer aandacht mag trekken. Ook in een gekleurd vlak of direct boven een toelichting is de rustige variant een volwaardige keuze.
+
+Bij sentence case geldt de gewone spelling van de taal, inclusief eigennamen en afkortingen. Lopende tekst, kernzinnen en bijschriften behouden hun gewone spelling.
 
 Gebruik bij HTML en SVG de hoofdletteropmaak alleen op de tekst die hoofdletters hoort te krijgen. Zorg bij andere beeldformaten en bij beeldgeneratie voor dezelfde zichtbare uitkomst.
 
-Open vóór oplevering elke export en controleer bij een PDF elke pagina. Controleer per kop, ondertitel en toelichtende regel zowel het werkelijk gebruikte lettertype als het zichtbare hoofdlettergebruik. Lees de letters in het eindbeeld. Controleer het lettertype per regel in het exportbestand als dat lettertypegegevens bevat. Controleer bij een rasterbeeld het werkelijk gerenderde lettertype in het ontwerp waaruit de export is gemaakt en vergelijk de regel met het eindbeeld. Als het lettertype niet vast te stellen is, meld dan welke regel nog niet is geverifieerd. Herstel afwijkingen, exporteer opnieuw en herhaal beide controles.
+Open vóór oplevering elke export en controleer bij een PDF elke pagina. Vergelijk voor elke kop, ondertitel, toelichtende regel en elk schemalabel het werkelijk gebruikte lettertype en het zichtbare hoofdlettergebruik met de gekozen combinatie in de beeldopdracht. Lees de letters in het eindbeeld. Controleer het lettertype per regel in het exportbestand als dat lettertypegegevens bevat. Controleer bij een rasterbeeld het werkelijk gerenderde lettertype in het ontwerp waaruit de export is gemaakt en vergelijk de regel met het eindbeeld. Als het lettertype niet vast te stellen is, meld dan welke regel nog niet is geverifieerd. Herstel afwijkingen, exporteer opnieuw en herhaal beide controles.
 
 ### Wordmarks
 
