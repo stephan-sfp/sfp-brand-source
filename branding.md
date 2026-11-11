@@ -46,7 +46,7 @@ Loop na afloop je uitvoer langs deze bron en meld wat je hebt nagekeken.
 |---|---|
 | Kleuren | de kleurtabel van het merkblok, plus de drie functionele kleuren uit de netwerknormen, en niets daarbuiten |
 | Typografie | het H1-font, H2 tot H6, de groottes, de kernzin, de leesbreedte en het afbreken, en de woordafstand als het merk Rubik Mono One voert |
-| Hoofdletters | de twee lijsten bij Hoofdlettergebruik en de visuele controle van elke geëxporteerde illustratie en infographic |
+| Hoofdletters | de twee lijsten bij Hoofdlettergebruik en de controle van lettertype én hoofdlettergebruik bij elke geëxporteerde illustratie en infographic |
 | Logo | de kleurversie die bij de achtergrond hoort, en de naam die type D bij dit merk draagt |
 | Schrijfstijl | de taal van het merk, de juiste aanspreekvorm, actieve vorm, geen naamwoordstijl |
 | Knoppen en velden | de tabel Kleur per onderdeel, contrast minstens 4,5 ook onder de muis, radius 6 px voor knoppen, formuliervelden, kaarten en vlakken, de tweede call-to-action als tekstlink met pijl |
@@ -787,13 +787,14 @@ Hoofdletters komen altijd uit `text-transform: uppercase`, nooit uit kapitalen d
 
 #### Illustraties en infographics
 
-Voor alle merken staan alle koppen en ondertitels in het geëxporteerde beeld zichtbaar in HOOFDLETTERS. Dit geldt ook voor tussenkoppen en voor de titels en ondertitels van panelen, kaarten, grafieken en diagrammen.
+Benoem in de beeldopdracht de functie van elke regel en geef het bijbehorende lettertype en hoofdlettergebruik op. Dit geldt voor alle merken, ook binnen panelen, kaarten, grafieken en diagrammen.
 
-Benoem in de beeldopdracht welke teksten koppen en ondertitels zijn. Geef voor elk daarvan het kopfont van het merk en de weergave in hoofdletters op. Een kleine regel die als ondertitel dient, volgt dezelfde regel. Lopende tekst, kernzinnen en bijschriften houden hun gewone spelling.
+- **Koppen en ondertitels** staan in het kopfont van het merk en verschijnen in HOOFDLETTERS. Dit geldt ook voor tussenkoppen.
+- **Toelichtende regels** staan in Roboto en verschijnen in sentence case, met een hoofdletter aan het begin en verder de gewone spelling van de taal, inclusief eigennamen en afkortingen. Dit geldt ook direct onder een titel. Lopende tekst, kernzinnen en bijschriften behouden hun gewone spelling.
 
-Pas bij HTML en SVG de hoofdletteropmaak op de koppen én de ondertitels toe. Zorg bij andere beeldformaten of bij beeldgeneratie dat de letters ook daar als kapitalen worden getekend.
+Gebruik bij HTML en SVG de hoofdletteropmaak alleen op de tekst die hoofdletters hoort te krijgen. Zorg bij andere beeldformaten en bij beeldgeneratie voor dezelfde zichtbare uitkomst.
 
-Open vóór oplevering elk geëxporteerd beeld en lees de hoofdkop, alle tussenkoppen en alle ondertitels in het beeld zelf. Controleer bij een PDF elke pagina. Staat een van deze teksten in kleine letters, herstel de opmaak, exporteer opnieuw en herhaal de visuele controle. Meld een export alleen als gecontroleerd nadat je het eindbestand hebt bekeken.
+Open vóór oplevering elke export en controleer bij een PDF elke pagina. Controleer per kop, ondertitel en toelichtende regel zowel het werkelijk gebruikte lettertype als het zichtbare hoofdlettergebruik. Lees de letters in het eindbeeld. Controleer het lettertype per regel in het exportbestand als dat lettertypegegevens bevat. Controleer bij een rasterbeeld het werkelijk gerenderde lettertype in het ontwerp waaruit de export is gemaakt en vergelijk de regel met het eindbeeld. Als het lettertype niet vast te stellen is, meld dan welke regel nog niet is geverifieerd. Herstel afwijkingen, exporteer opnieuw en herhaal beide controles.
 
 ### Wordmarks
 
