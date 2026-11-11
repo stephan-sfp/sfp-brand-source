@@ -283,6 +283,8 @@ H1 in Rubik Mono One gewicht 400. H2 tot H6 in Rubik gewicht 900. Body in Roboto
 
 De bestanden staan in `logos/slb/`. Type D bestaat bij dit merk in twee talen: het **eigenaarslogo** voor de Nederlandse pagina's en het **founderlogo** voor de Engelse. Een pagina voert het type D in de taal van die pagina.
 
+Op de donkere footer van Engelstalige informatieve websitebeelden staat het witte [founderlogo](logos/slb/svg/db-stephan-borggreve-founderlogo-alternatief-1.svg) rechtsonder. Op een tekenvlak van 1120 × 700 pixels beslaat het logovak 340 × 68 pixels op x=734 en y=614,5. Bij andere formaten schaalt het logovak proportioneel mee.
+
 De drie achtergronden zijn `#FFFFFF`, `#242E51` en `#23D366`. De tegels EA en EB staan op navy en groen.
 
 Groen is uitsluitend achtergrond. Het logo wordt er nooit in getekend.
