@@ -809,6 +809,14 @@ Google Fonts noemt een instantie op gewicht 900 intern "Black", ook waar deze no
 
 Voor de kopfonts sluit de norm gewicht 700 uit: Archivo, Nunito en Rubik staan hier alleen op 400 en 900. Voor Roboto geldt dat niet, want de body heeft vet en cursief nodig. Roboto staat er daarom compleet in: 400, 700, 400 cursief en 700 cursief.
 
+## Header en footer van informatieve websitebeelden
+
+Modellen, schema’s, grafieken en vergelijkbare uitlegbeelden van de acht netwerkmerken gebruiken dezelfde header en footer als het DPS-schema *Vijf stadia voor een goede talk*. Dit geldt voor nieuwe beelden en voor de aanpassing van bestaande beelden.
+
+- Zet de korte titel linksboven in de koptypografie van het publicerende merk. Trek eronder een dunne lijn over de inhoudsbreedte, met links een kort accent in de merkkleur. De illustratie staat tussen deze lijn en de footer.
+- Trek boven de footer een dunne scheidingslijn. Zet de bron, als die er is, linksonder en het officiële logo van het publicerende merk rechtsonder. Houd vrije ruimte tussen de lijn, de brontekst, het logo en de onderrand. Lijn de titel en de bron links op elkaar uit.
+- Gebruik het eigen palet, de lettertypen, de logovariant voor de achtergrond en de taal van de publicatie. Schaal het logo proportioneel en behoud de ingebouwde marges. Houd de volledige header en footer zichtbaar, ook bij mobiele weergave.
+
 ## Logo-systeem
 
 ### Types
