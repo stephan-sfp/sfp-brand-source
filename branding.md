@@ -588,9 +588,9 @@ Welke rol een onderdeel voert, staat hier. Er komen geen kleuren bij: elk onderd
 | Knop onder de muis | Hover |
 | Tekstlink op een lichte achtergrond | Links en knoppen, onderstreept. Bij DPS, DST en FL de primaire kleur, onderstreept. |
 | Tekstlink op een donkere achtergrond | Wit, onderstreept, bij alle acht merken |
-| Gewicht van een link | Een link is nooit vet: elke link staat op gewicht 400, ook de tweede call-to-action. Kleur en onderstreping maken hem herkenbaar. |
+| Gewicht van een link | Een actielink staat op gewicht 700: de tweede call-to-action (tekstlink met pijl), Lees verder en Lees meer, en de knopstijl Tekst. Elke andere link staat op gewicht 400; kleur en onderstreping maken hem herkenbaar. |
 | Tekstlink onder de muis | De tekstkleur blijft. De onderstreping wordt 3 px dik en krijgt de kleur Links en knoppen. Bij alle acht merken, op een lichte en een donkere achtergrond. |
-| Tweede call-to-action | Een tekstlink met een pijl erachter, geen tweede knop. Hij voert de kleur van de tekstlink op die achtergrond, in het bodyfont op gewicht 400, in gewone letters en onderstreept. |
+| Tweede call-to-action | Een tekstlink met een pijl erachter, geen tweede knop. Hij voert de kleur van de tekstlink op die achtergrond, in het bodyfont op gewicht 700, in gewone letters en onderstreept. |
 | Kop | Primair, op een donkere achtergrond wit |
 | Kernzin | Primair, op een donkere achtergrond wit |
 | Knop terug naar boven | Primair met een witte pijl, op een donkere achtergrond wit met een primaire pijl |
@@ -813,7 +813,7 @@ De bestanden staan in `fonts/`. Op de sites komen ze van Google Fonts, lokaal ge
 | `RubikMonoOne-Regular.ttf` | Rubik Mono One | 400 | H1 van DGA, DST, SLB, SwS en FL |
 | `Rubik-Black.ttf` | Rubik Black | 900 | H2 tot H6 van DGA, DST, SLB, SwS en FL |
 | `Roboto-Regular.ttf` | Roboto | 400 | Body van alle acht |
-| `Roboto-Bold.ttf` | Roboto | 700 | Vette body en de kernzin van alle acht |
+| `Roboto-Bold.ttf` | Roboto | 700 | Vette body, de kernzin en de actielinks van alle acht |
 | `Roboto-Italic.ttf` | Roboto | 400 cursief | Cursieve body van alle acht |
 | `Roboto-BoldItalic.ttf` | Roboto | 700 cursief | Vette cursieve body van alle acht |
 
