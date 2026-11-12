@@ -196,11 +196,11 @@ Schrijftaal: Nederlands.
 | Hover | `#CA0400` |
 | Tint 1 | `#9AD5FF` |
 | Tint 2 | `#CCEAFF` |
-| Tint 3 | `#FFFDF3` |
+| Tint 3 | `#F2F9FF` |
 | Wit | `#FFFFFF` |
 | Bodytekst | `#575757` |
 
-Tint 1 en 2 komen uit het blauw, omdat het geel te licht is voor de band.
+Tint 1, 2 en 3 komen uit het blauw, omdat het geel te licht is voor de band. Tint 3 was tot 12-11-2026 lichtgeel `#FFFDF3` (besluit Stephan 12-11-2026).
 
 ## Typografie
 
